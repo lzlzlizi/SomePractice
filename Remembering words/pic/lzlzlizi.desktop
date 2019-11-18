@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Exec=/home/lzlzlizi/Documents/lzlzlizi2.0/lzlzlizi2.0.py
+Icon=/home/lzlzlizi/Desktop/lzlzlizi/pic/tray.png
+Path=/home/lzlzlizi/Desktop/lzlzlizi/
+Terminal=False
+Type=Application
+Name[en_US]=lzlzlizi
