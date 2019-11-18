@@ -1,6 +1,7 @@
 # simple app for remembering words using pyqt
 
-This little app was created when I was tired with GRE words memorizing. I thought, hey why not write a script to remember words in my way. 
+* This little app was created when I was tired with GRE words memorizing. I thought, hey why not write a script to remember words in my way. 
+* word info is get from dict.bing.com
 
 ## requirements 
 
