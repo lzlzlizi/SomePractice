@@ -1,0 +1,3 @@
+[submodule "Plot metro map/transit-map"]
+	path = Plot metro map/transit-map
+	url = https://github.com/juliuste/transit-map.git

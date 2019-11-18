@@ -1,0 +1,8542 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.1009 5e627b63",
+  "osm3s": {
+    "timestamp_osm_base": "2019-10-21T02:36:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 2099888295,
+  "lat": 31.3077591,
+  "lon": 120.6183198,
+  "tags": {
+    "name": "乐桥",
+    "name:en": "Leqiao",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2099899884,
+  "lat": 31.3101778,
+  "lon": 120.6265128,
+  "tags": {
+    "name": "临顿路",
+    "name:en": "Lindun Lu",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2099903865,
+  "lat": 31.3118517,
+  "lon": 120.6343061,
+  "tags": {
+    "name": "相门",
+    "name:en": "XiangMen",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2099906480,
+  "lat": 31.3143248,
+  "lon": 120.6455534,
+  "tags": {
+    "name": "东环路",
+    "name:en": "Donghuan Lu",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2099907821,
+  "lat": 31.3159267,
+  "lon": 120.6561576,
+  "tags": {
+    "name": "中央公园",
+    "name:en": "Central Park",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2099910928,
+  "lat": 31.3176004,
+  "lon": 120.6666052,
+  "tags": {
+    "name": "星海广场",
+    "name:en": "Xinghai Square",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2099912960,
+  "lat": 31.3191125,
+  "lon": 120.6758567,
+  "tags": {
+    "name": "东方之门",
+    "name:en": "Dongfangzhimen",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2099915140,
+  "lat": 31.3252286,
+  "lon": 120.7001344,
+  "tags": {
+    "name": "文化博览中心",
+    "name:en": "Culture & Expo Centre",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2099917683,
+  "lat": 31.3244897,
+  "lon": 120.7091639,
+  "tags": {
+    "name": "时代广场",
+    "name:en": "Time Square",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2101679031,
+  "lat": 31.3251911,
+  "lon": 120.7162904,
+  "tags": {
+    "name": "星湖街",
+    "name:en": "Xinghu Jie",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2101681018,
+  "lat": 31.3264943,
+  "lon": 120.7290870,
+  "tags": {
+    "name": "南施街",
+    "name:en": "Nanshi Jie",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2101685386,
+  "lat": 31.3276076,
+  "lon": 120.7397897,
+  "tags": {
+    "name": "星塘街",
+    "name:en": "Xingtang Jie",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2101691354,
+  "lat": 31.3285286,
+  "lon": 120.7518035,
+  "tags": {
+    "name": "钟南街",
+    "name:en": "Zhongnan Jie",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2101696074,
+  "lat": 31.3072479,
+  "lon": 120.6095653,
+  "tags": {
+    "name": "养育巷",
+    "name:en": "Yangyu Xiang",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2101698937,
+  "lat": 31.3060943,
+  "lon": 120.5966267,
+  "tags": {
+    "name": "广济南路",
+    "name:en": "Guangjinan Lu",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2101699721,
+  "lat": 31.3036404,
+  "lon": 120.5730742,
+  "tags": {
+    "name": "西环路",
+    "name:en": "Xihuan Lu",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2101701467,
+  "lat": 31.3052344,
+  "lon": 120.5871302,
+  "tags": {
+    "name": "桐泾北路",
+    "name:en": "Tongjingbei Lu",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2101701718,
+  "lat": 31.3029369,
+  "lon": 120.5619323,
+  "tags": {
+    "name": "滨河路",
+    "name:en": "Binhe Lu",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2101701998,
+  "lat": 31.3021599,
+  "lon": 120.5524828,
+  "tags": {
+    "name": "塔园路",
+    "name:en": "Tayuan Lu",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2101702920,
+  "lat": 31.2963054,
+  "lon": 120.5446964,
+  "tags": {
+    "name": "苏州乐园",
+    "name:en": "Suzhou Amusement Land",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2101703872,
+  "lat": 31.2856471,
+  "lon": 120.5455059,
+  "tags": {
+    "name": "玉山路",
+    "name:en": "Yushan Lu",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2716409554,
+  "lat": 31.3033819,
+  "lon": 120.5705351
+},
+{
+  "type": "node",
+  "id": 2716409578,
+  "lat": 31.2802865,
+  "lon": 120.5374625,
+  "tags": {
+    "name": "汾湖路",
+    "name:en": "Fenhu Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2716410103,
+  "lat": 31.2787010,
+  "lon": 120.5257986,
+  "tags": {
+    "name": "金枫路",
+    "name:en": "Jinfeng Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2716410104,
+  "lat": 31.2772137,
+  "lon": 120.5139464,
+  "tags": {
+    "name": "木渎",
+    "name:en": "Mudu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 2716413307,
+  "lat": 31.4093724,
+  "lon": 120.6209212
+},
+{
+  "type": "node",
+  "id": 2716413308,
+  "lat": 31.4122658,
+  "lon": 120.6214496
+},
+{
+  "type": "node",
+  "id": 2716413309,
+  "lat": 31.3748842,
+  "lon": 120.6219592
+},
+{
+  "type": "node",
+  "id": 2716413310,
+  "lat": 31.3612437,
+  "lon": 120.6244688
+},
+{
+  "type": "node",
+  "id": 2716413311,
+  "lat": 31.4143649,
+  "lon": 120.6215248
+},
+{
+  "type": "node",
+  "id": 2716413312,
+  "lat": 31.3552081,
+  "lon": 120.6166227
+},
+{
+  "type": "node",
+  "id": 2716413313,
+  "lat": 31.3573200,
+  "lon": 120.6244816
+},
+{
+  "type": "node",
+  "id": 2716413314,
+  "lat": 31.4177458,
+  "lon": 120.6336992
+},
+{
+  "type": "node",
+  "id": 2716413315,
+  "lat": 31.4181737,
+  "lon": 120.6238636
+},
+{
+  "type": "node",
+  "id": 2716413316,
+  "lat": 31.4055618,
+  "lon": 120.6207218,
+  "tags": {
+    "name": "富元路",
+    "name:en": "Fuyuan Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2716413317,
+  "lat": 31.3800663,
+  "lon": 120.6210634
+},
+{
+  "type": "node",
+  "id": 2716413318,
+  "lat": 31.4190413,
+  "lon": 120.6372666
+},
+{
+  "type": "node",
+  "id": 2716413319,
+  "lat": 31.4178228,
+  "lon": 120.6324978
+},
+{
+  "type": "node",
+  "id": 2716413320,
+  "lat": 31.4188765,
+  "lon": 120.6261488
+},
+{
+  "type": "node",
+  "id": 2716413321,
+  "lat": 31.3566147,
+  "lon": 120.6238424
+},
+{
+  "type": "node",
+  "id": 2716413322,
+  "lat": 31.4162717,
+  "lon": 120.6219754
+},
+{
+  "type": "node",
+  "id": 2716413323,
+  "lat": 31.3560604,
+  "lon": 120.6227427
+},
+{
+  "type": "node",
+  "id": 2716413324,
+  "lat": 31.3580806,
+  "lon": 120.6248080
+},
+{
+  "type": "node",
+  "id": 2716413325,
+  "lat": 31.3923576,
+  "lon": 120.6195613
+},
+{
+  "type": "node",
+  "id": 2716413326,
+  "lat": 31.3595419,
+  "lon": 120.6248616
+},
+{
+  "type": "node",
+  "id": 2716413327,
+  "lat": 31.4185789,
+  "lon": 120.6365987
+},
+{
+  "type": "node",
+  "id": 2716413328,
+  "lat": 31.4153332,
+  "lon": 120.6216400
+},
+{
+  "type": "node",
+  "id": 2716413329,
+  "lat": 31.3627715,
+  "lon": 120.6241318
+},
+{
+  "type": "node",
+  "id": 2716413330,
+  "lat": 31.4179151,
+  "lon": 120.6350109
+},
+{
+  "type": "node",
+  "id": 2716413331,
+  "lat": 31.3891064,
+  "lon": 120.6195184
+},
+{
+  "type": "node",
+  "id": 2716413332,
+  "lat": 31.4180823,
+  "lon": 120.6355299
+},
+{
+  "type": "node",
+  "id": 2716413333,
+  "lat": 31.3688535,
+  "lon": 120.6226927,
+  "tags": {
+    "name": "阳澄湖中路",
+    "name:en": "Yangchenghu Zhonglu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2716413334,
+  "lat": 31.3643297,
+  "lon": 120.6237673
+},
+{
+  "type": "node",
+  "id": 2716413335,
+  "lat": 31.3588456,
+  "lon": 120.6249313
+},
+{
+  "type": "node",
+  "id": 2716413336,
+  "lat": 31.4173108,
+  "lon": 120.6227505
+},
+{
+  "type": "node",
+  "id": 2716413337,
+  "lat": 31.3713918,
+  "lon": 120.6223079
+},
+{
+  "type": "node",
+  "id": 2716413338,
+  "lat": 31.4187300,
+  "lon": 120.6251832
+},
+{
+  "type": "node",
+  "id": 2716413339,
+  "lat": 31.3762101,
+  "lon": 120.6217393
+},
+{
+  "type": "node",
+  "id": 2716413340,
+  "lat": 31.3824111,
+  "lon": 120.6206235
+},
+{
+  "type": "node",
+  "id": 2716413342,
+  "lat": 31.4188277,
+  "lon": 120.6277654
+},
+{
+  "type": "node",
+  "id": 2716413343,
+  "lat": 31.4108053,
+  "lon": 120.6211707
+},
+{
+  "type": "node",
+  "id": 2716413344,
+  "lat": 31.3558543,
+  "lon": 120.6217556
+},
+{
+  "type": "node",
+  "id": 2716413345,
+  "lat": 31.4189039,
+  "lon": 120.6271252
+},
+{
+  "type": "node",
+  "id": 2716413346,
+  "lat": 31.3909381,
+  "lon": 120.6194862
+},
+{
+  "type": "node",
+  "id": 2716413347,
+  "lat": 31.3992903,
+  "lon": 120.6201836
+},
+{
+  "type": "node",
+  "id": 2716413348,
+  "lat": 31.3877967,
+  "lon": 120.6196793
+},
+{
+  "type": "node",
+  "id": 2716415624,
+  "lat": 31.2736400,
+  "lon": 120.6036062
+},
+{
+  "type": "node",
+  "id": 2716415625,
+  "lat": 31.2555327,
+  "lon": 120.6254096,
+  "tags": {
+    "name": "石湖东路",
+    "name:en": "Shihu Donglu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2716415626,
+  "lat": 31.2875334,
+  "lon": 120.5943550,
+  "tags": {
+    "name": "胥江路",
+    "name:en": "Xujiang Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2716415628,
+  "lat": 31.3466627,
+  "lon": 120.6087671,
+  "tags": {
+    "name": "平泷路东",
+    "name:en": "Pinglonglu East",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2716415629,
+  "lat": 31.3327406,
+  "lon": 120.6046927
+},
+{
+  "type": "node",
+  "id": 2716415631,
+  "lat": 31.3218760,
+  "lon": 120.5976322,
+  "tags": {
+    "name": "山塘街",
+    "name:en": "Shantang Jie",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2716415633,
+  "lat": 31.2952632,
+  "lon": 120.5927736
+},
+{
+  "type": "node",
+  "id": 2716415638,
+  "lat": 31.2584359,
+  "lon": 120.6106671,
+  "tags": {
+    "name": "新家桥",
+    "name:en": "Xinjia Qiao",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2716415639,
+  "lat": 31.2809714,
+  "lon": 120.5956820,
+  "tags": {
+    "name": "桐泾公园",
+    "name:en": "Tongjing Park",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2716417205,
+  "lat": 31.4269845,
+  "lon": 120.6431116
+},
+{
+  "type": "node",
+  "id": 2716417212,
+  "lat": 31.4235889,
+  "lon": 120.6407245,
+  "tags": {
+    "name": "高铁苏州北站",
+    "name:en": "Suzhou North Railway Station",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2969846967,
+  "lat": 31.2783021,
+  "lon": 120.5974372
+},
+{
+  "type": "node",
+  "id": 2969846968,
+  "lat": 31.2796096,
+  "lon": 120.5964215
+},
+{
+  "type": "node",
+  "id": 2969846969,
+  "lat": 31.2805720,
+  "lon": 120.5397609
+},
+{
+  "type": "node",
+  "id": 2969846970,
+  "lat": 31.2810435,
+  "lon": 120.5418563
+},
+{
+  "type": "node",
+  "id": 2969846971,
+  "lat": 31.2822650,
+  "lon": 120.5446301
+},
+{
+  "type": "node",
+  "id": 2969846972,
+  "lat": 31.2818061,
+  "lon": 120.5953698
+},
+{
+  "type": "node",
+  "id": 2969846974,
+  "lat": 31.2827960,
+  "lon": 120.5453439
+},
+{
+  "type": "node",
+  "id": 2969846975,
+  "lat": 31.2841141,
+  "lon": 120.5456891
+},
+{
+  "type": "node",
+  "id": 2969846976,
+  "lat": 31.2976850,
+  "lon": 120.5446159
+},
+{
+  "type": "node",
+  "id": 2969846977,
+  "lat": 31.2979454,
+  "lon": 120.5927275
+},
+{
+  "type": "node",
+  "id": 2969846978,
+  "lat": 31.3000988,
+  "lon": 120.5450481
+},
+{
+  "type": "node",
+  "id": 2969846979,
+  "lat": 31.3014079,
+  "lon": 120.5468613
+},
+{
+  "type": "node",
+  "id": 2969846980,
+  "lat": 31.3019573,
+  "lon": 120.5503936
+},
+{
+  "type": "node",
+  "id": 2969846981,
+  "lat": 31.3020832,
+  "lon": 120.5514619
+},
+{
+  "type": "node",
+  "id": 2969846982,
+  "lat": 31.3032920,
+  "lon": 120.5962074
+},
+{
+  "type": "node",
+  "id": 2969846983,
+  "lat": 31.3037602,
+  "lon": 120.5965055
+},
+{
+  "type": "node",
+  "id": 2969846984,
+  "lat": 31.3046847,
+  "lon": 120.5969218
+},
+{
+  "type": "node",
+  "id": 2969846985,
+  "lat": 31.3049502,
+  "lon": 120.5969857
+},
+{
+  "type": "node",
+  "id": 2969846987,
+  "lat": 31.3192386,
+  "lon": 120.5952109
+},
+{
+  "type": "node",
+  "id": 2969846988,
+  "lat": 31.3197740,
+  "lon": 120.5954991
+},
+{
+  "type": "node",
+  "id": 2969846989,
+  "lat": 31.3198868,
+  "lon": 120.5956205
+},
+{
+  "type": "node",
+  "id": 2969846990,
+  "lat": 31.3202706,
+  "lon": 120.5962353
+},
+{
+  "type": "node",
+  "id": 2969846991,
+  "lat": 31.3209996,
+  "lon": 120.5970751
+},
+{
+  "type": "node",
+  "id": 2969846993,
+  "lat": 31.3196208,
+  "lon": 120.6779934
+},
+{
+  "type": "node",
+  "id": 2969846995,
+  "lat": 31.3242976,
+  "lon": 120.7072975
+},
+{
+  "type": "node",
+  "id": 2969846997,
+  "lat": 31.3245192,
+  "lon": 120.7059490
+},
+{
+  "type": "node",
+  "id": 2969846998,
+  "lat": 31.3246827,
+  "lon": 120.6947630
+},
+{
+  "type": "node",
+  "id": 2969847000,
+  "lat": 31.3251558,
+  "lon": 120.6982415
+},
+{
+  "type": "node",
+  "id": 2969847001,
+  "lat": 31.3251513,
+  "lon": 120.7050411
+},
+{
+  "type": "node",
+  "id": 2969847002,
+  "lat": 31.3253509,
+  "lon": 120.7038759
+},
+{
+  "type": "node",
+  "id": 2969847003,
+  "lat": 31.3258463,
+  "lon": 120.5999891
+},
+{
+  "type": "node",
+  "id": 2969847004,
+  "lat": 31.3267859,
+  "lon": 120.6007540
+},
+{
+  "type": "node",
+  "id": 2969847005,
+  "lat": 31.3272039,
+  "lon": 120.6008553
+},
+{
+  "type": "node",
+  "id": 2969847006,
+  "lat": 31.3280244,
+  "lon": 120.7442854
+},
+{
+  "type": "node",
+  "id": 2969847007,
+  "lat": 31.3308920,
+  "lon": 120.6014526
+},
+{
+  "type": "node",
+  "id": 2969847008,
+  "lat": 31.2999962,
+  "lon": 120.5939398,
+  "tags": {
+    "name": "三香广场",
+    "name:en": "Sanxiang Square",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2969847009,
+  "lat": 31.2941177,
+  "lon": 120.5930169,
+  "tags": {
+    "name": "劳动路",
+    "name:en": "Laodong Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2969847010,
+  "lat": 31.3135432,
+  "lon": 120.5959770,
+  "tags": {
+    "name": "石路",
+    "name:en": "Shi Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2969859578,
+  "lat": 31.2523101,
+  "lon": 120.6405795
+},
+{
+  "type": "node",
+  "id": 2969859579,
+  "lat": 31.2528785,
+  "lon": 120.6380124
+},
+{
+  "type": "node",
+  "id": 2969859580,
+  "lat": 31.2544923,
+  "lon": 120.6340812
+},
+{
+  "type": "node",
+  "id": 2969859581,
+  "lat": 31.2550128,
+  "lon": 120.6312921
+},
+{
+  "type": "node",
+  "id": 2969859582,
+  "lat": 31.2549844,
+  "lon": 120.6191965
+},
+{
+  "type": "node",
+  "id": 2969859583,
+  "lat": 31.2549849,
+  "lon": 120.6141608
+},
+{
+  "type": "node",
+  "id": 2969859584,
+  "lat": 31.2550074,
+  "lon": 120.6136968
+},
+{
+  "type": "node",
+  "id": 2969859585,
+  "lat": 31.2563507,
+  "lon": 120.6110573
+},
+{
+  "type": "node",
+  "id": 2969859586,
+  "lat": 31.2570024,
+  "lon": 120.6108109
+},
+{
+  "type": "node",
+  "id": 2969859587,
+  "lat": 31.2574362,
+  "lon": 120.6107346
+},
+{
+  "type": "node",
+  "id": 2969859588,
+  "lat": 31.2625055,
+  "lon": 120.6107182
+},
+{
+  "type": "node",
+  "id": 2969859590,
+  "lat": 31.2718273,
+  "lon": 120.6102366
+},
+{
+  "type": "node",
+  "id": 2969859591,
+  "lat": 31.2725401,
+  "lon": 120.6101445
+},
+{
+  "type": "node",
+  "id": 2969859592,
+  "lat": 31.2732555,
+  "lon": 120.6097692
+},
+{
+  "type": "node",
+  "id": 2969859593,
+  "lat": 31.2739456,
+  "lon": 120.6083186
+},
+{
+  "type": "node",
+  "id": 2969859594,
+  "lat": 31.2736158,
+  "lon": 120.6028008
+},
+{
+  "type": "node",
+  "id": 2969859595,
+  "lat": 31.2739525,
+  "lon": 120.6078090
+},
+{
+  "type": "node",
+  "id": 2969859596,
+  "lat": 31.2739015,
+  "lon": 120.6013999
+},
+{
+  "type": "node",
+  "id": 2969859597,
+  "lat": 31.2738367,
+  "lon": 120.6057999
+},
+{
+  "type": "node",
+  "id": 2969859598,
+  "lat": 31.2738929,
+  "lon": 120.6068730
+},
+{
+  "type": "node",
+  "id": 2969859599,
+  "lat": 31.2747231,
+  "lon": 120.6002517
+},
+{
+  "type": "node",
+  "id": 2969859600,
+  "lat": 31.2751894,
+  "lon": 120.5998508
+},
+{
+  "type": "node",
+  "id": 2969859601,
+  "lat": 31.2761104,
+  "lon": 120.5991291
+},
+{
+  "type": "node",
+  "id": 2969859602,
+  "lat": 31.2737344,
+  "lon": 120.6046809,
+  "tags": {
+    "name": "友联",
+    "name:en": "Youlian",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2969859603,
+  "lat": 31.2520758,
+  "lon": 120.6439563,
+  "tags": {
+    "name": "宝带桥南",
+    "name:en": "Baodaiqiao South",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2969859604,
+  "lat": 31.2676954,
+  "lon": 120.6105119,
+  "tags": {
+    "name": "盘蠡路",
+    "name:en": "Panli Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2969873036,
+  "lat": 31.3319002,
+  "lon": 120.6022852
+},
+{
+  "type": "node",
+  "id": 2969873049,
+  "lat": 31.3336029,
+  "lon": 120.6090650
+},
+{
+  "type": "node",
+  "id": 2969873050,
+  "lat": 31.3356940,
+  "lon": 120.6109202
+},
+{
+  "type": "node",
+  "id": 2969873054,
+  "lat": 31.3484536,
+  "lon": 120.6084108
+},
+{
+  "type": "node",
+  "id": 2969873058,
+  "lat": 31.3514868,
+  "lon": 120.6078446
+},
+{
+  "type": "node",
+  "id": 2969873059,
+  "lat": 31.3547949,
+  "lon": 120.6110861
+},
+{
+  "type": "node",
+  "id": 2969873060,
+  "lat": 31.3548918,
+  "lon": 120.6122895
+},
+{
+  "type": "node",
+  "id": 2969873061,
+  "lat": 31.3674109,
+  "lon": 120.6229949
+},
+{
+  "type": "node",
+  "id": 2969873062,
+  "lat": 31.4177494,
+  "lon": 120.6331898
+},
+{
+  "type": "node",
+  "id": 2969873063,
+  "lat": 31.4185868,
+  "lon": 120.6290125,
+  "tags": {
+    "name": "大湾",
+    "name:en": "Dawan",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2969873064,
+  "lat": 31.3385477,
+  "lon": 120.6103341,
+  "tags": {
+    "name": "平河路",
+    "name:en": "Pinghe Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2969873065,
+  "lat": 31.3776752,
+  "lon": 120.6214807,
+  "tags": {
+    "name": "徐图港",
+    "name:en": "Xutu Gang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2969873066,
+  "lat": 31.3330733,
+  "lon": 120.6063515,
+  "tags": {
+    "name": "苏州火车站",
+    "name:en": "Suzhou Railway Station",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2969873067,
+  "lat": 31.3902865,
+  "lon": 120.6195226,
+  "tags": {
+    "name": "蠡口",
+    "name:en": "Likou",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2969873068,
+  "lat": 31.3555301,
+  "lon": 120.6193992,
+  "tags": {
+    "name": "陆慕",
+    "name:en": "Lumu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3023669169,
+  "lat": 31.2832436,
+  "lon": 120.5950256
+},
+{
+  "type": "node",
+  "id": 3023669186,
+  "lat": 31.2826940,
+  "lon": 120.5951696
+},
+{
+  "type": "node",
+  "id": 3023669202,
+  "lat": 31.2736243,
+  "lon": 120.6025913
+},
+{
+  "type": "node",
+  "id": 3564680050,
+  "lat": 31.3256264,
+  "lon": 120.7204502
+},
+{
+  "type": "node",
+  "id": 3564680051,
+  "lat": 31.3258268,
+  "lon": 120.7224743
+},
+{
+  "type": "node",
+  "id": 3564781649,
+  "lat": 31.3247048,
+  "lon": 120.7114161
+},
+{
+  "type": "node",
+  "id": 3564781650,
+  "lat": 31.3249155,
+  "lon": 120.7053881
+},
+{
+  "type": "node",
+  "id": 3564781651,
+  "lat": 31.3249073,
+  "lon": 120.7134804
+},
+{
+  "type": "node",
+  "id": 3564781652,
+  "lat": 31.3253968,
+  "lon": 120.7182391
+},
+{
+  "type": "node",
+  "id": 4411711963,
+  "lat": 31.2520118,
+  "lon": 120.6452468
+},
+{
+  "type": "node",
+  "id": 4559360871,
+  "lat": 31.2517784,
+  "lon": 120.6487149
+},
+{
+  "type": "node",
+  "id": 4559360872,
+  "lat": 31.2524142,
+  "lon": 120.6548338
+},
+{
+  "type": "node",
+  "id": 4559360874,
+  "lat": 31.2510342,
+  "lon": 120.6712370
+},
+{
+  "type": "node",
+  "id": 4559360875,
+  "lat": 31.2509205,
+  "lon": 120.6735144
+},
+{
+  "type": "node",
+  "id": 4559360876,
+  "lat": 31.2503822,
+  "lon": 120.6833861
+},
+{
+  "type": "node",
+  "id": 4559360879,
+  "lat": 31.2503831,
+  "lon": 120.7134299
+},
+{
+  "type": "node",
+  "id": 4559360880,
+  "lat": 31.2518326,
+  "lon": 120.7176060
+},
+{
+  "type": "node",
+  "id": 4559360885,
+  "lat": 31.2704668,
+  "lon": 120.7496367
+},
+{
+  "type": "node",
+  "id": 4559360886,
+  "lat": 31.2727369,
+  "lon": 120.7571767
+},
+{
+  "type": "node",
+  "id": 4559360887,
+  "lat": 31.2720740,
+  "lon": 120.7599350
+},
+{
+  "type": "node",
+  "id": 4559360888,
+  "lat": 31.2719631,
+  "lon": 120.7609521
+},
+{
+  "type": "node",
+  "id": 4559361189,
+  "lat": 31.2720804,
+  "lon": 120.7637398
+},
+{
+  "type": "node",
+  "id": 4559361190,
+  "lat": 31.2730275,
+  "lon": 120.7679981
+},
+{
+  "type": "node",
+  "id": 4559363776,
+  "lat": 31.2520106,
+  "lon": 120.6596987,
+  "tags": {
+    "name": "尹中路",
+    "name:en": "Yinzhong Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4559363777,
+  "lat": 31.2725834,
+  "lon": 120.7660631,
+  "tags": {
+    "name": "金尚路",
+    "name:en": "Jinshang Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4559363778,
+  "lat": 31.2505938,
+  "lon": 120.6797063,
+  "tags": {
+    "name": "郭苑路",
+    "name:en": "Guoyuan Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4559363779,
+  "lat": 31.2502813,
+  "lon": 120.6930505,
+  "tags": {
+    "name": "尹山湖",
+    "name:en": "Yinshan Lake",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4559363780,
+  "lat": 31.2503165,
+  "lon": 120.7006653,
+  "tags": {
+    "name": "独墅湖南",
+    "name:en": "Dushuhu South",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4559363781,
+  "lat": 31.2623767,
+  "lon": 120.7229295,
+  "tags": {
+    "name": "月亮湾",
+    "name:en": "Yueliangwan",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4559363782,
+  "lat": 31.2511677,
+  "lon": 120.6691750,
+  "tags": {
+    "name": "郭巷",
+    "name:en": "Guoxiang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4559363783,
+  "lat": 31.2716443,
+  "lon": 120.7526153,
+  "tags": {
+    "name": "金谷路",
+    "name:en": "Jingu Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4559363784,
+  "lat": 31.2660695,
+  "lon": 120.7358299,
+  "tags": {
+    "name": "松涛街",
+    "name:en": "Songtao Jie",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4559363785,
+  "lat": 31.2745315,
+  "lon": 120.7772126,
+  "tags": {
+    "name": "桑田岛",
+    "name:en": "Sangtian Dao",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4559363786,
+  "lat": 31.2553762,
+  "lon": 120.7186181,
+  "tags": {
+    "name": "独墅湖邻里中心",
+    "name:en": "Dushuhu Neighborhood Center",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570242991,
+  "lat": 31.1395784,
+  "lon": 120.6956709,
+  "tags": {
+    "name": "同里",
+    "name:en": "Tongli",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570242992,
+  "lat": 31.1392834,
+  "lon": 120.6587275,
+  "tags": {
+    "name": "吴江汽车站",
+    "name:en": "Wujiang Coach Station",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570242993,
+  "lat": 31.1355082,
+  "lon": 120.6395027,
+  "tags": {
+    "name": "吴江人民广场",
+    "name:en": "Wujiang Renmin Guangchang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570242994,
+  "lat": 31.1336624,
+  "lon": 120.6195953,
+  "tags": {
+    "name": "松陵大道",
+    "name:en": "Songling Dadao",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570242995,
+  "lat": 31.1384238,
+  "lon": 120.6114736,
+  "tags": {
+    "name": "苏州湾东",
+    "name:en": "Suzhouwan East",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570242996,
+  "lat": 31.1478360,
+  "lon": 120.6106367,
+  "tags": {
+    "name": "顾家荡",
+    "name:en": "Gujiadang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570242997,
+  "lat": 31.1562189,
+  "lon": 120.6114951,
+  "tags": {
+    "name": "笠泽路",
+    "name:en": "Lize Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570242998,
+  "lat": 31.1659506,
+  "lon": 120.6151000,
+  "tags": {
+    "name": "流虹路",
+    "name:en": "Liuhong Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570242999,
+  "lat": 31.1718024,
+  "lon": 120.6283529,
+  "tags": {
+    "name": "江兴西路",
+    "name:en": "Jiangxing Xilu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570243000,
+  "lat": 31.1803807,
+  "lon": 120.6356544,
+  "tags": {
+    "name": "江陵西路",
+    "name:en": "Jiangling Xilu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570243001,
+  "lat": 31.2058991,
+  "lon": 120.6286375,
+  "tags": {
+    "name": "花港",
+    "name:en": "Huagang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570243002,
+  "lat": 31.2232657,
+  "lon": 120.6284486,
+  "tags": {
+    "name": "清树湾",
+    "name:en": "Qingshuwan",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570243003,
+  "lat": 31.2401398,
+  "lon": 120.6249550,
+  "tags": {
+    "name": "红庄",
+    "name:en": "Hongzhuang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570243004,
+  "lat": 31.2692967,
+  "lon": 120.6242928,
+  "tags": {
+    "name": "宝带路",
+    "name:en": "Baodai Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570243005,
+  "lat": 31.2786414,
+  "lon": 120.6229849,
+  "tags": {
+    "name": "团结桥",
+    "name:en": "Tuanjie Qiao",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570243008,
+  "lat": 31.2999995,
+  "lon": 120.6195083,
+  "tags": {
+    "name": "三元坊",
+    "name:en": "Sanyuanfang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570243009,
+  "lat": 31.3130855,
+  "lon": 120.6171887,
+  "tags": {
+    "name": "察院场",
+    "name:en": "Chayuanchang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570243010,
+  "lat": 31.3231202,
+  "lon": 120.6154597,
+  "tags": {
+    "name": "北寺塔",
+    "name:en": "Beisita",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570243011,
+  "lat": 31.3387299,
+  "lon": 120.6009766,
+  "tags": {
+    "name": "苏锦",
+    "name:en": "Sujin",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570243012,
+  "lat": 31.3466475,
+  "lon": 120.5985577,
+  "tags": {
+    "name": "平泷路西",
+    "name:en": "Pinglonglu West",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570243013,
+  "lat": 31.3639781,
+  "lon": 120.5986359,
+  "tags": {
+    "name": "孙武文化园",
+    "name:en": "Sunwu Jinianyuan",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570243014,
+  "lat": 31.3771346,
+  "lon": 120.5958988,
+  "tags": {
+    "name": "活力岛",
+    "name:en": "Huolidao",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570243015,
+  "lat": 31.3924676,
+  "lon": 120.5940619,
+  "tags": {
+    "name": "姚祥",
+    "name:en": "Yaoxiang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570243016,
+  "lat": 31.4005266,
+  "lon": 120.5935094,
+  "tags": {
+    "name": "张庄",
+    "name:en": "Zhangzhuang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570243017,
+  "lat": 31.4052884,
+  "lon": 120.6006387,
+  "tags": {
+    "name": "龙道浜",
+    "name:en": "Longdaobang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570262470,
+  "lat": 31.2323852,
+  "lon": 120.6173735,
+  "tags": {
+    "name": "蠡墅",
+    "name:en": "Lishu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570262471,
+  "lat": 31.2261662,
+  "lon": 120.5989034,
+  "tags": {
+    "name": "石湖莫舍",
+    "name:en": "Shihu Moshe",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570262472,
+  "lat": 31.2179384,
+  "lon": 120.5920082,
+  "tags": {
+    "name": "越溪",
+    "name:en": "Yuexi",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570262473,
+  "lat": 31.2057949,
+  "lon": 120.5922073,
+  "tags": {
+    "name": "文溪路",
+    "name:en": "Wenxi Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570262474,
+  "lat": 31.1931720,
+  "lon": 120.5962434,
+  "tags": {
+    "name": "天鹅荡路",
+    "name:en": "Tian'edang Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570262475,
+  "lat": 31.1860590,
+  "lon": 120.5911056,
+  "tags": {
+    "name": "苏州湾北",
+    "name:en": "Suzhouwan North",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4570262476,
+  "lat": 31.1845939,
+  "lon": 120.5731460,
+  "tags": {
+    "name": "木里",
+    "name:en": "Muli",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4571373804,
+  "lat": 31.3116824,
+  "lon": 120.6332026
+},
+{
+  "type": "node",
+  "id": 4571373805,
+  "lat": 31.3124535,
+  "lon": 120.6370550
+},
+{
+  "type": "node",
+  "id": 4580786399,
+  "lat": 31.3351203,
+  "lon": 120.6110261
+},
+{
+  "type": "node",
+  "id": 4580786400,
+  "lat": 31.3349622,
+  "lon": 120.6110354
+},
+{
+  "type": "node",
+  "id": 4580786401,
+  "lat": 31.3347812,
+  "lon": 120.6110234
+},
+{
+  "type": "node",
+  "id": 4580786402,
+  "lat": 31.3346460,
+  "lon": 120.6109966
+},
+{
+  "type": "node",
+  "id": 4580786403,
+  "lat": 31.3345338,
+  "lon": 120.6109563
+},
+{
+  "type": "node",
+  "id": 4580786404,
+  "lat": 31.3344238,
+  "lon": 120.6109027
+},
+{
+  "type": "node",
+  "id": 4580786405,
+  "lat": 31.3343207,
+  "lon": 120.6108249
+},
+{
+  "type": "node",
+  "id": 4580786406,
+  "lat": 31.3341878,
+  "lon": 120.6106962
+},
+{
+  "type": "node",
+  "id": 4580786407,
+  "lat": 31.3336873,
+  "lon": 120.6094758
+},
+{
+  "type": "node",
+  "id": 4580786408,
+  "lat": 31.3305428,
+  "lon": 120.6013862
+},
+{
+  "type": "node",
+  "id": 4580786409,
+  "lat": 31.3314913,
+  "lon": 120.6017482
+},
+{
+  "type": "node",
+  "id": 4580786410,
+  "lat": 31.3228214,
+  "lon": 120.5981353
+},
+{
+  "type": "node",
+  "id": 4580786414,
+  "lat": 31.3176981,
+  "lon": 120.5951917
+},
+{
+  "type": "node",
+  "id": 4580786415,
+  "lat": 31.3181907,
+  "lon": 120.5951594
+},
+{
+  "type": "node",
+  "id": 4580786416,
+  "lat": 31.3196663,
+  "lon": 120.5954116
+},
+{
+  "type": "node",
+  "id": 4580786417,
+  "lat": 31.3206104,
+  "lon": 120.5967071
+},
+{
+  "type": "node",
+  "id": 4580786418,
+  "lat": 31.2977103,
+  "lon": 120.5926596
+},
+{
+  "type": "node",
+  "id": 4580786419,
+  "lat": 31.2981847,
+  "lon": 120.5928339
+},
+{
+  "type": "node",
+  "id": 4580786420,
+  "lat": 31.2984345,
+  "lon": 120.5929761
+},
+{
+  "type": "node",
+  "id": 4580786421,
+  "lat": 31.2986683,
+  "lon": 120.5931156
+},
+{
+  "type": "node",
+  "id": 4580786870,
+  "lat": 31.3069260,
+  "lon": 120.6067581
+},
+{
+  "type": "node",
+  "id": 4580786871,
+  "lat": 31.3065800,
+  "lon": 120.6021957
+},
+{
+  "type": "node",
+  "id": 4580786872,
+  "lat": 31.3082116,
+  "lon": 120.6162371
+},
+{
+  "type": "node",
+  "id": 4625473982,
+  "lat": 31.2943094,
+  "lon": 120.6203550,
+  "tags": {
+    "name": "南门",
+    "name:en": "Nanmen",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4684692252,
+  "lat": 31.2819974,
+  "lon": 120.5441062
+},
+{
+  "type": "node",
+  "id": 4684692253,
+  "lat": 31.2814587,
+  "lon": 120.5429528
+},
+{
+  "type": "node",
+  "id": 4684692254,
+  "lat": 31.2838036,
+  "lon": 120.5457001
+},
+{
+  "type": "node",
+  "id": 4684692255,
+  "lat": 31.3012969,
+  "lon": 120.5464396
+},
+{
+  "type": "node",
+  "id": 4684692256,
+  "lat": 31.3008907,
+  "lon": 120.5456410
+},
+{
+  "type": "node",
+  "id": 4684692257,
+  "lat": 31.3005527,
+  "lon": 120.5453339
+},
+{
+  "type": "node",
+  "id": 4684692258,
+  "lat": 31.2982332,
+  "lon": 120.5445896
+},
+{
+  "type": "node",
+  "id": 4684692259,
+  "lat": 31.3011634,
+  "lon": 120.5460836
+},
+{
+  "type": "node",
+  "id": 4684692260,
+  "lat": 31.3025030,
+  "lon": 120.5574682
+},
+{
+  "type": "node",
+  "id": 4684692261,
+  "lat": 31.3026875,
+  "lon": 120.5593618
+},
+{
+  "type": "node",
+  "id": 4684692262,
+  "lat": 31.3024554,
+  "lon": 120.5568017
+},
+{
+  "type": "node",
+  "id": 4684692263,
+  "lat": 31.3046887,
+  "lon": 120.5817462
+},
+{
+  "type": "node",
+  "id": 4684692264,
+  "lat": 31.3045432,
+  "lon": 120.5806278
+},
+{
+  "type": "node",
+  "id": 4684692265,
+  "lat": 31.3042435,
+  "lon": 120.5781386
+},
+{
+  "type": "node",
+  "id": 4684692266,
+  "lat": 31.3048168,
+  "lon": 120.5831015
+},
+{
+  "type": "node",
+  "id": 4684692267,
+  "lat": 31.3032123,
+  "lon": 120.5652312
+},
+{
+  "type": "node",
+  "id": 4687972267,
+  "lat": 31.3884180,
+  "lon": 120.6195872
+},
+{
+  "type": "node",
+  "id": 4687972268,
+  "lat": 31.4117676,
+  "lon": 120.6213735
+},
+{
+  "type": "node",
+  "id": 4687972269,
+  "lat": 31.4096524,
+  "lon": 120.6209470
+},
+{
+  "type": "node",
+  "id": 4687972270,
+  "lat": 31.4100965,
+  "lon": 120.6210195
+},
+{
+  "type": "node",
+  "id": 4687972277,
+  "lat": 31.4188201,
+  "lon": 120.6369598
+},
+{
+  "type": "node",
+  "id": 4687972278,
+  "lat": 31.4192000,
+  "lon": 120.6374560
+},
+{
+  "type": "node",
+  "id": 4687972279,
+  "lat": 31.4193717,
+  "lon": 120.6376223
+},
+{
+  "type": "node",
+  "id": 4687972280,
+  "lat": 31.4195617,
+  "lon": 120.6377832
+},
+{
+  "type": "node",
+  "id": 4687972281,
+  "lat": 31.4181837,
+  "lon": 120.6357850
+},
+{
+  "type": "node",
+  "id": 4687972282,
+  "lat": 31.4184355,
+  "lon": 120.6363483
+},
+{
+  "type": "node",
+  "id": 4687972283,
+  "lat": 31.4183028,
+  "lon": 120.6360747
+},
+{
+  "type": "node",
+  "id": 4687972284,
+  "lat": 31.4179915,
+  "lon": 120.6352459
+},
+{
+  "type": "node",
+  "id": 4687972285,
+  "lat": 31.4178426,
+  "lon": 120.6346907
+},
+{
+  "type": "node",
+  "id": 4687972286,
+  "lat": 31.4177969,
+  "lon": 120.6343715
+},
+{
+  "type": "node",
+  "id": 4687972287,
+  "lat": 31.4177602,
+  "lon": 120.6339826
+},
+{
+  "type": "node",
+  "id": 4687972288,
+  "lat": 31.4177785,
+  "lon": 120.6328239
+},
+{
+  "type": "node",
+  "id": 4687972689,
+  "lat": 31.4187170,
+  "lon": 120.6283714
+},
+{
+  "type": "node",
+  "id": 4687972690,
+  "lat": 31.4175268,
+  "lon": 120.6229775
+},
+{
+  "type": "node",
+  "id": 4687972691,
+  "lat": 31.4177122,
+  "lon": 120.6231974
+},
+{
+  "type": "node",
+  "id": 4687972692,
+  "lat": 31.4179617,
+  "lon": 120.6235166
+},
+{
+  "type": "node",
+  "id": 4687972693,
+  "lat": 31.4165127,
+  "lon": 120.6221178
+},
+{
+  "type": "node",
+  "id": 4687972694,
+  "lat": 31.4167325,
+  "lon": 120.6222640
+},
+{
+  "type": "node",
+  "id": 4687972695,
+  "lat": 31.4170529,
+  "lon": 120.6225027
+},
+{
+  "type": "node",
+  "id": 4687972696,
+  "lat": 31.4160320,
+  "lon": 120.6218643
+},
+{
+  "type": "node",
+  "id": 4687972697,
+  "lat": 31.4151416,
+  "lon": 120.6215948
+},
+{
+  "type": "node",
+  "id": 4687972698,
+  "lat": 31.4146632,
+  "lon": 120.6215344
+},
+{
+  "type": "node",
+  "id": 4687972699,
+  "lat": 31.4148864,
+  "lon": 120.6215572
+},
+{
+  "type": "node",
+  "id": 4687972700,
+  "lat": 31.4120136,
+  "lon": 120.6214124
+},
+{
+  "type": "node",
+  "id": 4714081616,
+  "lat": 31.3027826,
+  "lon": 120.5603416
+},
+{
+  "type": "node",
+  "id": 4757288848,
+  "lat": 31.4393370,
+  "lon": 120.6508791,
+  "tags": {
+    "name": "骑河",
+    "name:en": "Qihe",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4757288849,
+  "lat": 31.4319222,
+  "lon": 120.6468021,
+  "tags": {
+    "name": "富翔路",
+    "name:en": "Fuxiang Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4757288851,
+  "lat": 31.4403302,
+  "lon": 120.6512399
+},
+{
+  "type": "node",
+  "id": 4757288852,
+  "lat": 31.4358539,
+  "lon": 120.6497754
+},
+{
+  "type": "node",
+  "id": 4757288853,
+  "lat": 31.4349660,
+  "lon": 120.6494267
+},
+{
+  "type": "node",
+  "id": 4757288854,
+  "lat": 31.4342703,
+  "lon": 120.6489654
+},
+{
+  "type": "node",
+  "id": 4757288855,
+  "lat": 31.4333457,
+  "lon": 120.6481285
+},
+{
+  "type": "node",
+  "id": 4757288856,
+  "lat": 31.4292994,
+  "lon": 120.6444431
+},
+{
+  "type": "node",
+  "id": 4757288857,
+  "lat": 31.4287226,
+  "lon": 120.6440676
+},
+{
+  "type": "node",
+  "id": 4757289337,
+  "lat": 31.1723203,
+  "lon": 120.6346321
+},
+{
+  "type": "node",
+  "id": 4757289338,
+  "lat": 31.1732062,
+  "lon": 120.6354797
+},
+{
+  "type": "node",
+  "id": 4757289339,
+  "lat": 31.1718522,
+  "lon": 120.6297800
+},
+{
+  "type": "node",
+  "id": 4757289340,
+  "lat": 31.1510783,
+  "lon": 120.6104708
+},
+{
+  "type": "node",
+  "id": 4757289342,
+  "lat": 31.1346058,
+  "lon": 120.6123108
+},
+{
+  "type": "node",
+  "id": 4757289343,
+  "lat": 31.1337105,
+  "lon": 120.6136251
+},
+{
+  "type": "node",
+  "id": 4757289344,
+  "lat": 31.1363231,
+  "lon": 120.6429067
+},
+{
+  "type": "node",
+  "id": 4757289345,
+  "lat": 31.1367823,
+  "lon": 120.6451867
+},
+{
+  "type": "node",
+  "id": 4757289347,
+  "lat": 31.1359237,
+  "lon": 120.6412894
+},
+{
+  "type": "node",
+  "id": 4757289349,
+  "lat": 31.1395911,
+  "lon": 120.6795174,
+  "tags": {
+    "name": "庞金路",
+    "name:en": "Pangjin Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 4757289351,
+  "lat": 31.1394982,
+  "lon": 120.6596749
+},
+{
+  "type": "node",
+  "id": 4757289352,
+  "lat": 31.1383136,
+  "lon": 120.6541656
+},
+{
+  "type": "node",
+  "id": 4757289353,
+  "lat": 31.1346908,
+  "lon": 120.6352212
+},
+{
+  "type": "node",
+  "id": 4757289354,
+  "lat": 31.1346358,
+  "lon": 120.6345453
+},
+{
+  "type": "node",
+  "id": 4757289355,
+  "lat": 31.1335521,
+  "lon": 120.6176903
+},
+{
+  "type": "node",
+  "id": 4757289356,
+  "lat": 31.1335751,
+  "lon": 120.6145467
+},
+{
+  "type": "node",
+  "id": 4757289357,
+  "lat": 31.1341169,
+  "lon": 120.6128194
+},
+{
+  "type": "node",
+  "id": 4757289358,
+  "lat": 31.1351224,
+  "lon": 120.6120309
+},
+{
+  "type": "node",
+  "id": 4757289359,
+  "lat": 31.1363622,
+  "lon": 120.6117250
+},
+{
+  "type": "node",
+  "id": 4757289360,
+  "lat": 31.1374366,
+  "lon": 120.6115749
+},
+{
+  "type": "node",
+  "id": 4757289361,
+  "lat": 31.1391906,
+  "lon": 120.6114193
+},
+{
+  "type": "node",
+  "id": 4757289362,
+  "lat": 31.1453521,
+  "lon": 120.6108131
+},
+{
+  "type": "node",
+  "id": 4757289363,
+  "lat": 31.1531247,
+  "lon": 120.6106334
+},
+{
+  "type": "node",
+  "id": 4757289364,
+  "lat": 31.1540979,
+  "lon": 120.6108480
+},
+{
+  "type": "node",
+  "id": 4757289365,
+  "lat": 31.1554660,
+  "lon": 120.6112342
+},
+{
+  "type": "node",
+  "id": 4757289366,
+  "lat": 31.1582020,
+  "lon": 120.6122535
+},
+{
+  "type": "node",
+  "id": 4757289367,
+  "lat": 31.1701252,
+  "lon": 120.6168199
+},
+{
+  "type": "node",
+  "id": 4757289368,
+  "lat": 31.1708504,
+  "lon": 120.6173403
+},
+{
+  "type": "node",
+  "id": 4757289369,
+  "lat": 31.1714012,
+  "lon": 120.6181342
+},
+{
+  "type": "node",
+  "id": 4757289370,
+  "lat": 31.1717593,
+  "lon": 120.6194002
+},
+{
+  "type": "node",
+  "id": 4757289371,
+  "lat": 31.1717959,
+  "lon": 120.6208378
+},
+{
+  "type": "node",
+  "id": 4757289372,
+  "lat": 31.1720667,
+  "lon": 120.6334469
+},
+{
+  "type": "node",
+  "id": 4757289373,
+  "lat": 31.1721861,
+  "lon": 120.6341872
+},
+{
+  "type": "node",
+  "id": 4757289374,
+  "lat": 31.1725441,
+  "lon": 120.6350777
+},
+{
+  "type": "node",
+  "id": 4757289375,
+  "lat": 31.1728837,
+  "lon": 120.6353459
+},
+{
+  "type": "node",
+  "id": 4757289376,
+  "lat": 31.1735538,
+  "lon": 120.6355605
+},
+{
+  "type": "node",
+  "id": 4757289377,
+  "lat": 31.1738981,
+  "lon": 120.6356007
+},
+{
+  "type": "node",
+  "id": 4757289378,
+  "lat": 31.1781481,
+  "lon": 120.6356463
+},
+{
+  "type": "node",
+  "id": 4757289379,
+  "lat": 31.2071362,
+  "lon": 120.6279980
+},
+{
+  "type": "node",
+  "id": 4757289380,
+  "lat": 31.1899564,
+  "lon": 120.6352990
+},
+{
+  "type": "node",
+  "id": 4757289381,
+  "lat": 31.1866730,
+  "lon": 120.6356530
+},
+{
+  "type": "node",
+  "id": 4757289402,
+  "lat": 31.1948422,
+  "lon": 120.6338835
+},
+{
+  "type": "node",
+  "id": 4757289403,
+  "lat": 31.1991235,
+  "lon": 120.6323278
+},
+{
+  "type": "node",
+  "id": 4757289404,
+  "lat": 31.2063961,
+  "lon": 120.6283072
+},
+{
+  "type": "node",
+  "id": 4757289405,
+  "lat": 31.2099106,
+  "lon": 120.6278647
+},
+{
+  "type": "node",
+  "id": 4757289406,
+  "lat": 31.2114889,
+  "lon": 120.6280523
+},
+{
+  "type": "node",
+  "id": 4757289407,
+  "lat": 31.2126359,
+  "lon": 120.6281812
+},
+{
+  "type": "node",
+  "id": 4757289408,
+  "lat": 31.2176228,
+  "lon": 120.6286585
+},
+{
+  "type": "node",
+  "id": 4757289409,
+  "lat": 31.2188661,
+  "lon": 120.6288141
+},
+{
+  "type": "node",
+  "id": 4757289410,
+  "lat": 31.2204441,
+  "lon": 120.6288195
+},
+{
+  "type": "node",
+  "id": 4757289411,
+  "lat": 31.2717189,
+  "lon": 120.6239513
+},
+{
+  "type": "node",
+  "id": 4757289412,
+  "lat": 31.2430534,
+  "lon": 120.6256216
+},
+{
+  "type": "node",
+  "id": 4757289413,
+  "lat": 31.2426086,
+  "lon": 120.6255841
+},
+{
+  "type": "node",
+  "id": 4757289414,
+  "lat": 31.2343253,
+  "lon": 120.6246164
+},
+{
+  "type": "node",
+  "id": 4757289415,
+  "lat": 31.2367953,
+  "lon": 120.6242382
+},
+{
+  "type": "node",
+  "id": 4757289416,
+  "lat": 31.2370499,
+  "lon": 120.6242141
+},
+{
+  "type": "node",
+  "id": 4757289417,
+  "lat": 31.2376003,
+  "lon": 120.6242637
+},
+{
+  "type": "node",
+  "id": 4757289418,
+  "lat": 31.2390978,
+  "lon": 120.6246485
+},
+{
+  "type": "node",
+  "id": 4757289420,
+  "lat": 31.2740805,
+  "lon": 120.6236669
+},
+{
+  "type": "node",
+  "id": 4757289421,
+  "lat": 31.2770817,
+  "lon": 120.6232346
+},
+{
+  "type": "node",
+  "id": 4757289422,
+  "lat": 31.2777558,
+  "lon": 120.6231346
+},
+{
+  "type": "node",
+  "id": 4757289423,
+  "lat": 31.2842832,
+  "lon": 120.6219392
+},
+{
+  "type": "node",
+  "id": 4757289424,
+  "lat": 31.2919755,
+  "lon": 120.6206826
+},
+{
+  "type": "node",
+  "id": 4757289425,
+  "lat": 31.2972058,
+  "lon": 120.6199853
+},
+{
+  "type": "node",
+  "id": 4757289426,
+  "lat": 31.2989184,
+  "lon": 120.6197076
+},
+{
+  "type": "node",
+  "id": 4757289429,
+  "lat": 31.3034648,
+  "lon": 120.6189516
+},
+{
+  "type": "node",
+  "id": 4757289433,
+  "lat": 31.3247883,
+  "lon": 120.6146279
+},
+{
+  "type": "node",
+  "id": 4757289434,
+  "lat": 31.3236387,
+  "lon": 120.6152612
+},
+{
+  "type": "node",
+  "id": 4757289435,
+  "lat": 31.3241221,
+  "lon": 120.6150594
+},
+{
+  "type": "node",
+  "id": 4757289436,
+  "lat": 31.3184259,
+  "lon": 120.6162670
+},
+{
+  "type": "node",
+  "id": 4757289437,
+  "lat": 31.3172905,
+  "lon": 120.6164159
+},
+{
+  "type": "node",
+  "id": 4757289438,
+  "lat": 31.3194054,
+  "lon": 120.6161088
+},
+{
+  "type": "node",
+  "id": 4757289439,
+  "lat": 31.3205213,
+  "lon": 120.6159827
+},
+{
+  "type": "node",
+  "id": 4757289440,
+  "lat": 31.3215615,
+  "lon": 120.6158512
+},
+{
+  "type": "node",
+  "id": 4757289441,
+  "lat": 31.3222456,
+  "lon": 120.6157225
+},
+{
+  "type": "node",
+  "id": 4757289442,
+  "lat": 31.3228080,
+  "lon": 120.6155683
+},
+{
+  "type": "node",
+  "id": 4757289443,
+  "lat": 31.3246228,
+  "lon": 120.6147854
+},
+{
+  "type": "node",
+  "id": 4757289444,
+  "lat": 31.3252345,
+  "lon": 120.6137742
+},
+{
+  "type": "node",
+  "id": 4757289454,
+  "lat": 31.3285223,
+  "lon": 120.6076836
+},
+{
+  "type": "node",
+  "id": 4757289455,
+  "lat": 31.3310701,
+  "lon": 120.6069809
+},
+{
+  "type": "node",
+  "id": 4757289457,
+  "lat": 31.3337460,
+  "lon": 120.6062191
+},
+{
+  "type": "node",
+  "id": 4757289458,
+  "lat": 31.3347541,
+  "lon": 120.6054681
+},
+{
+  "type": "node",
+  "id": 4757289459,
+  "lat": 31.3375306,
+  "lon": 120.6014447
+},
+{
+  "type": "node",
+  "id": 4757289460,
+  "lat": 31.3412133,
+  "lon": 120.6003350
+},
+{
+  "type": "node",
+  "id": 4757289461,
+  "lat": 31.3421617,
+  "lon": 120.6000789
+},
+{
+  "type": "node",
+  "id": 4757289462,
+  "lat": 31.3423472,
+  "lon": 120.6000091
+},
+{
+  "type": "node",
+  "id": 4757289463,
+  "lat": 31.3425786,
+  "lon": 120.5998911
+},
+{
+  "type": "node",
+  "id": 4757289464,
+  "lat": 31.3439645,
+  "lon": 120.5992273
+},
+{
+  "type": "node",
+  "id": 4757289465,
+  "lat": 31.3443242,
+  "lon": 120.5991005
+},
+{
+  "type": "node",
+  "id": 4757289466,
+  "lat": 31.3447073,
+  "lon": 120.5989869
+},
+{
+  "type": "node",
+  "id": 4757289467,
+  "lat": 31.3448665,
+  "lon": 120.5989487
+},
+{
+  "type": "node",
+  "id": 4757289468,
+  "lat": 31.3450200,
+  "lon": 120.5989084
+},
+{
+  "type": "node",
+  "id": 4757289469,
+  "lat": 31.3503481,
+  "lon": 120.5983076
+},
+{
+  "type": "node",
+  "id": 4757289470,
+  "lat": 31.3509574,
+  "lon": 120.5984042
+},
+{
+  "type": "node",
+  "id": 4757289471,
+  "lat": 31.3485866,
+  "lon": 120.5982245
+},
+{
+  "type": "node",
+  "id": 4757289472,
+  "lat": 31.3568418,
+  "lon": 120.5996567
+},
+{
+  "type": "node",
+  "id": 4757289473,
+  "lat": 31.3572723,
+  "lon": 120.5997158
+},
+{
+  "type": "node",
+  "id": 4757289474,
+  "lat": 31.3581015,
+  "lon": 120.5997587
+},
+{
+  "type": "node",
+  "id": 4757289475,
+  "lat": 31.3585321,
+  "lon": 120.5997264
+},
+{
+  "type": "node",
+  "id": 4757289476,
+  "lat": 31.3589444,
+  "lon": 120.5996782
+},
+{
+  "type": "node",
+  "id": 4757289477,
+  "lat": 31.3600850,
+  "lon": 120.5994422
+},
+{
+  "type": "node",
+  "id": 4757289478,
+  "lat": 31.4018208,
+  "lon": 120.5935297
+},
+{
+  "type": "node",
+  "id": 4757289479,
+  "lat": 31.3794419,
+  "lon": 120.5953166
+},
+{
+  "type": "node",
+  "id": 4757289480,
+  "lat": 31.3800011,
+  "lon": 120.5951584
+},
+{
+  "type": "node",
+  "id": 4757289481,
+  "lat": 31.3804591,
+  "lon": 120.5950726
+},
+{
+  "type": "node",
+  "id": 4757289482,
+  "lat": 31.3810819,
+  "lon": 120.5949975
+},
+{
+  "type": "node",
+  "id": 4757289483,
+  "lat": 31.3816269,
+  "lon": 120.5949707
+},
+{
+  "type": "node",
+  "id": 4757289484,
+  "lat": 31.4025515,
+  "lon": 120.5936457
+},
+{
+  "type": "node",
+  "id": 4757289485,
+  "lat": 31.4035336,
+  "lon": 120.5942009
+},
+{
+  "type": "node",
+  "id": 4757289486,
+  "lat": 31.4044676,
+  "lon": 120.5953945
+},
+{
+  "type": "node",
+  "id": 4757289487,
+  "lat": 31.4038175,
+  "lon": 120.5945040
+},
+{
+  "type": "node",
+  "id": 4757289488,
+  "lat": 31.4051361,
+  "lon": 120.5972291
+},
+{
+  "type": "node",
+  "id": 4757289489,
+  "lat": 31.4013084,
+  "lon": 120.5935116
+},
+{
+  "type": "node",
+  "id": 4757289490,
+  "lat": 31.4032268,
+  "lon": 120.5939675
+},
+{
+  "type": "node",
+  "id": 4757289491,
+  "lat": 31.4052643,
+  "lon": 120.5991335
+},
+{
+  "type": "node",
+  "id": 4757289492,
+  "lat": 31.4052277,
+  "lon": 120.5982537
+},
+{
+  "type": "node",
+  "id": 4757310504,
+  "lat": 31.1861729,
+  "lon": 120.5927838
+},
+{
+  "type": "node",
+  "id": 4757310505,
+  "lat": 31.1874441,
+  "lon": 120.5962170
+},
+{
+  "type": "node",
+  "id": 4757310506,
+  "lat": 31.1880820,
+  "lon": 120.5963136
+},
+{
+  "type": "node",
+  "id": 4757310507,
+  "lat": 31.1972690,
+  "lon": 120.5957825
+},
+{
+  "type": "node",
+  "id": 4757310508,
+  "lat": 31.1964980,
+  "lon": 120.5960454
+},
+{
+  "type": "node",
+  "id": 4757310509,
+  "lat": 31.1977829,
+  "lon": 120.5955304
+},
+{
+  "type": "node",
+  "id": 4757310510,
+  "lat": 31.2025137,
+  "lon": 120.5922634
+},
+{
+  "type": "node",
+  "id": 4757310512,
+  "lat": 31.1862785,
+  "lon": 120.5938782
+},
+{
+  "type": "node",
+  "id": 4757310513,
+  "lat": 31.1863519,
+  "lon": 120.5944361
+},
+{
+  "type": "node",
+  "id": 4757310514,
+  "lat": 31.1870081,
+  "lon": 120.5959488
+},
+{
+  "type": "node",
+  "id": 4757310515,
+  "lat": 31.1920515,
+  "lon": 120.5962277
+},
+{
+  "type": "node",
+  "id": 4757310516,
+  "lat": 31.2005910,
+  "lon": 120.5933203
+},
+{
+  "type": "node",
+  "id": 4757310517,
+  "lat": 31.2019630,
+  "lon": 120.5923654
+},
+{
+  "type": "node",
+  "id": 4757310518,
+  "lat": 31.2028623,
+  "lon": 120.5922259
+},
+{
+  "type": "node",
+  "id": 4757310519,
+  "lat": 31.2044408,
+  "lon": 120.5921669
+},
+{
+  "type": "node",
+  "id": 4757311123,
+  "lat": 31.2170257,
+  "lon": 120.5922152
+},
+{
+  "type": "node",
+  "id": 4757311124,
+  "lat": 31.2172711,
+  "lon": 120.5921669
+},
+{
+  "type": "node",
+  "id": 4757311125,
+  "lat": 31.2193080,
+  "lon": 120.5916478
+},
+{
+  "type": "node",
+  "id": 4757311126,
+  "lat": 31.2205972,
+  "lon": 120.5913019
+},
+{
+  "type": "node",
+  "id": 4757311127,
+  "lat": 31.2207990,
+  "lon": 120.5912590
+},
+{
+  "type": "node",
+  "id": 4757311128,
+  "lat": 31.2211522,
+  "lon": 120.5912589
+},
+{
+  "type": "node",
+  "id": 4757311129,
+  "lat": 31.2213805,
+  "lon": 120.5913341
+},
+{
+  "type": "node",
+  "id": 4757311130,
+  "lat": 31.2216110,
+  "lon": 120.5915567
+},
+{
+  "type": "node",
+  "id": 4757311131,
+  "lat": 31.2225423,
+  "lon": 120.5927530
+},
+{
+  "type": "node",
+  "id": 4757311132,
+  "lat": 31.2243634,
+  "lon": 120.5953574
+},
+{
+  "type": "node",
+  "id": 4757311133,
+  "lat": 31.2250056,
+  "lon": 120.5964920
+},
+{
+  "type": "node",
+  "id": 4757311134,
+  "lat": 31.2278429,
+  "lon": 120.6020656
+},
+{
+  "type": "node",
+  "id": 4757311135,
+  "lat": 31.2281892,
+  "lon": 120.6025752
+},
+{
+  "type": "node",
+  "id": 4757311136,
+  "lat": 31.2312992,
+  "lon": 120.6063758
+},
+{
+  "type": "node",
+  "id": 4757311137,
+  "lat": 31.2315469,
+  "lon": 120.6066897
+},
+{
+  "type": "node",
+  "id": 4757311138,
+  "lat": 31.2318130,
+  "lon": 120.6071430
+},
+{
+  "type": "node",
+  "id": 4757311139,
+  "lat": 31.2320010,
+  "lon": 120.6077117
+},
+{
+  "type": "node",
+  "id": 4757311140,
+  "lat": 31.2320515,
+  "lon": 120.6082481
+},
+{
+  "type": "node",
+  "id": 4757311141,
+  "lat": 31.2320653,
+  "lon": 120.6090152
+},
+{
+  "type": "node",
+  "id": 4861405648,
+  "lat": 31.2726622,
+  "lon": 120.7575269
+},
+{
+  "type": "node",
+  "id": 4861405649,
+  "lat": 31.2725797,
+  "lon": 120.7578863
+},
+{
+  "type": "node",
+  "id": 4861405650,
+  "lat": 31.2728043,
+  "lon": 120.7567490
+},
+{
+  "type": "node",
+  "id": 4861405651,
+  "lat": 31.2721257,
+  "lon": 120.7538093
+},
+{
+  "type": "node",
+  "id": 4861405652,
+  "lat": 31.2725979,
+  "lon": 120.7550270
+},
+{
+  "type": "node",
+  "id": 4861405653,
+  "lat": 31.2619373,
+  "lon": 120.7207805
+},
+{
+  "type": "node",
+  "id": 4861405654,
+  "lat": 31.2620657,
+  "lon": 120.7213545
+},
+{
+  "type": "node",
+  "id": 4861405655,
+  "lat": 31.2620106,
+  "lon": 120.7210917
+},
+{
+  "type": "node",
+  "id": 4861405656,
+  "lat": 31.2616759,
+  "lon": 120.7202226
+},
+{
+  "type": "node",
+  "id": 4861405657,
+  "lat": 31.2604423,
+  "lon": 120.7195950
+},
+{
+  "type": "node",
+  "id": 4861405658,
+  "lat": 31.2506654,
+  "lon": 120.7162369
+},
+{
+  "type": "node",
+  "id": 4861405659,
+  "lat": 31.2510231,
+  "lon": 120.7169343
+},
+{
+  "type": "node",
+  "id": 4861405660,
+  "lat": 31.2515826,
+  "lon": 120.7174600
+},
+{
+  "type": "node",
+  "id": 4938222160,
+  "lat": 31.2322258,
+  "lon": 120.6133564
+},
+{
+  "type": "node",
+  "id": 4938222762,
+  "lat": 31.2382976,
+  "lon": 120.6244326
+},
+{
+  "type": "node",
+  "id": 4938222763,
+  "lat": 31.2422604,
+  "lon": 120.6255108
+},
+{
+  "type": "node",
+  "id": 4938222764,
+  "lat": 31.2373275,
+  "lon": 120.6242180
+},
+{
+  "type": "node",
+  "id": 4949065061,
+  "lat": 31.2321788,
+  "lon": 120.6124485
+},
+{
+  "type": "node",
+  "id": 4949065062,
+  "lat": 31.2321467,
+  "lon": 120.6115901
+},
+{
+  "type": "node",
+  "id": 4949065063,
+  "lat": 31.2320389,
+  "lon": 120.6079504
+},
+{
+  "type": "node",
+  "id": 4949065064,
+  "lat": 31.2319747,
+  "lon": 120.6075561
+},
+{
+  "type": "node",
+  "id": 4949065065,
+  "lat": 31.2317293,
+  "lon": 120.6069687
+},
+{
+  "type": "node",
+  "id": 4949065066,
+  "lat": 31.2316536,
+  "lon": 120.6068400
+},
+{
+  "type": "node",
+  "id": 4949065067,
+  "lat": 31.2280206,
+  "lon": 120.6023392
+},
+{
+  "type": "node",
+  "id": 4949065068,
+  "lat": 31.2319196,
+  "lon": 120.6073683
+},
+{
+  "type": "node",
+  "id": 5018128410,
+  "lat": 31.2876567,
+  "lon": 120.6213620,
+  "tags": {
+    "name": "人民桥南",
+    "name:en": "Renminqiao South",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 5095149397,
+  "lat": 31.2638855,
+  "lon": 120.6251273
+},
+{
+  "type": "node",
+  "id": 5095149398,
+  "lat": 31.2623012,
+  "lon": 120.6251970
+},
+{
+  "type": "node",
+  "id": 5095149399,
+  "lat": 31.2596553,
+  "lon": 120.6252882
+},
+{
+  "type": "node",
+  "id": 5095149446,
+  "lat": 31.2710844,
+  "lon": 120.6240302
+},
+{
+  "type": "node",
+  "id": 5114639869,
+  "lat": 31.3079527,
+  "lon": 120.6146586
+},
+{
+  "type": "node",
+  "id": 5114639870,
+  "lat": 31.3077029,
+  "lon": 120.6129768
+},
+{
+  "type": "node",
+  "id": 5119237343,
+  "lat": 31.4138632,
+  "lon": 120.6215090
+},
+{
+  "type": "node",
+  "id": 5121205249,
+  "lat": 31.3102500,
+  "lon": 120.6178330
+},
+{
+  "type": "node",
+  "id": 5121205250,
+  "lat": 31.3085824,
+  "lon": 120.6181683,
+  "tags": {
+    "name": "乐桥",
+    "name:en": "Leqiao",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway"
+  }
+},
+{
+  "type": "node",
+  "id": 5121497103,
+  "lat": 31.3106476,
+  "lon": 120.6291586
+},
+{
+  "type": "node",
+  "id": 5121497104,
+  "lat": 31.3104757,
+  "lon": 120.6282654
+},
+{
+  "type": "node",
+  "id": 5121497105,
+  "lat": 31.3112274,
+  "lon": 120.6310657
+},
+{
+  "type": "node",
+  "id": 5121497106,
+  "lat": 31.3113030,
+  "lon": 120.6313178
+},
+{
+  "type": "node",
+  "id": 5121497107,
+  "lat": 31.3113557,
+  "lon": 120.6315565
+},
+{
+  "type": "node",
+  "id": 5121497108,
+  "lat": 31.3108401,
+  "lon": 120.6300116
+},
+{
+  "type": "node",
+  "id": 5121497136,
+  "lat": 31.3219971,
+  "lon": 120.6157650
+},
+{
+  "type": "node",
+  "id": 5121497139,
+  "lat": 31.3225905,
+  "lon": 120.6156242
+},
+{
+  "type": "node",
+  "id": 5121497143,
+  "lat": 31.3007772,
+  "lon": 120.6193632
+},
+{
+  "type": "node",
+  "id": 5121497146,
+  "lat": 31.3016710,
+  "lon": 120.6192210
+},
+{
+  "type": "node",
+  "id": 5121497152,
+  "lat": 31.3152008,
+  "lon": 120.6167212
+},
+{
+  "type": "node",
+  "id": 5121497163,
+  "lat": 31.3243685,
+  "lon": 120.6149429
+},
+{
+  "type": "node",
+  "id": 5121497178,
+  "lat": 31.3081887,
+  "lon": 120.6182635
+},
+{
+  "type": "node",
+  "id": 5122097472,
+  "lat": 31.3340738,
+  "lon": 120.6060701
+},
+{
+  "type": "node",
+  "id": 5124292264,
+  "lat": 31.3164841,
+  "lon": 120.6597760
+},
+{
+  "type": "node",
+  "id": 5158381476,
+  "lat": 31.3320027,
+  "lon": 120.6024760
+},
+{
+  "type": "node",
+  "id": 5158381478,
+  "lat": 31.3324471,
+  "lon": 120.6035677
+},
+{
+  "type": "node",
+  "id": 5158381479,
+  "lat": 31.3322134,
+  "lon": 120.6029480
+},
+{
+  "type": "node",
+  "id": 5158381487,
+  "lat": 31.3339959,
+  "lon": 120.6104046
+},
+{
+  "type": "node",
+  "id": 5158381488,
+  "lat": 31.3338355,
+  "lon": 120.6100291
+},
+{
+  "type": "node",
+  "id": 5170487904,
+  "lat": 31.1396285,
+  "lon": 120.6711782
+},
+{
+  "type": "node",
+  "id": 5197536795,
+  "lat": 31.3066517,
+  "lon": 120.5969265,
+  "tags": {
+    "name": "广济南路",
+    "name:en": "Guangjinan Lu",
+    "operator": "SRT",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5218876251,
+  "lat": 31.2550008,
+  "lon": 120.6252740,
+  "tags": {
+    "name": "石湖东路",
+    "name:en": "Shihu Donglu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5218876253,
+  "lat": 31.3324887,
+  "lon": 120.6065305,
+  "tags": {
+    "name": "苏州火车站",
+    "name:en": "Suzhou Railway Station",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5367294686,
+  "lat": 31.3249150,
+  "lon": 120.6958008
+},
+{
+  "type": "node",
+  "id": 5367294687,
+  "lat": 31.3251006,
+  "lon": 120.6971754
+},
+{
+  "type": "node",
+  "id": 5367294695,
+  "lat": 31.3247627,
+  "lon": 120.6950390
+},
+{
+  "type": "node",
+  "id": 5367294696,
+  "lat": 31.3251476,
+  "lon": 120.6978782
+},
+{
+  "type": "node",
+  "id": 5367294697,
+  "lat": 31.3251247,
+  "lon": 120.6974477
+},
+{
+  "type": "node",
+  "id": 5367294698,
+  "lat": 31.3250743,
+  "lon": 120.6969434
+},
+{
+  "type": "node",
+  "id": 5367294699,
+  "lat": 31.3249826,
+  "lon": 120.6962353
+},
+{
+  "type": "node",
+  "id": 5367294700,
+  "lat": 31.3248451,
+  "lon": 120.6954092
+},
+{
+  "type": "node",
+  "id": 5367294701,
+  "lat": 31.3253504,
+  "lon": 120.7040727
+},
+{
+  "type": "node",
+  "id": 5367294702,
+  "lat": 31.3251900,
+  "lon": 120.7049713
+},
+{
+  "type": "node",
+  "id": 5367294703,
+  "lat": 31.3253400,
+  "lon": 120.7043946
+},
+{
+  "type": "node",
+  "id": 5367294704,
+  "lat": 31.3253251,
+  "lon": 120.7045300
+},
+{
+  "type": "node",
+  "id": 5367294705,
+  "lat": 31.3252650,
+  "lon": 120.7047889
+},
+{
+  "type": "node",
+  "id": 5367294706,
+  "lat": 31.3252988,
+  "lon": 120.7046662
+},
+{
+  "type": "node",
+  "id": 5367294707,
+  "lat": 31.3252392,
+  "lon": 120.7048559
+},
+{
+  "type": "node",
+  "id": 5367294708,
+  "lat": 31.3253458,
+  "lon": 120.7042497
+},
+{
+  "type": "node",
+  "id": 5367294709,
+  "lat": 31.3242769,
+  "lon": 120.7070728
+},
+{
+  "type": "node",
+  "id": 5367294710,
+  "lat": 31.3242929,
+  "lon": 120.7065591
+},
+{
+  "type": "node",
+  "id": 5367294711,
+  "lat": 31.3243582,
+  "lon": 120.7062802
+},
+{
+  "type": "node",
+  "id": 5367294712,
+  "lat": 31.3242769,
+  "lon": 120.7066785
+},
+{
+  "type": "node",
+  "id": 5367294713,
+  "lat": 31.3242700,
+  "lon": 120.7068998
+},
+{
+  "type": "node",
+  "id": 5367294714,
+  "lat": 31.3243147,
+  "lon": 120.7064505
+},
+{
+  "type": "node",
+  "id": 5367294715,
+  "lat": 31.3244350,
+  "lon": 120.7061098
+},
+{
+  "type": "node",
+  "id": 5367294716,
+  "lat": 31.3268477,
+  "lon": 120.7326731
+},
+{
+  "type": "node",
+  "id": 5367294717,
+  "lat": 31.3272120,
+  "lon": 120.7361873
+},
+{
+  "type": "node",
+  "id": 5402703545,
+  "lat": 31.3509753,
+  "lon": 120.6079316
+},
+{
+  "type": "node",
+  "id": 5469477007,
+  "lat": 31.2503965,
+  "lon": 120.7139593
+},
+{
+  "type": "node",
+  "id": 5469477008,
+  "lat": 31.2523639,
+  "lon": 120.7178324
+},
+{
+  "type": "node",
+  "id": 5469477009,
+  "lat": 31.2539094,
+  "lon": 120.7182991
+},
+{
+  "type": "node",
+  "id": 5469477010,
+  "lat": 31.2528088,
+  "lon": 120.7179880
+},
+{
+  "type": "node",
+  "id": 5469477011,
+  "lat": 31.2512954,
+  "lon": 120.7172263
+},
+{
+  "type": "node",
+  "id": 5469477012,
+  "lat": 31.2508093,
+  "lon": 120.7165718
+},
+{
+  "type": "node",
+  "id": 5469477013,
+  "lat": 31.2505524,
+  "lon": 120.7158315
+},
+{
+  "type": "node",
+  "id": 5469477014,
+  "lat": 31.2504791,
+  "lon": 120.7152951
+},
+{
+  "type": "node",
+  "id": 5469477015,
+  "lat": 31.2504240,
+  "lon": 120.7146084
+},
+{
+  "type": "node",
+  "id": 5469477016,
+  "lat": 31.2611732,
+  "lon": 120.7197529
+},
+{
+  "type": "node",
+  "id": 5469477017,
+  "lat": 31.2609622,
+  "lon": 120.7196724
+},
+{
+  "type": "node",
+  "id": 5469477018,
+  "lat": 31.2607972,
+  "lon": 120.7196402
+},
+{
+  "type": "node",
+  "id": 5469477019,
+  "lat": 31.2613474,
+  "lon": 120.7198548
+},
+{
+  "type": "node",
+  "id": 5469477020,
+  "lat": 31.2615354,
+  "lon": 120.7200426
+},
+{
+  "type": "node",
+  "id": 5469477021,
+  "lat": 31.2618197,
+  "lon": 120.7204664
+},
+{
+  "type": "node",
+  "id": 5469477022,
+  "lat": 31.2629432,
+  "lon": 120.7254982
+},
+{
+  "type": "node",
+  "id": 5469477023,
+  "lat": 31.2627827,
+  "lon": 120.7248491
+},
+{
+  "type": "node",
+  "id": 5469477024,
+  "lat": 31.2626497,
+  "lon": 120.7242483
+},
+{
+  "type": "node",
+  "id": 5469477025,
+  "lat": 31.2631816,
+  "lon": 120.7263833
+},
+{
+  "type": "node",
+  "id": 5469477026,
+  "lat": 31.2646398,
+  "lon": 120.7313132
+},
+{
+  "type": "node",
+  "id": 5469477027,
+  "lat": 31.2651075,
+  "lon": 120.7328045
+},
+{
+  "type": "node",
+  "id": 5469477028,
+  "lat": 31.2678793,
+  "lon": 120.7413098
+},
+{
+  "type": "node",
+  "id": 5469477029,
+  "lat": 31.2674093,
+  "lon": 120.7398158
+},
+{
+  "type": "node",
+  "id": 5469477030,
+  "lat": 31.2694635,
+  "lon": 120.7469344
+},
+{
+  "type": "node",
+  "id": 5469477031,
+  "lat": 31.2691701,
+  "lon": 120.7459581
+},
+{
+  "type": "node",
+  "id": 5469477032,
+  "lat": 31.2697203,
+  "lon": 120.7476640
+},
+{
+  "type": "node",
+  "id": 5469477033,
+  "lat": 31.2699954,
+  "lon": 120.7484257
+},
+{
+  "type": "node",
+  "id": 5469477034,
+  "lat": 31.2676570,
+  "lon": 120.7405803
+},
+{
+  "type": "node",
+  "id": 5469477035,
+  "lat": 31.2727281,
+  "lon": 120.7554102
+},
+{
+  "type": "node",
+  "id": 5469477036,
+  "lat": 31.2728060,
+  "lon": 120.7557750
+},
+{
+  "type": "node",
+  "id": 5469477037,
+  "lat": 31.2728427,
+  "lon": 120.7560700
+},
+{
+  "type": "node",
+  "id": 5469477038,
+  "lat": 31.2728381,
+  "lon": 120.7563758
+},
+{
+  "type": "node",
+  "id": 5469477039,
+  "lat": 31.2724713,
+  "lon": 120.7582909
+},
+{
+  "type": "node",
+  "id": 5469477040,
+  "lat": 31.2723521,
+  "lon": 120.7587200
+},
+{
+  "type": "node",
+  "id": 5469477041,
+  "lat": 31.2721825,
+  "lon": 120.7594228
+},
+{
+  "type": "node",
+  "id": 5469477042,
+  "lat": 31.2720277,
+  "lon": 120.7634407
+},
+{
+  "type": "node",
+  "id": 5469477043,
+  "lat": 31.2720082,
+  "lon": 120.7605010
+},
+{
+  "type": "node",
+  "id": 5469477044,
+  "lat": 31.2719395,
+  "lon": 120.7616329
+},
+{
+  "type": "node",
+  "id": 5469477045,
+  "lat": 31.2719349,
+  "lon": 120.7621372
+},
+{
+  "type": "node",
+  "id": 5469477046,
+  "lat": 31.2719486,
+  "lon": 120.7627433
+},
+{
+  "type": "node",
+  "id": 5469477047,
+  "lat": 31.2719853,
+  "lon": 120.7631457
+},
+{
+  "type": "node",
+  "id": 5469477048,
+  "lat": 31.2722146,
+  "lon": 120.7644009
+},
+{
+  "type": "node",
+  "id": 5469477049,
+  "lat": 31.2740302,
+  "lon": 120.7735741
+},
+{
+  "type": "node",
+  "id": 5469477050,
+  "lat": 31.2732691,
+  "lon": 120.7691592
+},
+{
+  "type": "node",
+  "id": 5469477051,
+  "lat": 31.2736588,
+  "lon": 120.7713318
+},
+{
+  "type": "node",
+  "id": 5469477052,
+  "lat": 31.1357299,
+  "lon": 120.6118530
+},
+{
+  "type": "node",
+  "id": 5469477053,
+  "lat": 31.1348483,
+  "lon": 120.6121534
+},
+{
+  "type": "node",
+  "id": 5469477054,
+  "lat": 31.1344121,
+  "lon": 120.6124753
+},
+{
+  "type": "node",
+  "id": 5469477055,
+  "lat": 31.1342560,
+  "lon": 120.6126416
+},
+{
+  "type": "node",
+  "id": 5469477056,
+  "lat": 31.1339942,
+  "lon": 120.6130117
+},
+{
+  "type": "node",
+  "id": 5469477057,
+  "lat": 31.1338519,
+  "lon": 120.6133068
+},
+{
+  "type": "node",
+  "id": 5469477058,
+  "lat": 31.1336545,
+  "lon": 120.6138968
+},
+{
+  "type": "node",
+  "id": 5469477059,
+  "lat": 31.1336085,
+  "lon": 120.6142080
+},
+{
+  "type": "node",
+  "id": 5469477060,
+  "lat": 31.1335534,
+  "lon": 120.6150341
+},
+{
+  "type": "node",
+  "id": 5469477061,
+  "lat": 31.1335351,
+  "lon": 120.6156832
+},
+{
+  "type": "node",
+  "id": 5469477062,
+  "lat": 31.1335213,
+  "lon": 120.6166166
+},
+{
+  "type": "node",
+  "id": 5469477063,
+  "lat": 31.1349677,
+  "lon": 120.6371999
+},
+{
+  "type": "node",
+  "id": 5469477064,
+  "lat": 31.1350457,
+  "lon": 120.6375673
+},
+{
+  "type": "node",
+  "id": 5469477065,
+  "lat": 31.1348942,
+  "lon": 120.6367868
+},
+{
+  "type": "node",
+  "id": 5469477066,
+  "lat": 31.1348437,
+  "lon": 120.6364703
+},
+{
+  "type": "node",
+  "id": 5469477067,
+  "lat": 31.1347657,
+  "lon": 120.6359070
+},
+{
+  "type": "node",
+  "id": 5469477068,
+  "lat": 31.1351835,
+  "lon": 120.6381655
+},
+{
+  "type": "node",
+  "id": 5469477069,
+  "lat": 31.1367171,
+  "lon": 120.6447959
+},
+{
+  "type": "node",
+  "id": 5469477070,
+  "lat": 31.1366344,
+  "lon": 120.6443453
+},
+{
+  "type": "node",
+  "id": 5469477071,
+  "lat": 31.1364990,
+  "lon": 120.6436908
+},
+{
+  "type": "node",
+  "id": 5469477072,
+  "lat": 31.1396270,
+  "lon": 120.6605317
+},
+{
+  "type": "node",
+  "id": 5469477073,
+  "lat": 31.1396189,
+  "lon": 120.6604318
+},
+{
+  "type": "node",
+  "id": 5469477074,
+  "lat": 31.1396069,
+  "lon": 120.6603078
+},
+{
+  "type": "node",
+  "id": 5469477075,
+  "lat": 31.1395897,
+  "lon": 120.6601696
+},
+{
+  "type": "node",
+  "id": 5469477076,
+  "lat": 31.1396287,
+  "lon": 120.6606410
+},
+{
+  "type": "node",
+  "id": 5469477077,
+  "lat": 31.1395684,
+  "lon": 120.6600335
+},
+{
+  "type": "node",
+  "id": 5469477078,
+  "lat": 31.1390886,
+  "lon": 120.6578824
+},
+{
+  "type": "node",
+  "id": 5469477079,
+  "lat": 31.1389119,
+  "lon": 120.6571394
+},
+{
+  "type": "node",
+  "id": 5469477080,
+  "lat": 31.1386272,
+  "lon": 120.6557822
+},
+{
+  "type": "node",
+  "id": 5469477081,
+  "lat": 31.1905773,
+  "lon": 120.6351399
+},
+{
+  "type": "node",
+  "id": 5469477082,
+  "lat": 31.1911670,
+  "lon": 120.6349736
+},
+{
+  "type": "node",
+  "id": 5469477083,
+  "lat": 31.2004867,
+  "lon": 120.6317282
+},
+{
+  "type": "node",
+  "id": 5469477084,
+  "lat": 31.2016614,
+  "lon": 120.6311703
+},
+{
+  "type": "node",
+  "id": 5469477085,
+  "lat": 31.2033086,
+  "lon": 120.6302851
+},
+{
+  "type": "node",
+  "id": 5469477086,
+  "lat": 31.2039005,
+  "lon": 120.6299364
+},
+{
+  "type": "node",
+  "id": 5469477087,
+  "lat": 31.2045291,
+  "lon": 120.6295395
+},
+{
+  "type": "node",
+  "id": 5469477088,
+  "lat": 31.1891409,
+  "lon": 120.6354457
+},
+{
+  "type": "node",
+  "id": 5469477089,
+  "lat": 31.1883631,
+  "lon": 120.6355584
+},
+{
+  "type": "node",
+  "id": 5469477090,
+  "lat": 31.1875738,
+  "lon": 120.6356227
+},
+{
+  "type": "node",
+  "id": 5469477091,
+  "lat": 31.2191521,
+  "lon": 120.6288461
+},
+{
+  "type": "node",
+  "id": 5469477092,
+  "lat": 31.2105855,
+  "lon": 120.6279248
+},
+{
+  "type": "node",
+  "id": 5469477093,
+  "lat": 31.2086126,
+  "lon": 120.6278014
+},
+{
+  "type": "node",
+  "id": 5469477094,
+  "lat": 31.2082777,
+  "lon": 120.6278068
+},
+{
+  "type": "node",
+  "id": 5469477095,
+  "lat": 31.2079290,
+  "lon": 120.6278336
+},
+{
+  "type": "node",
+  "id": 5469477096,
+  "lat": 31.2076262,
+  "lon": 120.6278765
+},
+{
+  "type": "node",
+  "id": 5469477097,
+  "lat": 31.2073738,
+  "lon": 120.6279302
+},
+{
+  "type": "node",
+  "id": 5469477098,
+  "lat": 31.2066053,
+  "lon": 120.6282064
+},
+{
+  "type": "node",
+  "id": 5469477099,
+  "lat": 31.2068026,
+  "lon": 120.6281233
+},
+{
+  "type": "node",
+  "id": 5469477100,
+  "lat": 31.2183251,
+  "lon": 120.6287295
+},
+{
+  "type": "node",
+  "id": 5469477101,
+  "lat": 31.2194032,
+  "lon": 120.6288636
+},
+{
+  "type": "node",
+  "id": 5469477102,
+  "lat": 31.2199721,
+  "lon": 120.6288528
+},
+{
+  "type": "node",
+  "id": 5469477103,
+  "lat": 31.2242522,
+  "lon": 120.6282909
+},
+{
+  "type": "node",
+  "id": 5469477104,
+  "lat": 31.2244036,
+  "lon": 120.6282574
+},
+{
+  "type": "node",
+  "id": 5469477105,
+  "lat": 31.2245962,
+  "lon": 120.6282037
+},
+{
+  "type": "node",
+  "id": 5469477106,
+  "lat": 31.2248761,
+  "lon": 120.6281018
+},
+{
+  "type": "node",
+  "id": 5469477107,
+  "lat": 31.2240974,
+  "lon": 120.6283204
+},
+{
+  "type": "node",
+  "id": 5469477108,
+  "lat": 31.2251697,
+  "lon": 120.6279945
+},
+{
+  "type": "node",
+  "id": 5469477109,
+  "lat": 31.2324770,
+  "lon": 120.6250441
+},
+{
+  "type": "node",
+  "id": 5469477110,
+  "lat": 31.2330228,
+  "lon": 120.6248885
+},
+{
+  "type": "node",
+  "id": 5469477111,
+  "lat": 31.2337384,
+  "lon": 120.6247222
+},
+{
+  "type": "node",
+  "id": 5469477112,
+  "lat": 31.2319770,
+  "lon": 120.6252158
+},
+{
+  "type": "node",
+  "id": 5469477113,
+  "lat": 31.2311697,
+  "lon": 120.6255054
+},
+{
+  "type": "node",
+  "id": 5469477114,
+  "lat": 31.2524602,
+  "lon": 120.6393671
+},
+{
+  "type": "node",
+  "id": 5469477115,
+  "lat": 31.2525496,
+  "lon": 120.6389996
+},
+{
+  "type": "node",
+  "id": 5469477116,
+  "lat": 31.2524144,
+  "lon": 120.6396514
+},
+{
+  "type": "node",
+  "id": 5469477117,
+  "lat": 31.2523685,
+  "lon": 120.6400591
+},
+{
+  "type": "node",
+  "id": 5469477118,
+  "lat": 31.2526528,
+  "lon": 120.6386536
+},
+{
+  "type": "node",
+  "id": 5469477119,
+  "lat": 31.2546844,
+  "lon": 120.6336111
+},
+{
+  "type": "node",
+  "id": 5469477120,
+  "lat": 31.2548128,
+  "lon": 120.6331712
+},
+{
+  "type": "node",
+  "id": 5469477221,
+  "lat": 31.2549183,
+  "lon": 120.6327313
+},
+{
+  "type": "node",
+  "id": 5469477222,
+  "lat": 31.2549825,
+  "lon": 120.6323451
+},
+{
+  "type": "node",
+  "id": 5469477223,
+  "lat": 31.2550054,
+  "lon": 120.6320393
+},
+{
+  "type": "node",
+  "id": 5469477224,
+  "lat": 31.2550100,
+  "lon": 120.6317818
+},
+{
+  "type": "node",
+  "id": 5469477225,
+  "lat": 31.2559707,
+  "lon": 120.6113005
+},
+{
+  "type": "node",
+  "id": 5469477226,
+  "lat": 31.2550375,
+  "lon": 120.6133175
+},
+{
+  "type": "node",
+  "id": 5469477227,
+  "lat": 31.2550834,
+  "lon": 120.6129420
+},
+{
+  "type": "node",
+  "id": 5469477228,
+  "lat": 31.2551292,
+  "lon": 120.6127059
+},
+{
+  "type": "node",
+  "id": 5469477229,
+  "lat": 31.2552118,
+  "lon": 120.6124324
+},
+{
+  "type": "node",
+  "id": 5469477230,
+  "lat": 31.2553035,
+  "lon": 120.6121856
+},
+{
+  "type": "node",
+  "id": 5469477231,
+  "lat": 31.2554365,
+  "lon": 120.6119227
+},
+{
+  "type": "node",
+  "id": 5469477232,
+  "lat": 31.2556016,
+  "lon": 120.6116760
+},
+{
+  "type": "node",
+  "id": 5469477233,
+  "lat": 31.2557621,
+  "lon": 120.6114936
+},
+{
+  "type": "node",
+  "id": 5469477234,
+  "lat": 31.2561152,
+  "lon": 120.6111932
+},
+{
+  "type": "node",
+  "id": 5469477235,
+  "lat": 31.2566517,
+  "lon": 120.6109142
+},
+{
+  "type": "node",
+  "id": 5469477236,
+  "lat": 31.2739569,
+  "lon": 120.6080604
+},
+{
+  "type": "node",
+  "id": 5469477237,
+  "lat": 31.2722237,
+  "lon": 120.6101900
+},
+{
+  "type": "node",
+  "id": 5469477238,
+  "lat": 31.2727923,
+  "lon": 120.6100666
+},
+{
+  "type": "node",
+  "id": 5469477239,
+  "lat": 31.2730307,
+  "lon": 120.6099486
+},
+{
+  "type": "node",
+  "id": 5469477240,
+  "lat": 31.2734250,
+  "lon": 120.6095838
+},
+{
+  "type": "node",
+  "id": 5469477241,
+  "lat": 31.2735809,
+  "lon": 120.6093800
+},
+{
+  "type": "node",
+  "id": 5469477242,
+  "lat": 31.2737460,
+  "lon": 120.6090796
+},
+{
+  "type": "node",
+  "id": 5469477243,
+  "lat": 31.2738835,
+  "lon": 120.6086934
+},
+{
+  "type": "node",
+  "id": 5469477244,
+  "lat": 31.2741334,
+  "lon": 120.6009525
+},
+{
+  "type": "node",
+  "id": 5469477245,
+  "lat": 31.2736497,
+  "lon": 120.6023848
+},
+{
+  "type": "node",
+  "id": 5469477246,
+  "lat": 31.2737047,
+  "lon": 120.6020468
+},
+{
+  "type": "node",
+  "id": 5469477247,
+  "lat": 31.2737964,
+  "lon": 120.6017035
+},
+{
+  "type": "node",
+  "id": 5469477248,
+  "lat": 31.2740073,
+  "lon": 120.6011617
+},
+{
+  "type": "node",
+  "id": 5469477249,
+  "lat": 31.2742939,
+  "lon": 120.6007218
+},
+{
+  "type": "node",
+  "id": 5469477250,
+  "lat": 31.2744658,
+  "lon": 120.6005019
+},
+{
+  "type": "node",
+  "id": 5469477251,
+  "lat": 31.2802564,
+  "lon": 120.5959690
+},
+{
+  "type": "node",
+  "id": 5469477252,
+  "lat": 31.2800730,
+  "lon": 120.5960816
+},
+{
+  "type": "node",
+  "id": 5469477253,
+  "lat": 31.2804443,
+  "lon": 120.5958778
+},
+{
+  "type": "node",
+  "id": 5469477254,
+  "lat": 31.2824019,
+  "lon": 120.5952126
+},
+{
+  "type": "node",
+  "id": 5469477255,
+  "lat": 31.2821406,
+  "lon": 120.5952662
+},
+{
+  "type": "node",
+  "id": 5469477256,
+  "lat": 31.2524579,
+  "lon": 120.6539717
+},
+{
+  "type": "node",
+  "id": 5469477257,
+  "lat": 31.2524510,
+  "lon": 120.6537813
+},
+{
+  "type": "node",
+  "id": 5469477258,
+  "lat": 31.2524258,
+  "lon": 120.6535614
+},
+{
+  "type": "node",
+  "id": 5469477259,
+  "lat": 31.2523845,
+  "lon": 120.6533414
+},
+{
+  "type": "node",
+  "id": 5469477260,
+  "lat": 31.2518159,
+  "lon": 120.6513002
+},
+{
+  "type": "node",
+  "id": 5469477261,
+  "lat": 31.2517723,
+  "lon": 120.6510723
+},
+{
+  "type": "node",
+  "id": 5469477262,
+  "lat": 31.2522951,
+  "lon": 120.6529927
+},
+{
+  "type": "node",
+  "id": 5469477263,
+  "lat": 31.2517448,
+  "lon": 120.6508040
+},
+{
+  "type": "node",
+  "id": 5469477264,
+  "lat": 31.2517265,
+  "lon": 120.6505573
+},
+{
+  "type": "node",
+  "id": 5469477265,
+  "lat": 31.2517173,
+  "lon": 120.6500637
+},
+{
+  "type": "node",
+  "id": 5469477266,
+  "lat": 31.2517265,
+  "lon": 120.6497151
+},
+{
+  "type": "node",
+  "id": 5469477267,
+  "lat": 31.2518594,
+  "lon": 120.6515121
+},
+{
+  "type": "node",
+  "id": 5469477268,
+  "lat": 31.2524556,
+  "lon": 120.6541622
+},
+{
+  "type": "node",
+  "id": 5469477269,
+  "lat": 31.2503369,
+  "lon": 120.6846803
+},
+{
+  "type": "node",
+  "id": 5469477270,
+  "lat": 31.2503185,
+  "lon": 120.6859249
+},
+{
+  "type": "node",
+  "id": 5469477271,
+  "lat": 31.1706567,
+  "lon": 120.6171584
+},
+{
+  "type": "node",
+  "id": 5469477272,
+  "lat": 31.1710446,
+  "lon": 120.6175688
+},
+{
+  "type": "node",
+  "id": 5469477273,
+  "lat": 31.1717858,
+  "lon": 120.6198192
+},
+{
+  "type": "node",
+  "id": 5469477274,
+  "lat": 31.1717078,
+  "lon": 120.6189662
+},
+{
+  "type": "node",
+  "id": 5469477275,
+  "lat": 31.1715609,
+  "lon": 120.6184781
+},
+{
+  "type": "node",
+  "id": 5469477276,
+  "lat": 31.1712305,
+  "lon": 120.6178397
+},
+{
+  "type": "node",
+  "id": 5469477277,
+  "lat": 31.1705052,
+  "lon": 120.6170511
+},
+{
+  "type": "node",
+  "id": 5469477278,
+  "lat": 31.1721071,
+  "lon": 120.6338149
+},
+{
+  "type": "node",
+  "id": 5469477279,
+  "lat": 31.1726763,
+  "lon": 120.6352204
+},
+{
+  "type": "node",
+  "id": 5469477280,
+  "lat": 31.1724192,
+  "lon": 120.6348556
+},
+{
+  "type": "node",
+  "id": 5469477281,
+  "lat": 31.1516248,
+  "lon": 120.6104636
+},
+{
+  "type": "node",
+  "id": 5469477282,
+  "lat": 31.1522492,
+  "lon": 120.6104958
+},
+{
+  "type": "node",
+  "id": 5469477283,
+  "lat": 31.1864150,
+  "lon": 120.5947325
+},
+{
+  "type": "node",
+  "id": 5469477284,
+  "lat": 31.1877757,
+  "lon": 120.5962962
+},
+{
+  "type": "node",
+  "id": 5469477285,
+  "lat": 31.1875829,
+  "lon": 120.5962640
+},
+{
+  "type": "node",
+  "id": 5469477286,
+  "lat": 31.1871929,
+  "lon": 120.5960816
+},
+{
+  "type": "node",
+  "id": 5469477287,
+  "lat": 31.1868395,
+  "lon": 120.5957758
+},
+{
+  "type": "node",
+  "id": 5469477288,
+  "lat": 31.1866743,
+  "lon": 120.5954862
+},
+{
+  "type": "node",
+  "id": 5469477289,
+  "lat": 31.1864724,
+  "lon": 120.5949712
+},
+{
+  "type": "node",
+  "id": 5469477290,
+  "lat": 31.2012438,
+  "lon": 120.5927664
+},
+{
+  "type": "node",
+  "id": 5469477291,
+  "lat": 31.2015925,
+  "lon": 120.5925196
+},
+{
+  "type": "node",
+  "id": 5469477292,
+  "lat": 31.2017807,
+  "lon": 120.5924284
+},
+{
+  "type": "node",
+  "id": 5469477293,
+  "lat": 31.2022579,
+  "lon": 120.5922943
+},
+{
+  "type": "node",
+  "id": 5469477294,
+  "lat": 31.2037996,
+  "lon": 120.5921763
+},
+{
+  "type": "node",
+  "id": 5469477295,
+  "lat": 31.1983071,
+  "lon": 120.5951858
+},
+{
+  "type": "node",
+  "id": 5469477296,
+  "lat": 31.1989404,
+  "lon": 120.5947351
+},
+{
+  "type": "node",
+  "id": 5469477297,
+  "lat": 31.1969076,
+  "lon": 120.5959314
+},
+{
+  "type": "node",
+  "id": 5469477298,
+  "lat": 31.1960587,
+  "lon": 120.5961353
+},
+{
+  "type": "node",
+  "id": 5469477299,
+  "lat": 31.1957008,
+  "lon": 120.5961728
+},
+{
+  "type": "node",
+  "id": 5469477300,
+  "lat": 31.1951180,
+  "lon": 120.5962372
+},
+{
+  "type": "node",
+  "id": 5469477301,
+  "lat": 31.2168020,
+  "lon": 120.5922300
+},
+{
+  "type": "node",
+  "id": 5469477302,
+  "lat": 31.2165359,
+  "lon": 120.5922353
+},
+{
+  "type": "node",
+  "id": 5469477303,
+  "lat": 31.2162332,
+  "lon": 120.5922460
+},
+{
+  "type": "node",
+  "id": 5469477304,
+  "lat": 31.2214470,
+  "lon": 120.5913837
+},
+{
+  "type": "node",
+  "id": 5469477305,
+  "lat": 31.2215112,
+  "lon": 120.5914454
+},
+{
+  "type": "node",
+  "id": 5469477306,
+  "lat": 31.2212979,
+  "lon": 120.5912965
+},
+{
+  "type": "node",
+  "id": 5469477307,
+  "lat": 31.2209905,
+  "lon": 120.5912429
+},
+{
+  "type": "node",
+  "id": 5469477308,
+  "lat": 31.2240366,
+  "lon": 120.5948317
+},
+{
+  "type": "node",
+  "id": 5469477309,
+  "lat": 31.2235824,
+  "lon": 120.5941665
+},
+{
+  "type": "node",
+  "id": 5469477310,
+  "lat": 31.2365547,
+  "lon": 120.6239819
+},
+{
+  "type": "node",
+  "id": 5469477311,
+  "lat": 31.2361235,
+  "lon": 120.6238639
+},
+{
+  "type": "node",
+  "id": 5469477312,
+  "lat": 31.2355227,
+  "lon": 120.6236547
+},
+{
+  "type": "node",
+  "id": 5469477313,
+  "lat": 31.2345319,
+  "lon": 120.6232309
+},
+{
+  "type": "node",
+  "id": 5469477314,
+  "lat": 31.2342750,
+  "lon": 120.6230915
+},
+{
+  "type": "node",
+  "id": 5469477315,
+  "lat": 31.2339952,
+  "lon": 120.6228876
+},
+{
+  "type": "node",
+  "id": 5469477316,
+  "lat": 31.2337430,
+  "lon": 120.6226784
+},
+{
+  "type": "node",
+  "id": 5469477317,
+  "lat": 31.2335228,
+  "lon": 120.6224638
+},
+{
+  "type": "node",
+  "id": 5469477318,
+  "lat": 31.2333118,
+  "lon": 120.6222278
+},
+{
+  "type": "node",
+  "id": 5469477319,
+  "lat": 31.2331191,
+  "lon": 120.6219488
+},
+{
+  "type": "node",
+  "id": 5469477320,
+  "lat": 31.2329724,
+  "lon": 120.6217021
+},
+{
+  "type": "node",
+  "id": 5469477421,
+  "lat": 31.2328256,
+  "lon": 120.6213909
+},
+{
+  "type": "node",
+  "id": 5469477422,
+  "lat": 31.2327063,
+  "lon": 120.6211066
+},
+{
+  "type": "node",
+  "id": 5469477423,
+  "lat": 31.2326008,
+  "lon": 120.6207794
+},
+{
+  "type": "node",
+  "id": 5469477424,
+  "lat": 31.2325366,
+  "lon": 120.6204629
+},
+{
+  "type": "node",
+  "id": 5469477425,
+  "lat": 31.2324816,
+  "lon": 120.6200820
+},
+{
+  "type": "node",
+  "id": 5469477426,
+  "lat": 31.2324311,
+  "lon": 120.6196529
+},
+{
+  "type": "node",
+  "id": 5469477427,
+  "lat": 31.2324082,
+  "lon": 120.6192237
+},
+{
+  "type": "node",
+  "id": 5469477428,
+  "lat": 31.2323715,
+  "lon": 120.6163296
+},
+{
+  "type": "node",
+  "id": 5469477429,
+  "lat": 31.2323416,
+  "lon": 120.6154633
+},
+{
+  "type": "node",
+  "id": 5469477430,
+  "lat": 31.2323898,
+  "lon": 120.6188106
+},
+{
+  "type": "node",
+  "id": 5469477431,
+  "lat": 31.2974930,
+  "lon": 120.5926082
+},
+{
+  "type": "node",
+  "id": 5469477432,
+  "lat": 31.2970346,
+  "lon": 120.5925760
+},
+{
+  "type": "node",
+  "id": 5469477433,
+  "lat": 31.2968169,
+  "lon": 120.5925840
+},
+{
+  "type": "node",
+  "id": 5469477434,
+  "lat": 31.2964479,
+  "lon": 120.5926189
+},
+{
+  "type": "node",
+  "id": 5469477435,
+  "lat": 31.2960399,
+  "lon": 120.5926645
+},
+{
+  "type": "node",
+  "id": 5469477436,
+  "lat": 31.2972684,
+  "lon": 120.5925867
+},
+{
+  "type": "node",
+  "id": 5469477437,
+  "lat": 31.3040637,
+  "lon": 120.5966690
+},
+{
+  "type": "node",
+  "id": 5469477438,
+  "lat": 31.3043662,
+  "lon": 120.5968085
+},
+{
+  "type": "node",
+  "id": 5469477439,
+  "lat": 31.3051843,
+  "lon": 120.5970204
+},
+{
+  "type": "node",
+  "id": 5469477440,
+  "lat": 31.3053608,
+  "lon": 120.5970311
+},
+{
+  "type": "node",
+  "id": 5469477441,
+  "lat": 31.3055510,
+  "lon": 120.5970311
+},
+{
+  "type": "node",
+  "id": 5469477442,
+  "lat": 31.3058627,
+  "lon": 120.5970097
+},
+{
+  "type": "node",
+  "id": 5469477443,
+  "lat": 31.3168530,
+  "lon": 120.5953145
+},
+{
+  "type": "node",
+  "id": 5469477444,
+  "lat": 31.3190212,
+  "lon": 120.5951790
+},
+{
+  "type": "node",
+  "id": 5469477445,
+  "lat": 31.3195413,
+  "lon": 120.5953347
+},
+{
+  "type": "node",
+  "id": 5469477446,
+  "lat": 31.3213784,
+  "lon": 120.5973369
+},
+{
+  "type": "node",
+  "id": 5469477447,
+  "lat": 31.3204092,
+  "lon": 120.5964544
+},
+{
+  "type": "node",
+  "id": 5469477448,
+  "lat": 31.3200540,
+  "lon": 120.5958590
+},
+{
+  "type": "node",
+  "id": 5469477449,
+  "lat": 31.3194262,
+  "lon": 120.5952810
+},
+{
+  "type": "node",
+  "id": 5469477450,
+  "lat": 31.3187686,
+  "lon": 120.5951670
+},
+{
+  "type": "node",
+  "id": 5469477451,
+  "lat": 31.3271524,
+  "lon": 120.6087282
+},
+{
+  "type": "node",
+  "id": 5469477452,
+  "lat": 31.3275006,
+  "lon": 120.6083098
+},
+{
+  "type": "node",
+  "id": 5469477453,
+  "lat": 31.3277023,
+  "lon": 120.6081274
+},
+{
+  "type": "node",
+  "id": 5469477454,
+  "lat": 31.3279635,
+  "lon": 120.6079557
+},
+{
+  "type": "node",
+  "id": 5469477455,
+  "lat": 31.3273151,
+  "lon": 120.6085110
+},
+{
+  "type": "node",
+  "id": 5469477456,
+  "lat": 31.3270080,
+  "lon": 120.6089508
+},
+{
+  "type": "node",
+  "id": 5469477457,
+  "lat": 31.3282292,
+  "lon": 120.6078109
+},
+{
+  "type": "node",
+  "id": 5469477458,
+  "lat": 31.4048622,
+  "lon": 120.5961889
+},
+{
+  "type": "node",
+  "id": 5469477459,
+  "lat": 31.4021928,
+  "lon": 120.5935550
+},
+{
+  "type": "node",
+  "id": 5469477460,
+  "lat": 31.4029208,
+  "lon": 120.5937964
+},
+{
+  "type": "node",
+  "id": 5469477461,
+  "lat": 31.4041891,
+  "lon": 120.5949497
+},
+{
+  "type": "node",
+  "id": 5469477462,
+  "lat": 31.4046974,
+  "lon": 120.5957973
+},
+{
+  "type": "node",
+  "id": 5469477463,
+  "lat": 31.4050041,
+  "lon": 120.5966020
+},
+{
+  "type": "node",
+  "id": 5469477464,
+  "lat": 31.4051873,
+  "lon": 120.5976963
+},
+{
+  "type": "node",
+  "id": 5469477465,
+  "lat": 31.3780257,
+  "lon": 120.5957007
+},
+{
+  "type": "node",
+  "id": 5469477466,
+  "lat": 31.3787836,
+  "lon": 120.5955076
+},
+{
+  "type": "node",
+  "id": 5469477467,
+  "lat": 31.3577461,
+  "lon": 120.5997509
+},
+{
+  "type": "node",
+  "id": 5469477468,
+  "lat": 31.3488359,
+  "lon": 120.5981898
+},
+{
+  "type": "node",
+  "id": 5469477469,
+  "lat": 31.3494360,
+  "lon": 120.5981845
+},
+{
+  "type": "node",
+  "id": 5469477470,
+  "lat": 31.3491703,
+  "lon": 120.5981684
+},
+{
+  "type": "node",
+  "id": 5469477471,
+  "lat": 31.3499354,
+  "lon": 120.5982435
+},
+{
+  "type": "node",
+  "id": 5469477472,
+  "lat": 31.3367909,
+  "lon": 120.6021112
+},
+{
+  "type": "node",
+  "id": 5469477473,
+  "lat": 31.3370291,
+  "lon": 120.6018376
+},
+{
+  "type": "node",
+  "id": 5469477474,
+  "lat": 31.3372903,
+  "lon": 120.6016016
+},
+{
+  "type": "node",
+  "id": 5469477475,
+  "lat": 31.3343075,
+  "lon": 120.6059146
+},
+{
+  "type": "node",
+  "id": 5469477476,
+  "lat": 31.3345411,
+  "lon": 120.6057161
+},
+{
+  "type": "node",
+  "id": 5469477477,
+  "lat": 31.3349673,
+  "lon": 120.6051636
+},
+{
+  "type": "node",
+  "id": 5469477478,
+  "lat": 31.3364014,
+  "lon": 120.6026852
+},
+{
+  "type": "node",
+  "id": 5469477479,
+  "lat": 31.3352009,
+  "lon": 120.6048095
+},
+{
+  "type": "node",
+  "id": 5469477480,
+  "lat": 31.3591982,
+  "lon": 120.6249100
+},
+{
+  "type": "node",
+  "id": 5469477481,
+  "lat": 31.3576315,
+  "lon": 120.6246418
+},
+{
+  "type": "node",
+  "id": 5469477482,
+  "lat": 31.3585294,
+  "lon": 120.6248939
+},
+{
+  "type": "node",
+  "id": 5469477483,
+  "lat": 31.3568940,
+  "lon": 120.6241375
+},
+{
+  "type": "node",
+  "id": 5469477484,
+  "lat": 31.3564222,
+  "lon": 120.6235528
+},
+{
+  "type": "node",
+  "id": 5469477485,
+  "lat": 31.3562206,
+  "lon": 120.6231719
+},
+{
+  "type": "node",
+  "id": 5469477486,
+  "lat": 31.3559549,
+  "lon": 120.6222761
+},
+{
+  "type": "node",
+  "id": 5469477487,
+  "lat": 31.3537148,
+  "lon": 120.6086397
+},
+{
+  "type": "node",
+  "id": 5469477488,
+  "lat": 31.3533987,
+  "lon": 120.6083447
+},
+{
+  "type": "node",
+  "id": 5469477489,
+  "lat": 31.3530964,
+  "lon": 120.6081355
+},
+{
+  "type": "node",
+  "id": 5469477490,
+  "lat": 31.3527986,
+  "lon": 120.6079853
+},
+{
+  "type": "node",
+  "id": 5469477491,
+  "lat": 31.3524413,
+  "lon": 120.6078887
+},
+{
+  "type": "node",
+  "id": 5469477492,
+  "lat": 31.3520840,
+  "lon": 120.6078190
+},
+{
+  "type": "node",
+  "id": 5469477493,
+  "lat": 31.3518182,
+  "lon": 120.6078082
+},
+{
+  "type": "node",
+  "id": 5469477494,
+  "lat": 31.3540447,
+  "lon": 120.6090259
+},
+{
+  "type": "node",
+  "id": 5469477495,
+  "lat": 31.3543149,
+  "lon": 120.6094229
+},
+{
+  "type": "node",
+  "id": 5469477496,
+  "lat": 31.3544615,
+  "lon": 120.6097019
+},
+{
+  "type": "node",
+  "id": 5469477497,
+  "lat": 31.3546035,
+  "lon": 120.6101042
+},
+{
+  "type": "node",
+  "id": 5469477498,
+  "lat": 31.3547043,
+  "lon": 120.6105334
+},
+{
+  "type": "node",
+  "id": 5469477499,
+  "lat": 31.3323211,
+  "lon": 120.6032109
+},
+{
+  "type": "node",
+  "id": 5469477500,
+  "lat": 31.3317736,
+  "lon": 120.6020710
+},
+{
+  "type": "node",
+  "id": 5469477501,
+  "lat": 31.3316384,
+  "lon": 120.6018966
+},
+{
+  "type": "node",
+  "id": 5469477502,
+  "lat": 31.3313474,
+  "lon": 120.6016338
+},
+{
+  "type": "node",
+  "id": 5469477503,
+  "lat": 31.3311550,
+  "lon": 120.6015372
+},
+{
+  "type": "node",
+  "id": 5469477504,
+  "lat": 31.3269737,
+  "lon": 120.6008036
+},
+{
+  "type": "node",
+  "id": 5469477505,
+  "lat": 31.3261695,
+  "lon": 120.6003571
+},
+{
+  "type": "node",
+  "id": 5469477506,
+  "lat": 31.3263436,
+  "lon": 120.6005207
+},
+{
+  "type": "node",
+  "id": 5469477507,
+  "lat": 31.3265406,
+  "lon": 120.6006467
+},
+{
+  "type": "node",
+  "id": 5469477508,
+  "lat": 31.3236285,
+  "lon": 120.5983910
+},
+{
+  "type": "node",
+  "id": 5469477509,
+  "lat": 31.3241440,
+  "lon": 120.5984876
+},
+{
+  "type": "node",
+  "id": 5469477510,
+  "lat": 31.3243250,
+  "lon": 120.5985519
+},
+{
+  "type": "node",
+  "id": 5469477511,
+  "lat": 31.3245015,
+  "lon": 120.5986431
+},
+{
+  "type": "node",
+  "id": 5469477512,
+  "lat": 31.3246504,
+  "lon": 120.5987424
+},
+{
+  "type": "node",
+  "id": 5469477513,
+  "lat": 31.3248383,
+  "lon": 120.5988872
+},
+{
+  "type": "node",
+  "id": 5469477514,
+  "lat": 31.3250078,
+  "lon": 120.5990481
+},
+{
+  "type": "node",
+  "id": 5469477515,
+  "lat": 31.3233444,
+  "lon": 120.5983266
+},
+{
+  "type": "node",
+  "id": 5469477516,
+  "lat": 31.3231656,
+  "lon": 120.5982757
+},
+{
+  "type": "node",
+  "id": 5469477517,
+  "lat": 31.3326029,
+  "lon": 120.6040961
+},
+{
+  "type": "node",
+  "id": 5469477518,
+  "lat": 31.3337507,
+  "lon": 120.6097247
+},
+{
+  "type": "node",
+  "id": 5469477519,
+  "lat": 31.3339100,
+  "lon": 120.6102128
+},
+{
+  "type": "node",
+  "id": 5469477520,
+  "lat": 31.3340783,
+  "lon": 120.6105481
+},
+{
+  "type": "node",
+  "id": 5469477621,
+  "lat": 31.3379409,
+  "lon": 120.6012475
+},
+{
+  "type": "node",
+  "id": 5469477622,
+  "lat": 31.3267973,
+  "lon": 120.6093693
+},
+{
+  "type": "node",
+  "id": 5469477623,
+  "lat": 31.3250330,
+  "lon": 120.6142616
+},
+{
+  "type": "node",
+  "id": 5469477624,
+  "lat": 31.3251063,
+  "lon": 120.6140953
+},
+{
+  "type": "node",
+  "id": 5469477625,
+  "lat": 31.3249482,
+  "lon": 120.6144091
+},
+{
+  "type": "node",
+  "id": 5469477626,
+  "lat": 31.3193643,
+  "lon": 120.6770548
+},
+{
+  "type": "node",
+  "id": 5469477627,
+  "lat": 31.3192727,
+  "lon": 120.6766659
+},
+{
+  "type": "node",
+  "id": 5469477628,
+  "lat": 31.3194491,
+  "lon": 120.6774008
+},
+{
+  "type": "node",
+  "id": 5469477629,
+  "lat": 31.3191902,
+  "lon": 120.6762502
+},
+{
+  "type": "node",
+  "id": 5469477630,
+  "lat": 31.2807309,
+  "lon": 120.5407369
+},
+{
+  "type": "node",
+  "id": 5469477631,
+  "lat": 31.2806506,
+  "lon": 120.5402836
+},
+{
+  "type": "node",
+  "id": 5469477632,
+  "lat": 31.2808340,
+  "lon": 120.5411661
+},
+{
+  "type": "node",
+  "id": 5469477633,
+  "lat": 31.2829567,
+  "lon": 120.5454656
+},
+{
+  "type": "node",
+  "id": 5469477634,
+  "lat": 31.2833280,
+  "lon": 120.5456454
+},
+{
+  "type": "node",
+  "id": 5469477635,
+  "lat": 31.2835481,
+  "lon": 120.5456883
+},
+{
+  "type": "node",
+  "id": 5469477636,
+  "lat": 31.2830816,
+  "lon": 120.5455434
+},
+{
+  "type": "node",
+  "id": 5469477637,
+  "lat": 31.2826541,
+  "lon": 120.5452055
+},
+{
+  "type": "node",
+  "id": 5469477638,
+  "lat": 31.2824478,
+  "lon": 120.5449426
+},
+{
+  "type": "node",
+  "id": 5469477639,
+  "lat": 31.2998078,
+  "lon": 120.5449185
+},
+{
+  "type": "node",
+  "id": 5469477640,
+  "lat": 31.3006993,
+  "lon": 120.5454442
+},
+{
+  "type": "node",
+  "id": 5469477641,
+  "lat": 31.3010362,
+  "lon": 120.5458331
+},
+{
+  "type": "node",
+  "id": 5469477642,
+  "lat": 31.2995351,
+  "lon": 120.5448246
+},
+{
+  "type": "node",
+  "id": 5469477643,
+  "lat": 31.2989461,
+  "lon": 120.5446690
+},
+{
+  "type": "node",
+  "id": 5469477644,
+  "lat": 31.2986527,
+  "lon": 120.5446261
+},
+{
+  "type": "node",
+  "id": 5469477645,
+  "lat": 31.3033051,
+  "lon": 120.5675617
+},
+{
+  "type": "node",
+  "id": 5469477646,
+  "lat": 31.3032982,
+  "lon": 120.5681920
+},
+{
+  "type": "node",
+  "id": 5469477647,
+  "lat": 31.3033005,
+  "lon": 120.5671567
+},
+{
+  "type": "node",
+  "id": 5469477648,
+  "lat": 31.3032959,
+  "lon": 120.5687016
+},
+{
+  "type": "node",
+  "id": 5469477649,
+  "lat": 31.3033234,
+  "lon": 120.5696458
+},
+{
+  "type": "node",
+  "id": 5469477650,
+  "lat": 31.3032822,
+  "lon": 120.5664754
+},
+{
+  "type": "node",
+  "id": 5469481942,
+  "lat": 31.1724635,
+  "lon": 120.6349344
+},
+{
+  "type": "node",
+  "id": 5469481967,
+  "lat": 31.2214785,
+  "lon": 120.5914140
+},
+{
+  "type": "node",
+  "id": 5870698515,
+  "lat": 31.3193346,
+  "lon": 120.5952421
+},
+{
+  "type": "node",
+  "id": 5870698516,
+  "lat": 31.3191255,
+  "lon": 120.5951878
+},
+{
+  "type": "node",
+  "id": 5870698517,
+  "lat": 31.3179231,
+  "lon": 120.5951697
+},
+{
+  "type": "node",
+  "id": 5870698518,
+  "lat": 31.3099048,
+  "lon": 120.5964860
+},
+{
+  "type": "node",
+  "id": 6399884550,
+  "lat": 31.2524603,
+  "lon": 120.6550413
+},
+{
+  "type": "way",
+  "id": 266067036,
+  "nodes": [
+    2716413310,
+    2716413326,
+    5469477480,
+    2716413335,
+    5469477482,
+    2716413324,
+    5469477481,
+    2716413313,
+    5469477483,
+    2716413321,
+    5469477484,
+    5469477485,
+    2716413323,
+    5469477486,
+    2716413344,
+    2969873068,
+    2716413312,
+    2969873060,
+    2969873059,
+    5469477498,
+    5469477497,
+    5469477496,
+    5469477495,
+    5469477494,
+    5469477487,
+    5469477488,
+    5469477489,
+    5469477490,
+    5469477491,
+    5469477492,
+    5469477493,
+    2969873058,
+    5402703545,
+    2969873054,
+    2716415628,
+    2969873064,
+    2969873050,
+    4580786399,
+    4580786400,
+    4580786401,
+    4580786402,
+    4580786403,
+    4580786404,
+    4580786405,
+    4580786406,
+    5469477520,
+    5158381487,
+    5469477519,
+    5158381488,
+    5469477518,
+    4580786407,
+    2969873049,
+    2969873066,
+    2716415629,
+    5469477517,
+    5158381478,
+    5469477499,
+    5158381479,
+    5158381476,
+    2969873036,
+    5469477500,
+    5469477501,
+    4580786409,
+    5469477502,
+    5469477503,
+    2969847007,
+    4580786408,
+    2969847005,
+    5469477504,
+    2969847004,
+    5469477507,
+    5469477506,
+    5469477505,
+    2969847003,
+    5469477514,
+    5469477513,
+    5469477512,
+    5469477511,
+    5469477510,
+    5469477509,
+    5469477508,
+    5469477515,
+    5469477516,
+    4580786410,
+    2716415631,
+    5469477446,
+    2969846991,
+    4580786417,
+    5469477447,
+    2969846990,
+    5469477448,
+    2969846989,
+    2969846988,
+    4580786416,
+    5469477445,
+    5469477449,
+    5870698515,
+    2969846987,
+    5870698516,
+    5469477444,
+    5469477450,
+    4580786415,
+    5870698517,
+    4580786414,
+    5469477443,
+    2969847010,
+    5870698518,
+    5197536795,
+    5469477442,
+    5469477441,
+    5469477440,
+    5469477439,
+    2969846985,
+    2969846984,
+    5469477438,
+    5469477437,
+    2969846983,
+    2969846982,
+    2969847008,
+    4580786421,
+    4580786420,
+    4580786419,
+    2969846977,
+    4580786418,
+    5469477431,
+    5469477436,
+    5469477432,
+    5469477433,
+    5469477434,
+    5469477435,
+    2716415633,
+    2969847009,
+    2716415626,
+    3023669169,
+    3023669186,
+    5469477254,
+    5469477255,
+    2969846972,
+    2716415639,
+    5469477253,
+    5469477251,
+    5469477252,
+    2969846968,
+    2969846967,
+    2969859601,
+    2969859600,
+    2969859599,
+    5469477250,
+    5469477249,
+    5469477244,
+    5469477248,
+    2969859596,
+    5469477247,
+    5469477246,
+    5469477245,
+    3023669202,
+    2969859594,
+    2716415624,
+    2969859602,
+    2969859597,
+    2969859598,
+    2969859595,
+    5469477236,
+    2969859593,
+    5469477243,
+    5469477242,
+    5469477241,
+    5469477240,
+    2969859592,
+    5469477239,
+    5469477238,
+    2969859591,
+    5469477237,
+    2969859590,
+    2969859604,
+    2969859588,
+    2716415638,
+    2969859587,
+    2969859586,
+    5469477235,
+    2969859585,
+    5469477234,
+    5469477225,
+    5469477233,
+    5469477232,
+    5469477231,
+    5469477230,
+    5469477229,
+    5469477228,
+    5469477227,
+    5469477226,
+    2969859584,
+    2969859583,
+    2969859582,
+    5218876251,
+    2969859581,
+    5469477224,
+    5469477223,
+    5469477222,
+    5469477221,
+    5469477120,
+    5469477119,
+    2969859580,
+    2969859579,
+    5469477118,
+    5469477115,
+    5469477114,
+    5469477116,
+    5469477117,
+    2969859578,
+    2969859603,
+    4411711963
+  ],
+  "tags": {
+    "electrified": "contact_line",
+    "gauge": "1435",
+    "layer": "-1",
+    "name": "苏州轨道交通二号线",
+    "railway": "subway",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 266067104,
+  "nodes": [
+    2716413318,
+    4687972278,
+    4687972279,
+    4687972280,
+    2716417212,
+    2716417205,
+    4757288857,
+    4757288856,
+    4757288849,
+    4757288855,
+    4757288854,
+    4757288853,
+    4757288852,
+    4757288848,
+    4757288851
+  ],
+  "tags": {
+    "layer": "-1",
+    "name": "苏州地铁二号线",
+    "railway": "subway",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 293394720,
+  "nodes": [
+    2716413334,
+    2716413329,
+    2716413310
+  ],
+  "tags": {
+    "name": "苏州地铁二号线",
+    "railway": "subway"
+  }
+},
+{
+  "type": "way",
+  "id": 293394721,
+  "nodes": [
+    5119237343,
+    2716413311,
+    4687972698,
+    4687972699,
+    4687972697,
+    2716413328,
+    4687972696,
+    2716413322,
+    4687972693,
+    4687972694,
+    4687972695,
+    2716413336,
+    4687972690,
+    4687972691,
+    4687972692,
+    2716413315,
+    2716413338,
+    2716413320,
+    2716413345,
+    2716413342,
+    4687972689,
+    2969873063,
+    2716413319,
+    4687972288,
+    2969873062,
+    2716413314,
+    4687972287,
+    4687972286,
+    4687972285,
+    2716413330,
+    4687972284,
+    2716413332,
+    4687972281,
+    4687972283,
+    4687972282,
+    2716413327,
+    4687972277,
+    2716413318
+  ],
+  "tags": {
+    "bridge": "viaduct",
+    "layer": "1",
+    "name": "苏州地铁二号线",
+    "railway": "subway"
+  }
+},
+{
+  "type": "way",
+  "id": 460259166,
+  "nodes": [
+    4411711963,
+    4559360871,
+    5469477266,
+    5469477265,
+    5469477264,
+    5469477263,
+    5469477261,
+    5469477260,
+    5469477267,
+    5469477262,
+    5469477259,
+    5469477258,
+    5469477257,
+    5469477256,
+    5469477268,
+    4559360872,
+    6399884550,
+    4559363776,
+    4559363782,
+    4559360874,
+    4559360875,
+    4559363778,
+    4559360876,
+    5469477269,
+    5469477270,
+    4559363779,
+    4559363780,
+    4559360879,
+    5469477007,
+    5469477015,
+    5469477014,
+    5469477013,
+    4861405658,
+    5469477012,
+    4861405659,
+    5469477011,
+    4861405660,
+    4559360880,
+    5469477008,
+    5469477010,
+    5469477009,
+    4559363786,
+    4861405657,
+    5469477018,
+    5469477017,
+    5469477016,
+    5469477019,
+    5469477020,
+    4861405656,
+    5469477021,
+    4861405653,
+    4861405655,
+    4861405654,
+    4559363781,
+    5469477024,
+    5469477023,
+    5469477022,
+    5469477025,
+    5469477026,
+    5469477027,
+    4559363784,
+    5469477029,
+    5469477034,
+    5469477028,
+    5469477031,
+    5469477030,
+    5469477032,
+    5469477033,
+    4559360885,
+    4559363783,
+    4861405651,
+    4861405652,
+    5469477035,
+    5469477036,
+    5469477037,
+    5469477038,
+    4861405650,
+    4559360886,
+    4861405648,
+    4861405649,
+    5469477039,
+    5469477040,
+    5469477041,
+    4559360887,
+    5469477043,
+    4559360888,
+    5469477044,
+    5469477045,
+    5469477046,
+    5469477047,
+    5469477042,
+    4559361189,
+    5469477048,
+    4559363777,
+    4559361190,
+    5469477050,
+    5469477051,
+    5469477049,
+    4559363785
+  ],
+  "tags": {
+    "electrified": "contact_line",
+    "gauge": "1435",
+    "layer": "-1",
+    "name": "轨道交通2号线（东延伸段）",
+    "railway": "subway",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 482959946,
+  "nodes": [
+    4757289417,
+    4938222764,
+    4757289416,
+    4757289415,
+    4757289414,
+    5469477111,
+    5469477110,
+    5469477109,
+    5469477112,
+    5469477113,
+    5469477108,
+    5469477106,
+    5469477105,
+    5469477104,
+    5469477103,
+    5469477107,
+    4570243002,
+    4757289410,
+    5469477102,
+    5469477101,
+    5469477091,
+    4757289409,
+    5469477100,
+    4757289408,
+    4757289407,
+    4757289406,
+    5469477092,
+    4757289405,
+    5469477093,
+    5469477094,
+    5469477095,
+    5469477096,
+    5469477097,
+    4757289379,
+    5469477099,
+    5469477098,
+    4757289404,
+    4570243001,
+    5469477087,
+    5469477086,
+    5469477085,
+    5469477084,
+    5469477083,
+    4757289403,
+    4757289402,
+    5469477082,
+    5469477081,
+    4757289380,
+    5469477088,
+    5469477089,
+    5469477090,
+    4757289381,
+    4570243000,
+    4757289378,
+    4757289377,
+    4757289376,
+    4757289338,
+    4757289375,
+    5469477279,
+    4757289374,
+    5469481942,
+    5469477280,
+    4757289337,
+    4757289373,
+    5469477278,
+    4757289372,
+    4757289339,
+    4570242999,
+    4757289371,
+    5469477273,
+    4757289370,
+    5469477274,
+    5469477275,
+    4757289369,
+    5469477276,
+    5469477272,
+    4757289368,
+    5469477271,
+    5469477277,
+    4757289367,
+    4570242998,
+    4757289366,
+    4570242997,
+    4757289365,
+    4757289364,
+    4757289363,
+    5469477282,
+    5469477281,
+    4757289340,
+    4570242996,
+    4757289362,
+    4757289361,
+    4570242995,
+    4757289360,
+    4757289359,
+    5469477052,
+    4757289358,
+    5469477053,
+    4757289342,
+    5469477054,
+    5469477055,
+    4757289357,
+    5469477056,
+    5469477057,
+    4757289343,
+    5469477058,
+    5469477059,
+    4757289356,
+    5469477060,
+    5469477061,
+    5469477062,
+    4757289355,
+    4570242994,
+    4757289354,
+    4757289353,
+    5469477067,
+    5469477066,
+    5469477065,
+    5469477063,
+    5469477064,
+    5469477068,
+    4570242993,
+    4757289347,
+    4757289344,
+    5469477071,
+    5469477070,
+    5469477069,
+    4757289345,
+    4757289352,
+    5469477080,
+    5469477079,
+    5469477078,
+    4570242992,
+    4757289351,
+    5469477077,
+    5469477075,
+    5469477074,
+    5469477073,
+    5469477072,
+    5469477076,
+    5170487904,
+    4757289349,
+    4570242991
+  ],
+  "tags": {
+    "layer": "-1",
+    "name": "苏州轨道交通四号线",
+    "railway": "subway",
+    "tracks": "2",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 482963406,
+  "nodes": [
+    4757289417,
+    5469477310,
+    5469477311,
+    5469477312,
+    5469477313,
+    5469477314,
+    5469477315,
+    5469477316,
+    5469477317,
+    5469477318,
+    5469477319,
+    5469477320,
+    5469477421,
+    5469477422,
+    5469477423,
+    5469477424,
+    5469477425,
+    5469477426,
+    5469477427,
+    5469477430,
+    4570262470,
+    5469477428,
+    5469477429,
+    4938222160,
+    4949065061,
+    4949065062,
+    4757311141,
+    4757311140,
+    4949065063,
+    4757311139,
+    4949065064,
+    4949065068,
+    4757311138,
+    4949065065,
+    4949065066,
+    4757311137,
+    4757311136,
+    4757311135,
+    4949065067,
+    4757311134,
+    4570262471,
+    4757311133,
+    4757311132,
+    5469477308,
+    5469477309,
+    4757311131,
+    4757311130,
+    5469477305,
+    5469481967,
+    5469477304,
+    4757311129,
+    5469477306,
+    4757311128,
+    5469477307,
+    4757311127,
+    4757311126,
+    4757311125,
+    4570262472,
+    4757311124,
+    4757311123,
+    5469477301,
+    5469477302,
+    5469477303,
+    4570262473,
+    4757310519,
+    5469477294,
+    4757310518,
+    4757310510,
+    5469477293,
+    4757310517,
+    5469477292,
+    5469477291,
+    5469477290,
+    4757310516,
+    5469477296,
+    5469477295,
+    4757310509,
+    4757310507,
+    5469477297,
+    4757310508,
+    5469477298,
+    5469477299,
+    5469477300,
+    4570262474,
+    4757310515,
+    4757310506,
+    5469477284,
+    5469477285,
+    4757310505,
+    5469477286,
+    4757310514,
+    5469477287,
+    5469477288,
+    5469477289,
+    5469477283,
+    4757310513,
+    4757310512,
+    4757310504,
+    4570262475,
+    4570262476
+  ],
+  "tags": {
+    "layer": "-1",
+    "name": "苏州轨道交通四号线支线",
+    "railway": "subway",
+    "tracks": "2",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 512071975,
+  "nodes": [
+    2716410104,
+    2716410103,
+    2716409578,
+    2969846969,
+    5469477631,
+    5469477630,
+    5469477632,
+    2969846970,
+    4684692253,
+    4684692252,
+    2969846971,
+    5469477638,
+    5469477637,
+    2969846974,
+    5469477633,
+    5469477636,
+    5469477634,
+    5469477635,
+    4684692254,
+    2969846975,
+    2101703872,
+    2101702920,
+    2969846976,
+    4684692258,
+    5469477644,
+    5469477643,
+    5469477642,
+    5469477639,
+    2969846978,
+    4684692257,
+    5469477640,
+    4684692256,
+    5469477641,
+    4684692259,
+    4684692255,
+    2969846979,
+    2969846980,
+    2969846981,
+    2101701998,
+    4684692262,
+    4684692260,
+    4684692261,
+    4714081616,
+    2101701718,
+    4684692267,
+    5469477650,
+    5469477647,
+    5469477645,
+    5469477646,
+    5469477648,
+    5469477649,
+    2716409554,
+    2101699721,
+    4684692265,
+    4684692264,
+    4684692263,
+    4684692266,
+    2101701467,
+    2101698937,
+    4580786871,
+    4580786870,
+    2101696074,
+    5114639870,
+    5114639869,
+    4580786872,
+    5121205250
+  ],
+  "tags": {
+    "layer": "-1",
+    "name": "苏州轨道交通一号线",
+    "railway": "subway",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 526426775,
+  "nodes": [
+    5119237343,
+    2716413308,
+    4687972700
+  ],
+  "tags": {
+    "bridge": "viaduct",
+    "layer": "3",
+    "name": "苏州地铁二号线",
+    "railway": "subway"
+  }
+},
+{
+  "type": "way",
+  "id": 526426776,
+  "nodes": [
+    4687972700,
+    4687972268,
+    2716413343,
+    4687972270,
+    4687972269,
+    2716413307,
+    2716413316,
+    2716413347,
+    2716413325,
+    2716413346,
+    2969873067,
+    2716413331,
+    4687972267,
+    2716413348,
+    2716413340,
+    2716413317,
+    2969873065,
+    2716413339,
+    2716413309,
+    2716413337,
+    2716413333,
+    2969873061,
+    2716413334
+  ],
+  "tags": {
+    "bridge": "viaduct",
+    "layer": "1",
+    "name": "苏州地铁二号线",
+    "railway": "subway"
+  }
+},
+{
+  "type": "way",
+  "id": 606672453,
+  "nodes": [
+    4570243017,
+    4757289491,
+    4757289492,
+    5469477464,
+    4757289488,
+    5469477463,
+    5469477458,
+    5469477462,
+    4757289486,
+    5469477461,
+    4757289487,
+    4757289485,
+    4757289490,
+    5469477460,
+    4757289484,
+    5469477459,
+    4757289478,
+    4757289489,
+    4570243016,
+    4570243015,
+    4757289483,
+    4757289482,
+    4757289481,
+    4757289480,
+    4757289479,
+    5469477466,
+    5469477465,
+    4570243014,
+    4570243013,
+    4757289477,
+    4757289476,
+    4757289475,
+    4757289474,
+    5469477467,
+    4757289473,
+    4757289472,
+    4757289470,
+    4757289469,
+    5469477471,
+    5469477469,
+    5469477470,
+    5469477468,
+    4757289471,
+    4570243012,
+    4757289468,
+    4757289467,
+    4757289466,
+    4757289465,
+    4757289464,
+    4757289463,
+    4757289462,
+    4757289461,
+    4757289460,
+    4570243011,
+    5469477621,
+    4757289459,
+    5469477474,
+    5469477473,
+    5469477472,
+    5469477478,
+    5469477479,
+    5469477477,
+    4757289458,
+    5469477476,
+    5469477475,
+    5122097472,
+    4757289457,
+    5218876253,
+    4757289455,
+    4757289454,
+    5469477457,
+    5469477454,
+    5469477453,
+    5469477452,
+    5469477455,
+    5469477451,
+    5469477456,
+    5469477622,
+    4757289444,
+    5469477624,
+    5469477623,
+    5469477625,
+    4757289433,
+    4757289443,
+    5121497163,
+    4757289435,
+    4757289434,
+    4570243010,
+    4757289442,
+    5121497139,
+    4757289441,
+    5121497136,
+    4757289440,
+    4757289439,
+    4757289438,
+    4757289436,
+    4757289437,
+    5121497152,
+    4570243009,
+    5121205249,
+    5121497178,
+    2099888295,
+    4757289429,
+    5121497146,
+    5121497143,
+    4570243008,
+    4757289426,
+    4757289425,
+    4625473982,
+    4757289424,
+    5018128410,
+    4757289423,
+    4570243005,
+    4757289422,
+    4757289421,
+    4757289420,
+    4757289411,
+    5095149446,
+    4570243004,
+    5095149397,
+    5095149398,
+    5095149399,
+    2716415625,
+    4757289412,
+    4757289413,
+    4938222763,
+    4570243003,
+    4757289418,
+    4938222762,
+    4757289417
+  ],
+  "tags": {
+    "layer": "-1",
+    "name": "苏州轨道交通四号线",
+    "railway": "subway",
+    "tracks": "2",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 606672463,
+  "nodes": [
+    5121205250,
+    2099899884,
+    5121497104,
+    5121497103,
+    5121497108,
+    5121497105,
+    5121497106,
+    5121497107,
+    4571373804,
+    2099903865,
+    4571373805,
+    2099906480,
+    2099907821,
+    5124292264,
+    2099910928,
+    2099912960,
+    5469477629,
+    5469477627,
+    5469477626,
+    5469477628,
+    2969846993,
+    2969846998,
+    5367294695,
+    5367294700,
+    5367294686,
+    5367294699,
+    5367294698,
+    5367294687,
+    5367294697,
+    5367294696,
+    2969847000,
+    2099915140,
+    2969847002,
+    5367294701,
+    5367294708,
+    5367294703,
+    5367294704,
+    5367294706,
+    5367294705,
+    5367294707,
+    5367294702,
+    2969847001,
+    3564781650,
+    2969846997,
+    5367294715,
+    5367294711,
+    5367294714,
+    5367294710,
+    5367294712,
+    5367294713,
+    5367294709,
+    2969846995,
+    2099917683,
+    3564781649,
+    3564781651,
+    2101679031,
+    3564781652,
+    3564680050,
+    3564680051,
+    2101681018,
+    5367294716,
+    5367294717,
+    2101685386,
+    2969847006,
+    2101691354
+  ],
+  "tags": {
+    "layer": "-1",
+    "name": "苏州轨道交通一号线",
+    "railway": "subway",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "relation",
+  "id": 5454538,
+  "members": [
+    {
+      "type": "node",
+      "ref": 4757288848,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4757288849,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716417212,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969873063,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716413316,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969873067,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969873065,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716413333,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969873068,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716415628,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969873064,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969873066,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716415631,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969847010,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5197536795,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969847008,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969847009,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716415626,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716415639,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969859602,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969859604,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716415638,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5218876251,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969859603,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363776,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363782,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363778,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363779,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363780,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363786,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363781,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363784,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363783,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363777,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363785,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 266067104,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 293394721,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 526426775,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 526426776,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 293394720,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 266067036,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 460259166,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "red",
+    "from": "骑河",
+    "name": "苏州地铁2号线",
+    "name:en": "Suzhou Rail Transit Line 2: Qihe > Sangtian Dao",
+    "network": "Suzhou Rail Transit",
+    "public_transport:version": "2",
+    "ref": "2",
+    "route": "subway",
+    "to": "桑田岛",
+    "type": "route",
+    "wikidata": "Q1054280"
+  }
+},
+{
+  "type": "relation",
+  "id": 7889176,
+  "members": [
+    {
+      "type": "node",
+      "ref": 2101691354,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101685386,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101681018,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101679031,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099917683,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099915140,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099912960,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099910928,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099907821,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099906480,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099903865,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099899884,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5121205250,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101696074,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101698937,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101701467,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101699721,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101701718,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101701998,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101702920,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101703872,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716409578,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716410103,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716410104,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 606672463,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 512071975,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "green",
+    "name": "苏州轨道交通一号线",
+    "name:en": "Suzhou Rail Transit Line 1 (Westbound)",
+    "network": "Suzhou Rail Transit",
+    "public_transport:version": "2",
+    "ref": "1",
+    "route": "subway",
+    "type": "route",
+    "wikidata": "Q45668"
+  }
+},
+{
+  "type": "relation",
+  "id": 7889177,
+  "members": [
+    {
+      "type": "node",
+      "ref": 2716410104,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716410103,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716409578,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101703872,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101702920,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101701998,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101701718,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101699721,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101701467,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101698937,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101696074,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5121205250,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099899884,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099903865,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099906480,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099907821,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099910928,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099912960,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099915140,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099917683,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101679031,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101681018,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101685386,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2101691354,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 512071975,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 606672463,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "green",
+    "name": "苏州轨道交通一号线",
+    "name:en": "Suzhou Rail Transit Line 1 (Eastbound)",
+    "network": "Suzhou Rail Transit",
+    "public_transport:version": "2",
+    "ref": "1",
+    "route": "subway",
+    "type": "route",
+    "wikidata": "Q45668"
+  }
+},
+{
+  "type": "relation",
+  "id": 7889201,
+  "members": [
+    {
+      "type": "node",
+      "ref": 4570243017,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243016,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243015,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243014,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243013,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243012,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243011,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5218876253,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243010,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243009,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099888295,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243008,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4625473982,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5018128410,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243005,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243004,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716415625,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243003,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243002,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243001,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243000,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570242999,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570242998,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570242997,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570242996,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570242995,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570242994,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570242993,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570242992,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4757289349,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570242991,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 606672453,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 482959946,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "blue",
+    "from": "龙道浜",
+    "name": "苏州地铁4号线",
+    "name:en": "Suzhou Rail Transit Line 4: Longdaobang > Tongli",
+    "network": "Suzhou Rail Transit",
+    "public_transport:version": "2",
+    "ref": "4",
+    "route": "subway",
+    "to": "同里",
+    "type": "route",
+    "wikidata": "Q6112249"
+  }
+},
+{
+  "type": "relation",
+  "id": 8439220,
+  "members": [
+    {
+      "type": "node",
+      "ref": 4570262476,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570262475,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570262474,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570262473,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570262472,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570262471,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570262470,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243003,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716415625,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243004,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243005,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5018128410,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4625473982,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243008,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099888295,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243009,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243010,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5218876253,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243011,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243012,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243013,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243014,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243015,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243016,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243017,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 482963406,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 606672453,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "blue",
+    "from": "木里",
+    "name": "苏州地铁4号线",
+    "name:en": "Suzhou Rail Transit Line 4: Muli > Longdaobang",
+    "network": "Suzhou Rail Transit",
+    "public_transport:version": "2",
+    "ref": "4",
+    "route": "subway",
+    "to": "龙道浜",
+    "type": "route"
+  }
+},
+{
+  "type": "relation",
+  "id": 8439221,
+  "members": [
+    {
+      "type": "node",
+      "ref": 4570243017,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243016,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243015,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243014,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243013,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243012,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243011,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5218876253,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243010,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243009,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099888295,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243008,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4625473982,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5018128410,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243005,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243004,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716415625,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243003,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570262470,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570262471,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570262472,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570262473,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570262474,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570262475,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570262476,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 606672453,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 482963406,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "blue",
+    "from": "龙道浜",
+    "name": "苏州地铁4号线",
+    "name:en": "Suzhou Rail Transit Line 4: Longdaobang > Muli",
+    "network": "Suzhou Rail Transit",
+    "public_transport:version": "2",
+    "ref": "4",
+    "route": "subway",
+    "to": "木里",
+    "type": "route",
+    "wikidata": "Q6112249"
+  }
+},
+{
+  "type": "relation",
+  "id": 8439222,
+  "members": [
+    {
+      "type": "node",
+      "ref": 4570242991,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4757289349,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570242992,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570242993,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570242994,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570242995,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570242996,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570242997,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570242998,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570242999,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243000,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243001,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243002,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243003,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716415625,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243004,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243005,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5018128410,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4625473982,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243008,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2099888295,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243009,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243010,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5218876253,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243011,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243012,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243013,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243014,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243015,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243016,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4570243017,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 482959946,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 606672453,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "blue",
+    "from": "同里",
+    "name": "苏州地铁4号线",
+    "name:en": "Suzhou Rail Transit Line 4: Tongli > Longdaobang",
+    "network": "Suzhou Rail Transit",
+    "public_transport:version": "2",
+    "ref": "4",
+    "route": "subway",
+    "to": "龙道浜",
+    "type": "route"
+  }
+},
+{
+  "type": "relation",
+  "id": 8439252,
+  "members": [
+    {
+      "type": "node",
+      "ref": 4559363785,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363777,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363783,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363784,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363781,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363786,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363780,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363779,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363778,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363782,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4559363776,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969859603,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5218876251,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716415638,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969859604,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969859602,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716415639,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716415626,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969847009,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969847008,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5197536795,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969847010,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716415631,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969873066,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969873064,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716415628,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969873068,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716413333,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969873065,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969873067,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716413316,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2969873063,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2716417212,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4757288849,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4757288848,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 460259166,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 266067036,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 293394720,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 526426776,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 526426775,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 293394721,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 266067104,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "red",
+    "from": "桑田岛",
+    "name": "苏州地铁2号线",
+    "name:en": "Suzhou Rail Transit Line 2: Sangtian Dao > Qihe",
+    "network": "Suzhou Rail Transit",
+    "public_transport:version": "2",
+    "ref": "2",
+    "route": "subway",
+    "to": "骑河",
+    "type": "route"
+  }
+}
+
+  ]
+}
