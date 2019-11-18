@@ -446,7 +446,7 @@ if __name__=="__main__":
     db = MySQLdb.connect(host = '127.0.0.1',#本地数据库
                         port = 3306,
                                  user = 'root', #用户名
-                                 passwd = 'tw123123', #数据库密码
+                                 passwd = 'yourpw', #数据库密码
                                  db = 'mydict', #数据库名
                                  charset = 'utf8') 
    
