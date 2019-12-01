@@ -1,0 +1,266 @@
+%\documentclass[journal]{vgtc}                % final (journal style)
+%\documentclass[review,journal]{vgtc}         % review (journal style)
+%\documentclass[widereview]{vgtc}             % wide-spaced review
+%\documentclass[preprint,journal]{vgtc}       % preprint (journal style)
+%\documentclass[electronic,journal]{vgtc}     % electronic version, journal
+\documentclass[10pt,journal,cspaper,compsoc]{IEEEtran}
+
+%% Uncomment one of the lines above depending on where your paper is
+%% in the conference process. ``review'' and ``widereview'' are for review
+%% submission, ``preprint'' is for pre-publication, and the final version
+%% doesn't use a specific qualifier. Further, ``electronic'' includes
+%% hyperreferences for more convenient online viewing.
+
+%% Please use one of the ``review'' options in combination with the
+%% assigned online id (see below) cONLY if your paper uses a double blind
+%% review process. Some conferenes, like IEEE Vis and InfoVis, have NOT
+%% in the past.
+
+%% Please note that the use of figures other than the optional teaser is not permitted on the first page
+%% of the journal version.  Figures should begin on the second page and be
+%% in CMYK or Grey scale format, otherwise, colour shifting may occur
+%% during the printing process.  Papers submitted with figures other than the optional teaser on the
+%% first page will be refused.
+
+%% These three lines bring in essential packages: ``mathptmx'' for Type 1
+%% typefaces, ``graphicx'' for inclusion of EPS figures. and ``times''
+%% for proper handling of the times font family.
+
+\usepackage{mathptmx}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage[lined,algonl,boxed]{algorithm2e}
+%\usepackage{amsthm}
+\usepackage{amssymb,amsmath}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{color}
+\usepackage{paralist}
+\usepackage{tikz}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{ulem}
+\usepackage{setspace}
+\usepackage{microtype,hyphenat,balance}
+\usepackage{stfloats}
+\usepackage{array}
+\usepackage{url}
+\usepackage{bm}
+\usepackage[singlelinecheck=false]{caption}
+\usepackage{soul}
+\raggedbottom
+\normalem
+
+\newcommand{\dup}[1]{\textcolor{black}{#1}}
+
+%\newtheorem{problem}{Problem}
+
+\newcommand{\cui}[1]{#1} %{\textcolor{green}{#1}}
+\newcommand{\shixia}[1]{\textcolor{black}{#1}}
+%\newcommand{\pei}[1]{\textcolor{red}{#1}}
+\newcommand{\xiting}[1]{\textcolor{black}{#1}}
+\newcommand{\jialun}[1]{\textcolor{black}{#1}}
+\newcommand{\kg}[1]{\textcolor{black}{#1}}
+\newcommand{\dc}[1]{\textcolor{black}{#1}}
+\newcommand{\doc}[1]{#1} %{\textcolor{red}{#1}}
+\newcommand{\docpr}[1]{\textcolor{black}{#1}}
+\newcommand{\docat}[1]{\textcolor{black}{#1}}
+\newcommand{\tvcgminor}[1]{\textcolor{black}{#1}}
+\newcommand{\nop}[1]{}
+
+
+%\newcommand{\wei}[1]{\textcolor{green}{#1}}
+%\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+%\def\bmu{{\boldsymbol \mu}}
+%\def\NN{{\mathcal{N}}}
+%\def\RR{{\mathbf{R}}}
+%\def\CC{{\mathbf{C}}}
+
+%\newcommand{\shixia}[1]{\textcolor{blue}{#1}
+%% We encourage the use of mathptmx for consistent usage of times font
+%% throughout the proceedings. However, if you encounter conflicts
+%% with other math-related packages, you may want to disable it.
+
+%% This turns references into clickable hyperlinks.
+%\usepackage[bookmarks,backref=true,linkcolor=black]{hyperref} %,colorlinks
+%\hypersetup{
+%  pdfauthor = {},
+%  pdftitle = {TopicPanorama: a Full Picture of Events},
+%  pdfsubject = {},
+%  pdfkeywords = {Topic graph, graph matching, user interactions, level-of-detail.},
+%  colorlinks=true,
+%  linkcolor= black,
+%  citecolor= black,
+%  pageanchor=true,
+%  urlcolor = black,
+%  plainpages = false,
+%  linktocpage
+%}
+
+%% If you are submitting a paper to a conference for review with a double
+%% blind reviewing process, please replace the value ``0'' below with your
+%% OnlineID. Otherwise, you may safely leave it at ``0''.
+%\onlineid{xxx}
+
+%% declare the category of your paper, only shown in review mode
+%\vgtccategory{Research}
+
+%% allow for this line if you want the electronic option to work properly
+%\vgtcinsertpkg
+
+%% In preprint mode you may define your own headline.
+%\preprinttext{To appear in an IEEE VGTC sponsored conference.}
+
+%% Paper title.
+
+%\title{StoryFlow: Tracking the Evolving Co-occurrence Relationships among Entities}
+%\title{StoryFlow: Tracking the Evolving Relationships between Entities}
+%\title{How to Follow Your Heart in Text Streams}
+\title{Online Visual Analytics of Text Streams}
+
+\author{ Shixia Liu, Jialun Yin, Xiting Wang, Weiwei Cui, Kelei Cao, Jian Pei
+%
+\IEEEcompsocitemizethanks{
+\IEEEcompsocthanksitem S. Liu is with School of Software, Tsinghua University.\protect\\
+E-mail: shixia@tsinghua.edu.cn.
+\IEEEcompsocthanksitem Jialun Yin, Xiting Wang, and Kelei Cao are with Tsinghua University.\protect\\
+% note need leading \protect in front of \\ to get a newline within \thanks as
+% \\ is fragile and will error, could use \hfil\break instead.
+E-mail: \{yinjl14, wang-xt11, ckl13\}@mails.tsinghua.edu.cn.
+
+\IEEEcompsocthanksitem Weiwei Cui is Microsoft Research.
+E-mail: weiwei.cui@microsoft.com.
+
+\IEEEcompsocthanksitem Jian Pei is with Simon Fraser University, Burnaby, BC Canada.\protect\\
+E-mail: jpei@cs.sfu.ca.
+
+}% <-this % stops a space
+
+\thanks{}}
+%other entries to be set up for journal
+%\shortauthortitle{Firstauthor \MakeLowercase{\textit{et al.}}: Paper Title}
+% \shortauthortitle{Wu \MakeLowercase{\textit{et al.}}: StoryFlow: Interactive Visualization of Large-Scale Storylines}
+
+%% Abstract section.
+\input{abstract}
+
+%% Keywords that describe your work. Will show as 'Index Terms' in journal
+%% please capitalize first letter and insert punctuation after last keyword
+
+
+%% ACM Computing Classification System (CCS).
+%% See <http://www.acm.org/class/1998/> for details.
+%% The ``\CCScat'' command takes four arguments.
+
+% \CCScatlist{ % not used in journal version
+ % \CCScat{K.6.1}{Management of Computing and Information Systems}%
+% {Project and People Management}{Life Cycle};
+ % \CCScat{K.7.m}{The Computing Profession}{Miscellaneous}{Ethics}
+% }
+
+
+%% Uncomment below to disable the manuscript note
+%\renewcommand{\manuscriptnotetxt}{}
+
+%% Copyright space is enabled by default as required by guidelines.
+%% It is disabled by the 'review' option or via the following command:
+% \nocopyrightspace
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% START OF THE PAPER %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+%\setlength{\parskip}{0.1pt}
+%\setlength{\parskip}{3.1pt}
+
+% \section{Related Work}
+% \begin{itemize}
+% 	\item Uncertainty Visualization
+% 	\item Uncertainty Modeling
+% 	\item Multivariate Visualization
+% \end{itemize}
+\maketitle
+{
+%\onecolumn
+\fontsize{8}{8} %this command adjusts the fontsize of all the mathmatical symbols in the paper
+\input{introduction.tex}
+\input{related.tex}
+\input{system.tex}
+%\input{data.tex}
+\input{TreeCut.tex}
+\input{visualization.tex}
+\input{quantative.tex}
+\input{evaluation.tex}
+%\input{application.tex}
+\input{conclusion.tex}
+\input{acknowledge.tex}
+}
+
+%% if specified like this the section will be ommitted in review mode
+%\acknowledgments{
+% The authors would like to thank Yuzuru Tanahashi for providing the comparison data and helping generate some of the comparison examples and Stephen Lin for proofreading the paper.\looseness=-1}
+%%\newpage
+%\clearpage
+\small
+\bibliographystyle{abbrv}
+%\addtolength{\itemsep}{5ex}
+\bibliography{reference}
+
+  % sigproc.bib is the name of the Bibliography in this case
+
+%1 page
+
+\vspace{-10mm}
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{fig/shixia.jpg}}]{Shixia Liu}
+is an associate professor at Tsinghua University. Her research interests include visual text analytics, visual social analytics, and text mining. She worked as a research staff member at IBM China Research Lab and a lead researcher at Microsoft Research Asia.
+She received a B.S. and M.S. from Harbin Institute of Technology, a Ph.D. from Tsinghua University. 
+She is an associate editor of IEEE TVCG.
+%
+\vspace{-8mm}
+\end{IEEEbiography}
+
+\vspace{-8mm}
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in]{fig/Jialun.jpg}}]{Jialun Yin} is a PhD candidate in the Department of Computer Science and Technology at Tsinghua University, China.
+His research interests include visual text analytics and data mining.
+He received a BS degree in Computer Science from Tsinghua University.
+\vspace{-8mm}
+\end{IEEEbiography}
+
+\vspace{-8mm}
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in]{fig/xiting.jpg}}]{Xiting Wang} is a PhD candidate in the Institute for Advanced Study at Tsinghua University, China.
+Her research interests include visual text analytics and text mining.
+She received a BS degree in Electronics Engineering from Tsinghua University.
+\vspace{-8mm}
+\end{IEEEbiography}
+
+\vspace{-8mm}
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{fig/weiwei.jpg}}]{Weiwei Cui}
+is a researcher in the Internet Graphics Group at Microsoft Research Asia.
+His research interests include visualization and visual analytics, with emphasis on text and graph data.
+He received a PhD in computer science from Hong Kong University of Science and Technology.
+
+
+%
+\vspace{-8mm}
+\end{IEEEbiography}
+
+\vspace{-8mm}
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{fig/kelei.jpg}}]{Kelei Cao}
+is an undergraduate in the Department of Computer Science and Technology at Tsinghua University, China. His research interests include visual text analytics.
+
+%
+\vspace{-8mm}
+\end{IEEEbiography}
+
+\vspace{-8mm}
+
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{fig/jian.jpg}}]{Jian Pei}
+is currently the Canada Research Chair (Tier 1) in Big Data Science and a professor at the School of Computing Science and the Department of Statistics and Actuarial Science at Simon Fraser University, Canada. He received his Ph.D. degree at the same school in 2002 under Dr. Jiawei Han's supervision.  His research interests are to develop effective and efficient data analysis techniques for novel data intensive applications.  He has published prolifically and is one of the top cited authors in data mining.  He received a series of prestigious awards.  He is also active in providing consulting service to industry and transferring the research outcome in his group to industry and applications.  He is an editor of several esteemed journals in his areas and a passionate organizer of the premier academic conferences defining the frontiers of the areas. He is an IEEE Fellow.
+%
+%\vspace{-8mm}
+\end{IEEEbiography}
+
+
+\end{document}
+

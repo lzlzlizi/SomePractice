@@ -1,0 +1,59 @@
+% !TEX root = EvoTree-KDD.tex
+
+
+\section{Evolutionary Tree Clustering}\label{sec:data}
+%In this section, we briefly introduce evolutionary multi-branch tree clustering~\cite{Wang2013}, which is used to extract a sequence of multi-branch topic trees \{${T^t}$\} from text streams.
+\kg{This section briefly introduces} evolutionary multi-branch tree clustering~\cite{Wang2013}, which is used to extract a sequence of multi-branch topic trees \{${T^t}$\} from text streams.
+%To describe the quality of \{${T^t}$\}, two important measures, fitness and smoothness, are employed~\cite{Wang2013}.
+Two important measures, \kg{namely,} fitness and smoothness, are employed~\cite{Wang2013} to describe the quality of \{${T^t}$\}.
+%The fitness of a tree $T^t$ measures how well the documents at time $t$ are organized.
+The fitness of a tree $T^t$ measures how well the documents are organized at time $t$.
+%On the other hand, the smoothness ensures the structural similarity between $T^t$ and $T^{t-1}$, if the document content does not deviate much from $t-1$ to $t$.
+\kg{Smoothness} ensures the structural similarity between $T^t$ and $T^{t-1}$ if document content does not deviate much from $t-1$ to $t$.
+Wang et al.~\cite{Wang2013} formulated the fitness and smoothness in a Bayesian online filtering process \kg{as follows}:
+%\dup{To capture both fitness and tree structure changes in the data, we formulated the learning procedure as a Bayesian online filtering process in our previous work~\cite{Wang2013}:}
+\begin{equation}\label{eq:learningframework}
+\small
+\begin{split}
+&p(T^t | \mathcal{D}^t, T^{t-1})  \propto  p(\mathcal{D}^t | T^t) p(T^t | T^{t-1}).  \\
+%& = \frac{p(\mathcal{D}_m^t|T_m^t)}{p(\mathcal{D}_i^t|T_i^t)p(\mathcal{D}_j^t|T_j^t)} \cdot  \frac{1}{Z} \exp\Big(-\lambda V_{T^{t-1}}(\{T_i^t,T_j^t\} \rightarrow T_m^t)\Big).
+\end{split}
+\end{equation}
+%The first term corresponds to the likelihood ratio of the original BRT algorithm~\cite{Blundell2010} (fitness), and the second term is the smoothness cost.
+The first term corresponds to the likelihood ratio of the original BRT algorithm~\cite{Blundell2010} (fitness), whereas the second term \kg{denotes} the smoothness cost.
+%This recursive objective function can be solved with a dynamic programming algorithm.
+%With this formulation, the new tree $T^t$ depends on the likelihood of the current data $p(\mathcal{D}^t | T^t)$ and the conditional prior $p(T^t | T^{t-1})$ that measures the difference between $T^t$ and $T^{t-1}$.
+\kg{Based on} this formulation, the new tree $T^t$ depends on the likelihood of the current data $p(\mathcal{D}^t | T^t)$ and the conditional prior $p(T^t | T^{t-1})$ that measures the difference between $T^t$ and $T^{t-1}$.
+
+%In additional to \textbf{\normalsize a sequence of coherent topic trees \{${T^t}$\}}, the evolutionary tree model also outputs the following two types of information:
+In \kg{addition} to \textbf{\normalsize a sequence of coherent topic trees \{${T^t}$\}}, the evolutionary tree model also outputs the following types of information:
+
+\begin{compactitem}
+%\item \dup{A sequence of evolving \textbf{topic trees}, where an interior node of a topic tree is a topic and a leaf node is a document.
+%In postprocessing, the documents that directly belong to an interior node also form a topic whose parent is the interior node.}
+%With this processing, each document is a leaf node.
+%\vspace{1mm}
+%\item \textbf{\normalsize Topic pairs:} For any adjacent topic trees $T^i$ and $T^{i+1}$, our model maps the related topics together to generate a set of topic pairs. Intuitively, the relations are induced from their document content or the splitting/merging operations taken during the tree generation process.
+\item \textbf{\normalsize Topic pairs:} For any adjacent topic trees $T^i$ and $T^{i+1}$, our model maps the related topics \kg{collectively} to generate a set of topic pairs. \kg{The} relations are \kg{intuitively} induced from their document content or \kg{from} splitting/merging operations \kg{performed} during the tree generation process.
+%\dup{For two adjacent topic trees, the clustering model maps the related topics, such as similar topics and topics with a splitting/merging relationship, together.}
+%\dup{We call two mapped topics a topic pair.}
+%\vspace{1mm}
+%\item \textbf{\normalsize Document pairs:} For each topic pair between $T^i$ and $T^{i+1}$, our model also maps similar documents together to generate a set of document pairs.
+\item \textbf{\normalsize Document pairs:} For each topic pair between $T^i$ and $T^{i+1}$, our model also maps similar documents \kg{collectively} to generate a set of document pairs.
+\end{compactitem}
+
+
+%%\subsection{Clustering Results}
+%\dup{Given a text stream, evolutionary tree clustering generates the following outputs.} %\looseness=-1
+%
+%\begin{compactitem}
+%\item \dup{A sequence of evolving \textbf{topic trees}, where an interior node of a topic tree is a topic and a leaf node is a document.
+%In postprocessing, the documents that directly belong to an interior node also form a topic whose parent is the interior node.}
+%With this processing, each document is a leaf node.
+%%\vspace{1mm}
+%\item \dup{A set of \textbf{topic pairs} between two adjacent topic trees.}
+%\dup{For two adjacent topic trees, the clustering model maps the related topics, such as similar topics and topics with a splitting/merging relationship, together.}
+%\dup{We call two mapped topics a topic pair.}
+%%\vspace{1mm}
+%\item \dup{A group of \textbf{document pairs} within each topic pair. The model also maps two similar documents together, each of which is from each of the topic pairs. These documents are referred to as a document pair.}
+%\end{compactitem}

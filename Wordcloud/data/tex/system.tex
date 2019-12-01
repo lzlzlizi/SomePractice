@@ -1,0 +1,22 @@
+\section{System Overview}
+
+\emph{\normalsize TopicStream} is designed to track and understand the dynamic characteristics of text streams.
+%Accordingly, it consists of two major modules: streaming tree cut and streaming visualization (Fig.~\ref{fig:overview}).
+\kg{It} consists of two major modules: streaming tree cut and streaming visualization (Fig.~\ref{fig:overview}).\looseness=-1
+
+%The input of the streaming tree cut is a set of topic trees with tree cuts as well as a set of new coming documents.
+The input of the streaming tree cut is a set of topic trees with tree cuts \kg{and} a set of \kg{incoming} documents.
+In \emph{\normalsize TopicStream}, the topic trees are derived by the evolutionary tree clustering method developed by Wang et al.~\cite{Wang2013}.
+The basic idea of this method is to balance the fitness of a tree and the smoothness between trees by a Bayesian online filtering process.
+We derive the tree cuts based on the user-selected focus node(s).
+%This module first extracts a topic tree from the newly arrived documents by the evolutionary tree clustering model~\cite{Wang2013}.
+This module \kg{initially} extracts a topic tree from the newly arrived documents \kg{using} the evolutionary tree clustering model~\cite{Wang2013}.
+%Then a tree cut is derived from the new topic tree via the developed streaming tree cut algorithm.
+\kg{A} tree cut is \kg{then} derived from the new topic tree \kg{through} the developed streaming tree cut algorithm.\looseness=-1
+
+%Next, the streaming tree cuts are fed to the visualization module.
+The streaming tree cuts are \kg{then} fed into the visualization module.
+%We employ the visual sedimentation metaphor to reveal the merging process of newly arrived documents into the dominant center of the visualization, the river part.
+We employ the visual sedimentation metaphor to reveal the merging process of newly arrived documents \kg{with} the dominant center of visualization.
+% \kg{which is} the river part .
+The circle packing algorithm is also developed to illustrate the relationships of document clusters within each topic stripe, including their similarity and temporal relationships~\cite{Wang2006visualization,ZhaoTVCG2014}.\looseness=-1

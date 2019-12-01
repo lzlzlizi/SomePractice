@@ -1,0 +1,21 @@
+\begin{figure*}[ht]
+  \centering
+
+  \includegraphics[width=\linewidth]{fig/overview}
+  \caption{System pipeline: (a) generate evolving topic trees (dotted lines represent matched topics between times); (b) generate evolving tree cuts (the star is the user-selected focus node); (c) reorganize the topics according to the Degree-of-Interest (DOI) values; (d) align topic nodes by their depths; (e) color and scale topic nodes by the DOI values; (f) extract matched documents for the matched topics; (g) generate the final visualization.}\looseness=-1
+  \label{fig:overview}
+  \vspace{-3mm}
+\end{figure*}
+
+\section{Problem Formulation}
+Fig.~\ref{fig:overview} briefly illustrates our system pipeline.
+The input is a set of documents with time stamps.
+First, we extract a sequence of topic trees from the input documents by our evolutionary tree clustering technique, which aims to better organize the topics at different times, as well as match correlated topics between adjacent topic trees.
+Second, we transform tree clustering results into a set of salient topics that can well represent the large clustering results and be effectively visualized.
+A user selects one or more topics of interest as the focus node(s).
+Based on the focus node(s), the tree cut algorithm extracts a set of representative topics for each tree.
+The algorithm also makes the representative topic sets at different times coherent with each other.
+However, the cut algorithm may still extract too many topics that cannot be clearly displayed on the limited display area.
+To tackle this, a mean-shift clustering algorithm~\cite{comaniciu2002mean} is employed to further group the extracted topics.
+Meanwhile, the matched documents within the matched topics are extracted based on the relationships between the topics selected by our tree cut algorithm.
+Finally, the transformed results, including the topics nodes on each tree cut, matched topics and documents, are visualized for further exploration and analysis.

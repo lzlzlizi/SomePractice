@@ -1,0 +1,42 @@
+% !TEX root = EvoTree-KDD.tex
+
+\section{Discussion and Future Work}\label{sec:conclustion}
+In this paper, we have presented a novel visual analytics system to help users explore and understand hierarchical topic evolution in high-volume text streams.
+%\kg{This paper reports on} a novel visual analytics system to help users explore and understand hierarchical topic evolution in a text stream, at different \kg{abstraction} levels.
+Powered by the streaming tree cut model and the corresponding visualization, the system allows users to analyze hierarchical topics at different \dc{granularities,} as well as their evolution patterns over time.
+%Powered by the evolutionary tree cut model and the corresponding visualization, \kg{this} system allows users to analyze hierarchical topics at different granularities \kg{and} their evolution patterns over time.
+%In addition, it allows users to interactively customize and refine the visualization based on their interests.
+%In addition, it \kg{enables} users to customize interactively and refine visualization based on their interests.
+In addition, it \kg{enables} users to interactively customize and refine \dc{the} visualization based on their interests.
+%A quantitative evaluation and a case study were conducted to demonstrate the effectiveness and usefulness in text stream analysis.
+%A quantitative evaluation and a case study were conducted to demonstrate the effectiveness and usefulness \kg{of the system} in text stream analysis.
+A quantitative evaluation and two case studies were conducted to demonstrate the effectiveness and usefulness \kg{of the system} \dc{for} text stream analysis.
+
+Although the system performs well when analyzing the evolution of hierarchical topics, it can still be improved.
+%First, one component of our system is the evolutionary tree clustering algorithm. This algorithm is effective in constructing a sequence of topic trees with high fitness and smoothness.
+First, one component of our system, the evolutionary tree clustering algorithm, is effective in constructing a sequence of topic trees with high fitness and smoothness.
+%However, solely relying on the optimization results is not always effective because the tree cut algorithm may be imperfect and different users may have different needs.
+However, relying \kg{solely} on the optimization results is not always effective because the tree clustering algorithm may be imperfect and different users may have different \kg{requirements}.
+%To solve this problem, it would be desirable to study how to leverage a user's domain knowledge in our system and allow him/her to better express and define the information needs.
+Studying how to leverage the domain knowledge of a user in our system and allow him/her \kg{to express and define information requirements can help solve the aforementioned problem.}
+%This topic is interesting to pursue in the future.
+\kg{This noteworthy topic can be pursued} in the future.
+%Second, we only utilize the horizontal offset to encode the tree depth but ignore the tree general structures.
+%Second, we only utilize the horizontal offset to encode tree depth but ignore the general structures \kg{of a tree}.
+Second, we only \docpr{utilized} the horizontal offset to encode tree depth but \docpr{ignored} the general \docpr{structure} \kg{of a tree}.
+%However, in some cases, users may want to examine each tree structure and obtain a complete overview of evolving topic trees.
+However, users may want to examine each tree structure and obtain a complete overview of evolving topic trees \kg{in several cases}.
+%In the future, we also plan to enable the ability of tree exploration in the next version of the system and allow users to explicitly explore the topic hierarchical structures.
+%\kg{We} also plan to enable tree exploration \kg{capability} in the next version of the system and allow users to explore topic hierarchical structures \kg{explicitly}.
+\kg{We} also plan to enable tree \docpr{exploration in} the next version of the system and allow users to \docpr{explicitly} explore topic hierarchical \docpr{structures.}
+
+
+%\pei{We can shorten the reference list using abbreviations (i.e., ``first author et al.'') and omitting page numbers.  This will give us more space so that the figures are not squeezed.  Some reviewers may complain if we use vspace too much in the main body of the paper.}
+
+%our visualization highly depends on the back-end evolutionary tree structures.
+%Wrong structures cannot make reasonable visualizations.
+%However, the generation process is highly complicated and sensitive to parameters.
+%Since users cannot participate in the tree generation process, it is hard to produce desirable structures based on user domain knowledge.
+%Therefore, adding user controls to the process is one important future work for our system.
+%Allowing users to refine the structures based on their domain knowledge can greatly improve the resulting tree sequence, thus enhance the visual exploration experience.
+%Second, tree structures are only partially encoded in our system.

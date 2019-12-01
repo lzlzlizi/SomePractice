@@ -1,0 +1,256 @@
+\begin{thebibliography}{10}
+
+\bibitem{otherness}
+Alterity.
+\newblock \url{http://en.wikipedia.org/wiki/Alterity}.
+
+\bibitem{carry-over}
+Carry-over effect.
+\newblock \url{http://en.wikipedia.org/wiki/Experimental_psychology}.
+
+\bibitem{Gallup}
+Gallup.
+\newblock \url{http://www.gallup.com}.
+
+\bibitem{Ahmed2008}
+A.~Ahmed and E.~P. Xing.
+\newblock Dynamic non-parametric mixture models and the recurrent chinese
+  restaurant process: with applications to evolutionary clustering.
+\newblock In {\em SDM}, pages 219--230, 2008.
+
+\bibitem{Ahmed2010}
+A.~Ahmed and E.~P. Xing.
+\newblock Timeline: A dynamic hierarchical dirichlet process model for
+  recovering birth/death and evolution of topics in text stream.
+\newblock In {\em UAI}, pages 20--29, 2010.
+
+\bibitem{blei2006}
+D.~M. Blei and J.~D. Lafferty.
+\newblock Dynamic topic models.
+\newblock In {\em ICML}, pages 113--120, 2006.
+
+\bibitem{Blundell2010}
+C.~Blundell, Y.~W. Teh, and K.~A. Heller.
+\newblock Bayesian rose trees.
+\newblock In {\em UAI}, pages 65--72, 2010.
+
+\bibitem{Blundell2011}
+C.~Blundell, Y.~W. Teh, and K.~A. Heller.
+\newblock Discovering non-binary hierarchical structures with {B}ayesian rose
+  trees.
+\newblock In {\em Mixture: Estimation and Applications}. John Wiley \& Sons,
+  2011.
+
+\bibitem{Chakrabarti2006}
+D.~Chakrabarti, R.~Kumar, and A.~Tomkins.
+\newblock Evolutionary clustering.
+\newblock In {\em KDD}, pages 554--560, 2006.
+
+\bibitem{comaniciu2002mean}
+D.~Comaniciu and P.~Meer.
+\newblock Mean shift: A robust approach toward feature space analysis.
+\newblock {\em IEEE PAMI}, 24(5):603--619, 2002.
+
+\bibitem{cui2011}
+W.~Cui, S.~Liu, L.~Tan, C.~Shi, Y.~Song, Z.~Gao, H.~Qu, and X.~Tong.
+\newblock Textflow: Towards better understanding of evolving topics in text.
+\newblock {\em IEEE TVCG}, 17(12):2412--2421, 2011.
+
+\bibitem{cui2014}
+W.~Cui, S.~Liu, Z.~Wu, and H.~Wei.
+\newblock How hierarchical topics evolve in large text corpora.
+\newblock {\em IEEE TVCG}, 20(12), 2014.
+
+\bibitem{Cui2008}
+W.~Cui, H.~Zhou, H.~Qu, P.~C. Wong, and X.~Li.
+\newblock Geometry-based edge clustering for graph visualization.
+\newblock {\em IEEE TVCG}, 14(6):1277--1284, 2008.
+
+\bibitem{Dou2011}
+W.~Dou, X.~Wang, R.~Chang, and W.~Ribarsky.
+\newblock Paralleltopics: A probabilistic approach to exploring document
+  collections.
+\newblock In {\em IEEE VAST}, pages 231--240, 2011.
+
+\bibitem{Dou2012}
+W.~Dou, X.~Wang, D.~Skau, W.~Ribarsky, and M.~Zhou.
+\newblock Leadline: Interactive visual analysis of text data through event
+  identification and exploration.
+\newblock In {\em VAST}, pages 93--102, 2012.
+
+\bibitem{Dou2013}
+W.~Dou, L.~Yu, X.~Wang, Z.~Ma, and W.~Ribarsky.
+\newblock Hierarchicaltopics: Visually exploring large text collections using
+  topic hierarchies.
+\newblock {\em IEEE TVCG}, 19(12):2002--2011, 2013.
+
+\bibitem{Furnas1986}
+G.~W. Furnas.
+\newblock Generalized fisheye views.
+\newblock In {\em CHI}, pages 16--23, 1986.
+
+\bibitem{Gao2011}
+Z.~Gao, Y.~Song, S.~Liu, H.~Wang, H.~Wei, Y.~Chen, and W.~Cui.
+\newblock Tracking and connecting topics via incremental hierarchical dirichlet
+  processes.
+\newblock In {\em ICDM}, pages 1056--1061, 2011.
+
+\bibitem{Havre2002}
+S.~Havre, E.~G. Hetzler, P.~Whitney, and L.~T. Nowell.
+\newblock Themeriver: visualizing thematic changes in large document
+  collections.
+\newblock {\em IEEE TVCG}, 8(1):9--20, 2002.
+
+\bibitem{He2003}
+X.~He and Y.~Zhao.
+\newblock Fast model selection based speaker adaptation for nonnative speech.
+\newblock {\em IEEE TSAP}, 11(4):298--307, 2003.
+
+\bibitem{Huron2013visual}
+S.~Huron, R.~Vuillemot, and J.-D. Fekete.
+\newblock Visual sedimentation.
+\newblock {\em IEEE TVCG}, 19(12):2446--2455, 2013.
+
+\bibitem{krstajic2013}
+M.~Krstaji{\'c}, M.~Najm-Araghi, F.~Mansmann, and D.~A. Keim.
+\newblock Story tracker: Incremental visual text analytics of news story
+  development.
+\newblock {\em Information Visualization}, 12(3-4):308--323, 2013.
+
+\bibitem{Leskovec2009}
+J.~Leskovec, L.~Backstrom, and J.~M. Kleinberg.
+\newblock Meme-tracking and the dynamics of the news cycle.
+\newblock In {\em KDD}, pages 497--506, 2009.
+
+\bibitem{Liu2014survey}
+S.~Liu, W.~Cui, Y.~Wu, and M.~Liu.
+\newblock A survey on information visualization: recent advances and
+  challenges.
+\newblock {\em The Visual Computer}, pages 1--21, 2014.
+
+\bibitem{Liu2009}
+S.~Liu, M.~X. Zhou, S.~Pan, W.~Qian, W.~Cai, and X.~Lian.
+\newblock Interactive, topic-based visual text summarization and analysis.
+\newblock In {\em CIKM}, pages 543--552, 2009.
+
+\bibitem{Liu2012}
+S.~Liu, M.~X. Zhou, S.~Pan, Y.~Song, W.~Qian, W.~Cai, and X.~Lian.
+\newblock Tiara: Interactive, topic-based visual text summarization and
+  analysis.
+\newblock {\em ACM TIST}, 3(2):25:1--25:28, 2012.
+
+\bibitem{Liu2012a}
+X.~Liu, Y.~Song, S.~Liu, and H.~Wang.
+\newblock Automatic taxonomy construction from keywords.
+\newblock In {\em KDD}, pages 1433--1441, 2012.
+
+\bibitem{Luo2012}
+D.~Luo, J.~Yang, M.~Krstajic, W.~Ribarsky, and D.~A. Keim.
+\newblock Eventriver: visually exploring text collections with temporal
+  references.
+\newblock {\em IEEE TVCG}, 18(1):93--105, 2012.
+
+\bibitem{McCombs1972}
+M.~E. McCombs and D.~L. Shaw.
+\newblock The agenda-setting function of mass media.
+\newblock {\em Public opinion quarterly}, 36(2):176--187, 1972.
+
+\bibitem{Steiglitz1982}
+C.~H. Papadimitriou and K.~Steiglitz.
+\newblock {\em Combinatorial Optimization: Algorithms and Complexity}.
+\newblock Prentice-Hall, 1982.
+
+\bibitem{Sugiyama1981}
+K.~Sugiyama, S.~Tagawa, and M.~Toda.
+\newblock Methods for visual understanding of hierarchical system structures.
+\newblock {\em IEEE TSMC}, 11(2):109--125, 1981.
+
+\bibitem{Sun2013survey}
+G.~Sun, Y.~Wu, R.~Liang, and S.~Liu.
+\newblock A survey of visual analytics techniques and applications:
+  State-of-the-art research and future challenges.
+\newblock {\em Journal of Computer Science and Technology}, 28(5):852--867,
+  2013.
+
+\bibitem{GSun2014a}
+G.~Sun, Y.~Wu, S.~Liu, T.-Q. Peng, J.~J.~H. Zhu, and R.~Liang.
+\newblock {EvoRiver}: Visual analysis of topic coopetition on social media.
+\newblock {\em IEEE TVCG}, 2014.
+
+\bibitem{Tang2014}
+D.~Tang, F.~Wei, N.~Yang, M.~Zhou, T.~Liu, and B.~Qin.
+\newblock Learning sentiment-specific word embedding for twitter sentiment
+  classification.
+\newblock In {\em Proceedings of the 52nd Annual Meeting of the Association for
+  Computational Linguistics}, pages 1555--1565, 2014.
+
+\bibitem{Wang2006visualization}
+W.~Wang, H.~Wang, G.~Dai, and H.~Wang.
+\newblock Visualization of large hierarchical data by circle packing.
+\newblock In {\em CHI}, pages 517--520, 2006.
+
+\bibitem{Wang2013}
+X.~Wang, S.~Liu, Y.~Song, and B.~Guo.
+\newblock Mining evolutionary multi-branch trees from text streams.
+\newblock In {\em KDD}, pages 1433--1441, 2013.
+
+\bibitem{wang2007}
+X.~Wang, C.~Zhai, X.~Hu, and R.~Sproat.
+\newblock Mining correlated bursty topic patterns from coordinated text
+  streams.
+\newblock In {\em KDD}, pages 784--793, 2007.
+
+\bibitem{wang2009}
+X.~Wang, K.~Zhang, X.~M. Jin, and D.~Shen.
+\newblock Mining common topics from multiple asynchronous text streams.
+\newblock In {\em WSDM}, pages 192--201, 2009.
+
+\bibitem{Wongsuphasawat2012}
+K.~Wongsuphasawat and D.~Gotz.
+\newblock Exploring flow, factors, and outcomes of temporal event sequences
+  with the outflow visualization.
+\newblock {\em IEEE TVCG}, 18(12):2659--2668, 2012.
+
+\bibitem{Wongsuphasawat2011}
+K.~Wongsuphasawat, J.~A. Guerra~G\'{o}mez, C.~Plaisant, T.~D. Wang,
+  M.~Taieb-Maimon, and B.~Shneiderman.
+\newblock {LifeFlow}: visualizing an overview of event sequences.
+\newblock In {\em CHI}, pages 1747--1756, 2011.
+
+\bibitem{Woods1984}
+D.~D. Woods.
+\newblock Visual momentum: a concept to improve the cognitive coupling of
+  person and computer.
+\newblock {\em International Journal of Man-Machine Studies}, 21(3):229--244,
+  1984.
+
+\bibitem{Xu2013}
+P.~Xu, Y.~Wu, E.~Wei, T.-Q. Peng, S.~Liu, J.~J.~H. Zhu, and H.~Qu.
+\newblock Visual analysis of topic competition on social media.
+\newblock {\em IEEE TVCG}, 19(12):2012--2021, 2013.
+
+\bibitem{Xu2008a}
+T.~Xu, Z.~Zhang, P.~S. Yu, and B.~Long.
+\newblock Evolutionary clustering by hierarchical {Dirichlet} process with
+  hidden {Markov} state.
+\newblock In {\em ICDM}, pages 658--667, 2008.
+
+\bibitem{Zhang2009}
+D.~Zhang, C.Zhai, J.~Han, A.~Srivastava, and N.~Oza.
+\newblock Topic modeling for olap on multidimensional text databases: topic
+  cube and its applications.
+\newblock {\em Statistical Analysis and Data Mining}, 2(5--6):378--395, 2009.
+
+\bibitem{Zhang2010}
+J.~Zhang, Y.~Song, C.~Zhang, and S.~Liu.
+\newblock Evolutionary hierarchical {Dirichlet} processes for multiple
+  correlated time-varying corpora.
+\newblock In {\em KDD}, pages 1079--1088, 2010.
+
+\bibitem{ZhaoTVCG2014}
+J.~Zhao, N.~Cao, Z.~Wen, Y.~Song, Y.-R. Lin, and C.~Collins.
+\newblock \#fluxflow: Visual analysis of anomalous information spreading on
+  social media.
+\newblock {\em IEEE TVCG}, 20(12):1773--1782, Dec 2014.
+
+\end{thebibliography}

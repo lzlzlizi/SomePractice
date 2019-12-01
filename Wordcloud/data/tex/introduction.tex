@@ -1,0 +1,255 @@
+% !TEX root = EvoTree-KDD.tex
+
+\section{Introduction}
+%%Text streams such as news stream and Twitter posts, are considered an important component of big data. In many big data applications, it is important to survey and explore text streams that contain many hierarchical and evolving topics~\cite{Chakrabarti2006,Wang2013}.
+%%Text streams\kg{,} such as news stream and Twitter posts, are considered important component\kg{s} of big data.
+%%Text streams\kg{,} such as news \dc{streams} and Twitter posts, are considered important component\kg{s} of big data~\cite{bonin2014unsupervised}.
+%%\kg{Surveying and exploring text streams with} many hierarchical and evolving topics \kg{is important in many big data applications} ~\cite{Chakrabarti2006,Wang2013}.
+%%Text streams such as blog posts, news articles, and twitter posts, are now widely available.
+%%which provide analysts opportunities to better understand the topics of interest within these streams~\cite{cui2011}.
+%\kg{Surveying and exploring text streams} \dc{that have} many hierarchical and evolving topics \dc{are important aspects of} \kg{many big data applications} ~\cite{Chakrabarti2006,Wang2013}.
+%For example, such topic hierarchies can be used to detect and track new and emerging events in huge-volume of streaming news articles, blog posts or microblog posts.
+%%Exciting progress, such as summarizing text streams, has been made in mining text streams.  Several related studies are reviewed in Sec.~\ref{sec:related-work} of this paper.  However, one problem remains, that is, how to effectively present interesting topics and their evolution over time to humans in an understandable and manageable manner so that user interactive exploration can be supported.  This is the core task of connecting big data with people.  To appreciate the challenge, let us consider an example.\looseness=-1
+%Exciting progress, such as learning topics from text streams, has been made in mining text streams.
+%Several related studies are reviewed in Sec.~\ref{sec:related-work} of this paper.
+%%However, one problem remains, that is, effectively \kg{presenting} interesting topics and their evolution over time to in an understandable and manageable manner \kg{to support} user interactive exploration.
+%However, one problem \dc{remains:} effectively \kg{presenting} interesting topics and tracking their evolution over time \dc{in a comprehensible} and manageable manner \kg{to support} user interactive exploration.
+%%This task \kg{is the key in} connecting big data with people.
+%This task \kg{is the key} \dc{to connect} big data with people.
+%
+%\kg{Let} us consider an example to understand \kg{this challenge}.
+%%Suppose a user just reads a news article, ``Third U.S. Aid Worker Infected with Ebola Arrives in Nebraska'' on the Ebola outbreak.
+%Suppose an analyst reads \kg{an} article \kg{entitled}, ``Third U.S. Aid Worker Infected with Ebola Arrives in Nebraska.''
+%%He is interested in the ``Ebola-infected aid workers'' topic and wants to understand what will be discussed in the new coming news articles.
+%\kg{The said analyst} is interested in topic ``Ebola-infected aid workers'' and wants to analyze \kg{the relevant discussions} in \kg{future} news articles that come in regularly (e.g., weekly).
+%%In addition, he is also interested in how this topic is related to other relevant topics in the news stream as time evolves.
+%In addition, s/he is interested in how this topic is related to other relevant topics in the news stream as time \kg{progresses}, especially the new generated topics.
+%%A text stream, such as the above Ebola dataset, often contains a large number of topics that can be naturally organized in a tree, referred to as a topic tree~\cite{Blundell2010,Wang2013,Zhang2009}.
+%A text stream, such as the \kg{aforementioned} Ebola dataset, often contains hundreds or even thousands of topics that can be naturally organized in a tree, \kg{which is called} a topic tree~\cite{Blundell2010,Wang2013,Zhang2009}.
+%%A topic tree may change as new documents arrive.
+%A topic tree may change as new documents arrive.
+%%One can mine a sequence of coherent multi-branch topic trees~\cite{Wang2013} to represent the major topics in the text stream and their evolution over time.
+%We can mine a sequence of coherent multi-branch topic trees to represent major topics in the text stream and their evolution over time~\cite{Wang2013}.
+%%The question of whether such a sequence of topic trees is effective enough to understand and analyze a text stream remains.
+%The question of how to effectively represent a sequence of topic trees in a text stream remains.
+%%To solve this problem, some initial efforts have been made to help users explore the hierarchical topic evolution patterns in a document collection~\cite{cui2014,Dou2013}.
+%%Cui et al.~\cite{cui2014} developed RoseRiver to explore the complex evolution patterns of hierarchical topics in a document collection with time-stamps \kg{to solve the aforementioned issue}.
+%%This visual analytics system introduces the concept of evolutionary tree cuts and help analysts better understand large document collection with time-stamps.
+%%This visual analytics system introduces the concept of evolutionary tree cuts and \kg{helps} analysts \kg{understand} large document collection with time-stamps.
+%%However, it fails to provide a mechanism analyze the streaming data because a global evolutionary tree cut algorithm is employed.
+%%However, it fails to provide a mechanism \kg{to} analyze streaming data because a global tree cut algorithm is employed.
+%Recently, there are some efforts to reveal the hierarchical topic evolution patterns in a document collection~\cite{cui2014,Dou2013}.
+%These techniques provides analysts opportunities to better understand the topics of interest within the collection, which contains many hierarchical topics.
+%However, they fail to provide an effective mechanism \kg{to} understand the temporal characteristics of a text stream,
+%namely, how the new documents are accumulated and aggregated into the existing ones.\looseness=-1
+%% because a global tree cut algorithm is employed.
+%
+%%\begin{figure}[t]
+%%\centering
+%%  \includegraphics[width=\linewidth]{fig/ebola-nofilter-6trees}
+%%    \vspace{-6mm}
+%%  \caption{
+%%%  \small
+%%%  Five of the 11 topic trees that summarize the topics in academic publications (2000-2010) related to ``visualization'' (blue), ``data mining'' (orange),  and ``visual analytics'' (green).
+%%\tvcgminor{Six of the 30 topic trees that summarize the topics in Ebola epidemic (Jul. 27, 2014 to Feb. 21, 2015) related to ``Ebola-infected aid workers'' (blue), ``Ebola outbreak in Africa'' (pink),  and ``Ebola patients and suspects outside Africa'' (yellow).}
+%%  }
+%%\vspace{-4mm}
+%%\label{fig:treeview}
+%%\end{figure}
+%
+%
+%%One possible solution is to visualize the topic trees side-by-side with node-link diagrams and use lines to connect the correlated topics across different trees.
+%
+%%In Fig.~\ref{fig:treeview}, 5 of the 11 topic trees of a publication dataset are visualized side-by-side with node-link diagrams.
+%%This dataset contains 3,860 papers collected from the conference proceedings of KDD, NIPS, IEEE VIS, and SIGGRAPH from 2000 to 2010.
+%%\tvcgminor{
+%%In Fig.~\ref{fig:treeview}, 6 of the 30 topic trees of the Ebola dataset are visualized side-by-side with node-link diagrams.
+%%This dataset contains 207,406 news articles related to ``Ebola'' from Jul. 27, 2014 to Feb. 21, 2015. %and 15,565,532 tweets
+%%}
+%%The related topics across trees are connected by lines.
+%%%After examining the tree sequence, the data mining researcher find it is hard for him to make the decision whether his research can get benefit from the visual analytics research.
+%%Two difficult issues arise in the direct analysis of a sequence of streaming topic trees.
+%%First, the burden for users to understand the evolving topics increases dramatically when the number of tree nodes and the complexity of the tree structures increase~\cite{Halford1998}.
+%%For example, the topic alignments across trees in Fig.~\ref{fig:treeview} are difficult to follow, particularly when dozens or even hundreds of alignment lines exist across multiple trees.
+%%Second, only a small number of trees and tree nodes can be visualized due to the limited size of the display area.
+%%Thus, a user would experience difficulty in understanding how the new documents are accumulated and aggregated into the existing ones.
+%%Moreover, s/he often fail to obtain a full picture of historical and new topics, as well as the relationships between them.\looseness=-1
+%
+%
+%
+%%One possible solution is to visualize the topic trees side-by-side with node-link diagrams and use lines to connect the correlated topics across different trees.
+%
+%%\begin{figure}[t]
+%%\centering
+%%  \includegraphics[width=\linewidth]{fig/5_trees}
+%%    \vspace{-8mm}
+%%  \caption{
+%%%  \small
+%%  Five of the 11 topic trees that summarize the topics in academic publications (2000-2010) related to ``visualization'' (blue), ``data mining'' (orange),  and ``visual analytics'' (green).
+%%  }
+%%\vspace{-4mm}
+%%\label{fig:treeview}
+%%\end{figure}
+%
+%
+%
+%%\begin{figure*}[t,h]
+%%\centering
+%%  \includegraphics[width=\linewidth]{fig/publication}
+%%    \vspace{-3mm}
+%%  \caption{
+%%%  \small
+%%  Overview of evolving hierarchical topics in academic publications (2000-2010) related to ``visualization,'' ``data mining,'' and ``visual analytics'' based on the selected focus nodes (nodes with black borders).
+%%  }
+%%\vspace{-3mm}
+%%\label{fig:msoverview}
+%%\end{figure*}
+%
+%
+%To address this problem, we have developed a visual analytics system, \emph{\normalsize TopicStream}, to help users explore and understand hierarchical topic evolution in a text stream.
+%%\kg{We} have developed a visual analytics toolkit, \emph{\normalsize TopicStream}, to help users explore and understand hierarchical topic evolution in a text stream.
+%%Specifically, we extract the new tree cut of the new coming topic tree(s), based on a hidden Markov Model (HMM).
+%Specifically, we incrementally extract \dc{a} new tree cut \dc{from} the \dc{incoming} topic tree, based on a dynamic Bayesian network (DBN) model.
+%%As in~\cite{cui2014}, we also model the topics a user is interested in as proper tree cuts in a sequence of topic trees.
+%\kg{We} model the topics \kg{that} a user is interested in as proper tree cuts in a sequence of topic trees \kg{similar to~\cite{cui2014}}.
+%A tree cut is a set of tree nodes that describe the layer of topics that a user is interested in.
+%%It divides the tree into two parts (Fig.~\ref{fig:treecutexample}): the upper part containing the general topics, and the lower part containing the specific details that may be explored further~\cite{cui2014}.
+%%It divides the tree into two parts (Fig.~\ref{fig:treecutexample}): the upper part \kg{that contains} the general topics and the lower part \kg{that contains} the specific details that \kg{can} be explored further~\cite{cui2014}.
+%It divides the tree into two parts (Fig.~\ref{fig:treecutexample}): the upper part \dc{contains} the general topics and the lower part \dc{contains} the specific details~\cite{cui2014}.
+%% that \kg{can} be \dc{further} explored
+%%A demo video is available at \shixia{\url{http://research.microsoft.com/en-us/um/people/shliu/RoseRiver.mp4}}.
+%%Different from~~\cite{cui2014}, we model the optimal tree cuts in the tree(s) that the focus nodes belong to (seed tree cut) via a posterior probability distribution.
+%%Unlike in~\cite{cui2014}, we model the optimal tree cuts in the tree(s) that the focus nodes belong to (seed tree cut) \kg{through} a posterior probability distribution.
+%%The quantitative evaluation in Sec.~\ref{sec:evaluation} shows that this method performs better than the DOI-based method in~~\cite{cui2014}.
+%%The quantitative evaluation in Sec.~\ref{sec:evaluation} shows that this method performs better than the \kg{degree-of-interest (DOI)-based} method in~\cite{cui2014}.
+%%Most important of, to help users understand the topics of interest in the incoming data, we formulate the derivation of the tree cut in the new coming data as the HMM.
+%%Most \kg{importantly}, we formulate the derivation of the tree cut in the \kg{incoming} data as the HMM \kg{to help users understand the topics of interest in incoming data.}
+%In \emph{\normalsize TopicStream}, we formulate the derivation of the tree cut in the \kg{incoming} data as the DBN.
+%%Next, a time-based visualization is developed to present the hierarchical clustering results and their alignment over time.
+%\kg{A} time-based visualization is \kg{then} developed to present the hierarchical clustering results and their alignment over time.
+%%Specifically, a customized visual sedimentation metaphor is adopted is visually illustrate how the new coming text streams are aggregating into the existing topic archive, including topic birth, death, merge and split~\cite{cui2011}.
+%\kg{In particular}, a customized sedimentation metaphor is adopted \kg{to} visually illustrate how \kg{incoming} text streams are \kg{aggregated} into the existing document archive, including document entrance, suspension, accumulation and decay, as well as aggradation~\cite{Huron2013visual}.\looseness=-1
+%
+%%Continuing with the previous example, our system allows the user to examine the incoming topic trees easily in a text stream.
+%%%\kg{In our example}, our system allows the user to examine incoming topic trees easily in a text stream.
+%%The visualization is shown in Fig.~\ref{fig:msoverview}.
+%%%As new news articles arrive, the ```Ebola-infected aid workers'' topic (blue) continues evolving but slightly decreases.
+%%It can be seen that topic ``Ebola-infected aid workers'' (blue) continues \kg{to} evolve and slightly increases (Fig.~\ref{fig:msoverview}D).
+%%%A smaller topic (Fig.~\ref{fig:msoverview}A) that is talking about the forth infected worker is split from the main topic and disappears one week later.
+%%A small topic (Fig.~\ref{fig:msoverview}E) that talks about the \dc{fourth} infected worker is split from the main topic and disappears \kg{after a week}.
+%%%The main topic talks about the first three infected aid workers, two doctors and one nurse, who are from the humanitarian organization.
+%%The main topic talks about the first three infected aid workers (two doctors and one nurse) who \kg{belong to} a humanitarian organization.
+%%%The identity or status of the forth infected aid worker is not released because the aid worker cited privacy restrictions.
+%%%The identity or status of the fourth infected aid worker \kg{remains unreleased} because the aid worker \kg{requested for} privacy.
+%%The identity or status of the fourth infected aid worker \kg{remains unreleased} because the aid worker \dc{requested} privacy.
+%%%This is the major reason why this topic is split from the main topic.
+%%This \kg{condition} is the \kg{primary} reason why the aforementioned small topic is split from the main topic.
+%%%On the other hand, the ``Ebola patients/suspects outside Africa'' topic (yellow) increases steadily in the new coming news articles, which indicates Ebola is spread from Africa to other countries and more Ebola patients/suspects outside Africa are reported.
+%%%In addition, topic ``Ebola patients/suspects outside Africa'' (yellow) increases steadily in \kg{incoming} news articles.
+%%In addition, topic ``Ebola patients/suspects outside Africa'' (yellow) increases steadily in \kg{incoming} news articles (Fig.~\ref{fig:msoverview}G).
+%%\kg{This trend} indicates Ebola has spread from Africa to other countries and \kg{the number of} Ebola patients/suspects \kg{is increasing} outside Africa.\looseness=-1
+%
+%
+%%The topic merging and splitting relationships among ``visualization'' (blue), ``data mining'' (orange),  and ``visual analytics'' (green) as well as their sub-topics are clearly conveyed.
+%
+%%For example, the splitting and merging relationships between the blue and orange stripes indicate that the visualization and data mining areas do not yet share much common research interest.
+%%However, visual analytics, which tightly integrates interactive visualization with data mining and machine learning techniques to help users consume huge amounts of information~\cite{Keim2010}, has strong relationships with both visualization and data mining since its emergence in 2006.
+%%The proposed system provides rich interactions to help users examine the detailed content.
+%%For example, if the user is interested in the nodes marked with dotted lines in 2008 and wants to know how visual analytics has benefited from data mining techniques, he or she can split the topic and identify three sub-topics.
+%%Two of them are graph visualization (marked as A) and social network mining (marked as B).
+%%The graph visualization topic involves visualizing large or dynamic graphs.
+%%For example, one of the papers is ``On the Visualization of Social and Other Scale-Free Networks.''
+%%This visual analytics technique exactly matches his research interest and he decide to further explore this area.
+%%Accordingly, they can analyze the cause-effect relationships and level of influence between topics of interest.
+%
+%
+%The technical contributions of this work are as \dc{follows:}
+%\begin{compactitem}
+%
+%%\item \textbf{\normalsize An streaming evolutionary tree cut algorithm} is proposed, which smoothly aligns topics at new coming topic trees with the existing ones.
+%%\item \textbf{\normalsize A streaming evolutionary tree cut algorithm} is proposed, which smoothly aligns topics \kg{in incoming} topic trees with existing ones.
+%\item \textbf{\normalsize A streaming tree cut algorithm} is proposed to extract an optimal tree cut for \kg{an incoming} topic tree based on user interest.
+%%, which smoothly aligns representative topics (topics on the tree cut) \kg{in incoming} topic trees with the existing representative \dc{topics} that they immediately follow (in time).
+%    %The algorithm aims at extracting an optimal tree cut for the new coming topic tree based on user interest.
+%%    This algorithm \kg{extracts} an optimal tree cut for \kg{an incoming} topic tree based on user interest.
+%    %Moreover, it produces a set of representative topic sets for different topic trees, which smoothly evolve over time.
+%    This algorithm produces a set of representative topic sets for different topic trees, which smoothly evolve\kg{s} over time.\looseness=-1
+%
+%%\item \textbf{\normalsize A sedimentation-based metaphor} is integrated with the river flow metaphor to help analysts quickly understand the incoming topics and connected them with the existing ones.
+%    \item \textbf{\normalsize A sedimentation-based metaphor} is integrated \kg{into} the river flow metaphor to visually illustrate how the new documents are aggregated into the old documents.
+%    It helps analysts \kg{immediately} track and understand incoming topics and connect them with existing ones.
+%
+%%\item \textbf{\normalsize A visual analytics toolkit} is built to integrate evolutionary hierarchical clustering~\cite{Wang2013} and streaming evolutionary tree cut techniques with interactive visualization.
+%%\item \textbf{\normalsize A visual analytics toolkit} is built to integrate evolutionary hierarchical clustering~\cite{Wang2013} and streaming evolutionary tree cut techniques \kg{into} interactive visualization.
+%\item \textbf{\normalsize A visual analytics system} is built to integrate evolutionary hierarchical clustering~\cite{Wang2013} and streaming tree cut techniques \kg{into} \dc{an} interactive visualization.
+%    %The major feature is that it provides a coherent view of the evolving topics in text streams.\looseness=-1
+%%    The major feature \kg{of this toolkit} is \kg{its capability to provide} a coherent view of evolving topics in text streams.\looseness=-1
+%    The major feature \kg{of this system} is \kg{its \dc{ability} to provide} a coherent view of evolving topics in text streams.\looseness=-1
+%\end{compactitem}
+
+%\item \textbf{an evolutionary hierarchial clustering method} that generates a sequence of coherent multi-branch topic trees;
+%\item \textbf{A time-based visualization} that allows users to better understand hierarchical clustering results at different levels of topic granularity is developed.
+
+%The rest of the paper is organized as follows. We first review the related work in Section~\ref{sec:related-work}.
+%Then we introduce evolutionary tree clustering in Section~\ref{sec:data}.
+%Section~\ref{sec:tree-cut} describes the evolutionary tree cut algorithm.
+%The visualization adopted in the proposed system is illustrated in Section~\ref{sec:vis}.
+%We report the evaluation results and discuss some potential applications in Section~\ref{sec:evaluation} and Section~\ref{sec:application}, respectively.
+%Section~\ref{sec:conclustion} concludes the paper.
+
+Surveying and exploring text streams that have many hierarchical and evolving topics are important aspects of many big data applications~\cite{Chakrabarti2006,Wang2013}.
+%For example, using such topic trees one may detect and track new and emerging events (e.g., Ebola outbreak) in a huge volume of streaming news articles and microblog posts.
+For example, \docpr{the use of} such evolving hierarchical topics \docpr{allows for the detection} and \docpr{tracking of} new and emerging events (e.g., Ebola outbreak) in a huge volume of streaming news articles and microblog posts.
+Exciting progress, such as learning topics from text streams, has been made in mining text streams~\cite{ Wang2013}.
+However, one essential problem remains: how can we effectively present interesting topics and track their evolution over time in a comprehensible and manageable manner?
+%This task is a key to connect big data with people.
+This task is a key to \docpr{connecting} big data with people.\looseness=-1
+
+Let us consider an example to understand this challenge.
+%Suppose an analyst reads an article entitled “Third U.S. Aid Worker Infected with Ebola Arrives in Nebraska.”
+Suppose an analyst reads an article entitled \docpr{``}Third U.S. Aid Worker Infected with Ebola Arrives in Nebraska.\docpr{''}
+%The analyst is interested in the topic “Ebola-infected aid workers” and wants to analyze the relevant discussions in the subsequent incoming news articles that come in regularly (e.g., weekly).
+\docat{\docpr{The analyst} is interested in the topic ``Ebola-infected aid workers'' and wants to analyze the relevant discussions in the \docpr{subsequent weekly} news \docpr{articles}.}
+%In addition, s/he is interested in how this topic is related to the other topics in the news stream as time progresses, especially the newly generated topics.
+In addition, s/he is interested in how this topic is related \docpr{to other} topics in the news stream as time progresses, especially the newly generated topics.
+Such analysis helps the analyst understand the relationship between the severity of Ebola and the intensity of public opinion.
+%Based on this relationship, s/he can suggest the government to take the right actions.
+Based on this relationship, s/he can \docpr{make suggestions to the government}.
+
+%A text stream, such as the aforementioned Ebola dataset, often contains hundreds or even thousands of topics that can be naturally organized in a tree, which is called a topic tree~\cite{Blundell2010,Wang2013,Zhang2009}.
+A text stream, such as the aforementioned Ebola dataset, often contains hundreds or even thousands of topics that can be naturally organized in a tree, \docat{\docpr{known as} a topic tree~\cite{Blundell2010,Wang2013,Zhang2009}}.
+A topic tree may change as new documents arrive.
+We can mine a sequence of coherent topic trees to represent major topics in the text stream and their evolution over time~\cite{Wang2013}.
+%In spite of the importance of analyzing and understanding such topic trees to track new events in a text stream,
+%However, the question of how to effectively represent the topic trees remains.
+%Recently, there are some efforts to visually reveal hierarchical topic evolution patterns in a document collection~\cite{cui2014,Dou2013}.
+%However, the question of whether such a sequence of topic trees is effective enough to analyze and understand a text stream remains.
+However, the question of whether such a sequence of topic trees is effective enough to analyze and understand \docat{a text stream \docpr{remains,}
+%In particular, whether these topic trees can illustrate the accumulation and aggregation of the new documents into the existing topics.
+\docpr{in} particular,} whether these topic trees can illustrate the accumulation and aggregation of the new documents into the existing topics.
+%For example, how the new documents are accumulated and aggregated into the existing documents cannot be captured by these techniques, which is useful to provide users a consistent view of content transitions.
+
+
+%These techniques provide analysts opportunities to better understand the topics of interest within the collection, which contains many hierarchical topics.
+%However, they fail to provide an effective mechanism to understand the temporal characteristics of a text stream.
+%For example, how the new documents are accumulated and aggregated into the existing documents cannot be captured by these techniques, which is useful to provide users a consistent view of content transitions.\looseness=-1
+
+To address this problem, we have developed a visual analytics system, \emph{\normalsize TopicStream}, to help users explore and understand hierarchical topic evolution in a text stream.
+Specifically, we incrementally extract a new tree cut from the incoming topic tree, based on a dynamic Bayesian network (DBN) model.
+We model the topics that a user is interested in as proper tree cuts in a sequence of topic trees similar to~\cite{cui2014}.
+A tree cut is a set of tree nodes describing the layer of topics that a user is interested in.
+%In \emph{\normalsize TopicStream}, we employ the DBN model to derive the tree cut in an incoming topic tree.
+In \emph{\normalsize TopicStream}, we employ the DBN model to derive the tree cut \docpr{from} an incoming topic tree.
+A time-based visualization is then developed to present the hierarchical clustering results and their alignment over time.
+%A time-based visualization \docat{is then \docpr{employed} to present} the hierarchical clustering results and their alignment over time.
+%In particular, a customized sedimentation metaphor is adopted to visually illustrate how incoming text documents are aggregated over time into the existing document archive, including document entrance into the scene from an entrance point, suspension while falling to the topic, accumulation and decay on the topic, as well as aggradation with the topic over time~\cite{Wang2013}.
+In particular, \docpr{we have adopted} a customized sedimentation \docpr{metaphor to} visually illustrate how incoming text documents are aggregated over time into the existing document archive, including document entrance into the scene from an entrance point, suspension while approaching to the topic, accumulation and decay on the topic, as well as aggradation with the topic over time~\cite{Wang2013}.
+
+We make the following technical contributions in this work:\looseness=-1
+\begin{compactitem}
+\item \textbf{\normalsize A streaming tree cut algorithm} is proposed to extract an optimal tree cut for an incoming topic tree based on user interests. This algorithm produces a sequence of representative topic sets for different topic trees, which smoothly evolve over time.
+\item \textbf{\normalsize A sedimentation-based metaphor} is integrated into the river flow metaphor to visually illustrate how new documents are aggregated into old documents. It helps analysts immediately track and understand incoming topics and connect those topics with existing ones.
+\item \textbf{\normalsize A visual analytics system} is built to integrate evolutionary hierarchical clustering ~\cite{Wang2013} and the streaming tree cut techniques into an interactive visualization. The unique feature of this system is its ability to provide a coherent view of evolving topics in text streams.
+\end{compactitem}
+
+

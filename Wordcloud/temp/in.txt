@@ -1,0 +1,30 @@
+
+\section{Introduction}
+Surveying and exploring text streams that have many hierarchical and evolving topics are important aspects of many big data applications~\cite{Chakrabarti2006,Wang2013}.
+For example, \docpr{the use of} such evolving hierarchical topics \docpr{allows for the detection} and \docpr{tracking of} new and emerging events (e.g., Ebola outbreak) in a huge volume of streaming news articles and microblog posts.
+Exciting progress, such as learning topics from text streams, has been made in mining text streams~\cite{ Wang2013}.
+However, one essential problem remains: how can we effectively present interesting topics and track their evolution over time in a comprehensible and manageable manner?
+This task is a key to \docpr{connecting} big data with people.\looseness=-1
+Let us consider an example to understand this challenge.
+Suppose an analyst reads an article entitled \docpr{``}Third U.S. Aid Worker Infected with Ebola Arrives in Nebraska.\docpr{''}
+\docat{\docpr{The analyst} is interested in the topic ``Ebola-infected aid workers'' and wants to analyze the relevant discussions in the \docpr{subsequent weekly} news \docpr{articles}.}
+In addition, s/he is interested in how this topic is related \docpr{to other} topics in the news stream as time progresses, especially the newly generated topics.
+Such analysis helps the analyst understand the relationship between the severity of Ebola and the intensity of public opinion.
+Based on this relationship, s/he can \docpr{make suggestions to the government}.
+A text stream, such as the aforementioned Ebola dataset, often contains hundreds or even thousands of topics that can be naturally organized in a tree, \docat{\docpr{known as} a topic tree~\cite{Blundell2010,Wang2013,Zhang2009}}.
+A topic tree may change as new documents arrive.
+We can mine a sequence of coherent topic trees to represent major topics in the text stream and their evolution over time~\cite{Wang2013}.
+However, the question of whether such a sequence of topic trees is effective enough to analyze and understand \docat{a text stream \docpr{remains,}
+\docpr{in} particular,} whether these topic trees can illustrate the accumulation and aggregation of the new documents into the existing topics.
+To address this problem, we have developed a visual analytics system, \emph{\normalsize TopicStream}, to help users explore and understand hierarchical topic evolution in a text stream.
+Specifically, we incrementally extract a new tree cut from the incoming topic tree, based on a dynamic Bayesian network (DBN) model.
+We model the topics that a user is interested in as proper tree cuts in a sequence of topic trees similar to~\cite{cui2014}.
+A tree cut is a set of tree nodes describing the layer of topics that a user is interested in.
+In \emph{\normalsize TopicStream}, we employ the DBN model to derive the tree cut \docpr{from} an incoming topic tree.
+A time-based visualization is then developed to present the hierarchical clustering results and their alignment over time.
+In particular, \docpr{we have adopted} a customized sedimentation \docpr{metaphor to} visually illustrate how incoming text documents are aggregated over time into the existing document archive, including document entrance into the scene from an entrance point, suspension while approaching to the topic, accumulation and decay on the topic, as well as aggradation with the topic over time~\cite{Wang2013}.
+We make the following technical contributions in this work:\looseness=-1
+\begin{compactitem}
+\item \textbf{\normalsize A streaming tree cut algorithm} is proposed to extract an optimal tree cut for an incoming topic tree based on user interests. This algorithm produces a sequence of representative topic sets for different topic trees, which smoothly evolve over time.
+\item \textbf{\normalsize A sedimentation-based metaphor} is integrated into the river flow metaphor to visually illustrate how new documents are aggregated into old documents. It helps analysts immediately track and understand incoming topics and connect those topics with existing ones.
+\item \textbf{\normalsize A visual analytics system} is built to integrate evolutionary hierarchical clustering ~\cite{Wang2013} and the streaming tree cut techniques into an interactive visualization. The unique feature of this system is its ability to provide a coherent view of evolving topics in text streams.

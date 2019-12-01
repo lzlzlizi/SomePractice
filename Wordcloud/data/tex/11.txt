@@ -1,0 +1,485 @@
+
+
+Visualization
+sec:vis
+
+
+
+
+
+
+
+
+
+
+Design Rationale
+sec:rationale
+
+
+We designed the TopicStream visualization iteratively with three domain experts, including one professor in media and communication (P1), one professor who majored in public opinion analysis in healthcare (P2), and one researcher who operates a visualization start-up (S3).
+
+These experts are not co-authors of this paper.
+We discussed with the experts about the analysis process and need in their work.
+
+
+
+In general, they desire a system that provides a coherent view of the evolving topics in text streams and compares incoming content with previous content.
+
+
+We derived the following design guidelines based on their feedback and previous research.
+
+R1 - Providing an overview of a text stream.
+
+The experts requested a summary of old, recent, and incoming documents in the text stream.
+
+
+With such a summary, they can easily form a full picture of the text stream, including its major topics and their evolutionary patterns over time.
+
+In addition, a summary was also requested to provide historical and contextual information for incoming documents.
+This is consistent with the design rationale of fisheye view Furnas1986.
+
+
+Expert S3 commented that, "a smooth transition between new data and old data is very helpful for me to find connections."
+R2 - Revealing how incoming documents merge with existing ones.
+
+
+Previous research into visual sedimentation Huron2013visual has shown that a smooth transition between the focus (new data) and the context (old data) helps users understand a text stream.
+
+
+The experts also confirmed that understanding how incoming documents merge with historical documents is useful in their analysis.
+
+
+For example, P1 said that, "Examining the speed, volume, and sequential order of incoming data is very useful to study agenda setting in my field."
+
+
+
+
+
+
+R3 - Comparing document content at different times.
+
+Experts frequently compare the content of new documents with those of old ones in their daily analysis.
+
+For example, expert P2 commented that, "In a multi-source text stream, one source may follow another to publish documents on a specific topic.
+
+I am interested in comparing this follower-followee relationships in the new time slot with that of other time stpes, to obtain a clear understanding of who follows whom in a topic of interest."
+
+Thus the system should facilitate the visual comparison of documents at different times.
+figure[b]
+	
+	fig/fourAreas
+	
+	The visualization is divided into four areas: (a) archive; (b) stack; (c) river; (d) streaming.
+    
+	fig:fourAreas
+figure
+
+Visualization Overview
+
+
+Based on the guidelines described in Sec. sec:rationale, we designed the TopicStream visualization (Fig. fig:fourAreas).
+
+The x-axis represents time.
+The cut nodes are visualized as vertical bars at the corresponding time step.
+The evolutionary relationship between cut nodes is represented by the stripes between the corresponding vertical bars.
+
+The flowing dots on the right side represent the newly arrived documents that are currently streaming in.
+
+The different colors encode various topics.
+
+The core intent of our visualization is to help users track the dynamic characteristics of text streams.
+
+
+Every detail in our design was carefully crafted to cater to this purpose.
+
+
+For example, sedimentation animation is used to merge newly arrived documents in the dominant center of the visualization (R2).
+
+
+As the number of arriving documents increases, topic bars gradually move to the other side of the display and leave a space for new topics (R1).
+
+
+With such mechanisms, users can focus on the latest development of topics and identify interesting patterns to conduct further analysis.
+
+In particular, the visualization consists of four regions (Fig. fig:fourAreas, R1):enumerate
+
+
+Streaming, which is on the rightmost side of the visualization, consists of newly streamed-in documents (e.g., the time period after Sep. 27  in Fig. fig:fourAreas(d)).
+
+River, which is the dominant region of the visualization, consists of recent topics along with their splitting and merging relationships (e.g., Sep. 6 - 27 in Fig. fig:fourAreas(c)).
+
+Stack, which is to the left of the river region, contains older topics and documents (e.g., Aug. 16 - Sep. 6 in Fig. fig:fourAreas(b)).
+To reduce the visual complexity caused by the splitting and merging relationships, this region removes splitting/merging branches and only displays the mainstream of each topic.
+Since users want to keep track of how the topics in this region connected with the topics in the river region, the white spaces between the topic stripes are not removed.
+The width of each time step in this region is smaller than that in the river region to save space.
+Archive, which is on the leftmost side, contains the oldest topics and documents (e.g., Aug. 2 - 16 in Fig. fig:fourAreas(a)).
+ 
+
+Although the stacked region can reduce the amount of space required, it is still cluttered for a text stream with tens or even hundreds of time steps.
+To solve this issue, we introduce the archive region,
+which uses a stacked bar (Fig. fig:fourAreas(a)) to represent documents whose times are k time steps earlier than the newly streamed-in ones.
+In TopicStream, k is specified by the user.
+For example, k is set to 8 in the example of Fig. fig:fourAreas.
+
+
+
+To save space, the width of the bar is fixed no matter how many documents are archived.
+Each bar item represents a topic.
+Its height represents the average number of documents of each time step that belongs to this region.
+
+
+
+
+
+
+
+
+enumerate
+
+
+
+As described above, the visualization designs for a bar and a stacked graph are quite straightforward.
+
+We will next introduce the visualization designs of the river and streaming regions in detail.
+
+
+
+Visualization Design
+
+Tree Cut as a River
+
+Visual Encoding.
+
+Each cut node is represented by a vertical bar (topic bar) similar to that presented in cui2014.
+The tree depth of a cut node is represented by the horizontal offset to the time step.
+
+When a node in the tree is deep, the corresponding topic bar moves to the right.
+
+
+The number of documents contained in a topic node is represented by the height of the topic bar.
+The width of the colored stripe between two topic bars indicates the number of document pairs between the two bars.
+For example, the left width of the stripe represents the portion of documents mapped to the documents in the right topic bar.
+
+The dark region in the middle of a topic bar represents the portion of documents mapped to the documents both in the previous and the next topic trees (Fig. fig:fourAreas).
+
+
+Layout.
+
+The basic representation of the visualization is a directed acyclic graph (DAG).
+
+A node represents a topic and an edge between nodes encodes the evolutionary relationships between topics with mapping.
+
+When a new batch of documents is processed, we first run the DAG layout algorithm to determine an optimal order for the new topic nodes.
+Once the topological structure is computed,  a force model is built to generate the sedimentation animation and merge new documents with existing topic bars.
+
+figure[t]
+    
+ fig/reorder
+ 
+  
+
+
+Reordering example: (a) reorder level one; (b) reorder level two; (c) result.
+
+  fig:reorder
+  
+figure
+
+figure[t]
+    
+ fig/route
+ 
+  
+  
+  Example of edge routing: (a) the stripe is hidden by the topic bar; (b) two intermediate points are added; (c) a Bezier curve is utilized to improve visual quality.
+  
+  fig:route
+  
+figure
+
+
+
+
+
+We initially reorder the cut nodes at each time step to minimize edge crossings between neighboring time steps and generate a legible layout that illustrates the evolving patterns. Edges are then routed to avoid overlapping between nodes and edges. Finally, representative documents are packed on a selected stripe.
+
+
+Reordering. Sugiyama's heuristics Sugiyama1981, which is a well-known DAG layout algorithm, is employed to reorder the nodes at each time step to minimize edge crossings.
+
+However, if we directly run the algorithm without constraints, sibling nodes can be separated by other nodes.
+
+
+We implement Sugiyama's heuristics from the highest to the lowest levels of the tree at each time to ensure that the sibling nodes stay together.
+
+
+Fig. fig:reorder provides an example generated by the reordering algorithm.
+
+
+Edge Routing. Stripes and topic bars can overlap because topic nodes are offset to encode their depth (Fig. fig:route(a)).
+We employ the edge routing technique Cui2008 to solve this problem.
+Two additional intermediate points are introduced for each overlapping part to route the stripe.
+
+The Bezier curve is utilized to help users follow the striped path (Fig. fig:route).
+
+figure[t ]
+    
+  
+ fig/packing
+ 
+  
+  
+  Illustration of the packing algorithm:
+  (a) finding possible placement positions of ;
+  (b) setting the position closest to (, 0) as the placement position;
+  (c) replacing several circles with the corresponding squares;
+  
+  (d) reducing the gap with the size constraints and deriving the final packing result.  
+  fig:packing
+  
+figure
+
+figure[b]
+    
+ fig/packposition3
+  
+  
+  Deriving the initial x position:
+  (a) align all the circles on a straight line based on their areas;
+  (b) align all the stripe segments on a straight line based on their areas.
+  
+  The dotted vertical lines indicate the overlapping relationship between the area of the circle and that of the segmented stripes.
+
+  Based on this relationship,  is approximated as an .
+  
+  fig:xvalue
+figure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Packing. We pack the documents on the topic stripe 
+(R3) to help users understand and compare their relationships, including the incoming order and similarity relationships.
+
+Each news article is represented by a circle in our visualization, whereas each tweet is represented by a square.
+
+For the sake of simplicity, each square is approximately represented by a circle whose center is the same as the square's and whose radius is .
+
+
+
+
+ is the side length of the square and  () is a parameter that balances the intersection and gaps between elements (e.g., circles and squares) in the final packing result.
+
+The larger  is, the larger the gap might be.
+
+
+The packing problem is formulated as a circle packing problem using this approximation.
+
+
+We then employ a front-chain-based circle packing algorithm, as in Wang2006visualization,ZhaoTVCG2014, to pack circles tightly on the selected stripe.
+
+Fig. fig:packing illustrates the basic idea of this packing algorithm.
+
+
+
+Compared with the packing problem described in ZhaoTVCG2014, our problem does not provide the initial x coordinate for each circle.
+
+Only the incoming order of each circle is provided in our packing problem.
+
+Thus, we have to derive the initial x coordinate based on the order of the circles.
+
+The basic idea is to determine an approximate placement position for each circle, which is achieved by approximately mapping its area to the area of the segmented stripes.
+
+
+The average of the x coordinates of the corresponding segmented stripes is then used to approximate the initial x coordinate of the circle.
+
+In particular, we align all the circles on a straight line based on their areas (Fig. fig:xvalue(a)).
+The area of circle  is .
+
+
+We then divide the stripe into n uniform segments along its x-axis.
+The height of the k-th segment is denoted as  and its area is ,
+
+where  is the width of each segment along the x-axis.
+All these segments are also aligned on a straight line based on their areas (Fig. fig:xvalue(b)).
+
+Fig. fig:xvalue shows that the overlapping relationship between the area of the circle and that of the segmented stripes can be determined using two straight lines.
+
+
+For example, the initial  of circle i in this figure is approximated by .
+Here  is the x coordinate of the center of k-th segment.
+
+Interaction.
+
+
+
+We also provide the following interactions to explore the complex evolutionary clustering results from multiple perspectives in addition to the interactions described in cui2014 (e.g. details on demand, collapsing/expanding time steps, splitting/merging topic bars, and changing focus).
+
+Document Query.
+
+Once the documents are transformed into a colored stripe, we adopt circle packing to encode the documents contained within the color stripe for further query and analysis.
+
+
+The example in  Fig. fig:vtreemap shows how users can click the stripe and turn it into a circle/square packing, in which a circle represents a news article and a square encodes a tweet.
+
+
+
+Once the packing result is displayed, users can manually click one or more documents to examine the content in detail.
+
+Visual Comparison.
+
+
+We allow users to compare the relationships among different time steps by leveraging a circle packing algorithm.
+
+
+For example, users can compare the incoming order and similarity relationships, as shown in Fig. fig:ebola(a).
+
+
+One of our experts, P2, commented that, "Comparing the incoming order of documents helps me easily discover who talked about a topic first (that is, who set the agenda) and who immediately followed.
+
+This feature can help me study agenda setting in my field."
+
+Streaming Document as Sedimentation
+
+
+
+
+
+
+
+
+
+
+
+
+
+figure[b]
+	
+		fig/vtreemap
+	
+	
+	
+	Encode documents after sedimentation as circle/square packing.
+	
+	fig:vtreemap
+
+figure
+
+
+Visual Encoding.
+
+Inspired by visual sedimentation Huron2013visual, we use the river sedimentation metaphor to encode the process of newly arrived text documents that merge with existing topics (R2).
+To quicken the sedimentation process of a high-volume text stream, a set of document clusters are derived from the incoming documents by using k-means clustering.
+A token is a visual mark representing a document cluster.
+
+The generation process of the sedimentation metaphor consists of four steps:
+
+Entrance.
+
+Newly arrived documents are represented as circular or rectangular tokens (Fig. fig:fourAreas) that come into view from the right side.
+
+Documents with similar content are clustered into one token, the size of which indicates the number of documents, to handle the scalability issue.
+The color of each token encodes the topic that it contains.
+
+Suspension.
+
+Each token moves toward (from right to left) the corresponding topic bars of the latest time step.
+
+
+Token size decreases gradually during the movement.
+
+Accumulation and decay.
+
+The tokens will stop moving and start to decay once they touch the corresponding topic bars or other tokens that have already settled.
+
+The settled tokens continue to shrink and merge with existing topics.
+
+Aggradation.
+
+The colored stripes continue to grow and indicate the latest development of topics when the settled tokens are resolved.
+
+
+
+
+Once a batch of documents (e.g., for a day) are sedimented, the corresponding topic bars appear and push older topic bars to the left-hand side.
+
+The archive and stack regions then change accordingly.
+
+figure[t]
+		fig/docHighlight
+	
+
+	
+	
+	Relevant documents of cluster A are highlighted in the river (B), the stack (C), and the archive (D) regions.	
+
+	fig:dochighlight
+figure
+
+Layout.
+
+Each token is assigned to a region based on the topological structure in the "reordering and edge routing" step during the sedimentation process.
+
+
+The token can only move within the assigned region and cannot cross the border.
+
+
+The speed of the token is controlled by two forces: 1) a universal gravity force and 2) an attractive force between the token and the sedimented tokens.
+
+The gravity force provides each token with constant acceleration from right to left.
+
+The attractive force ensures that similar documents will sediment close to one another.
+Therefore, the total acceleration  for a moving token  is defined as
+
+
+where  is the constant gravity acceleration,  is the location of sedimented token ,  is the location of token ,  is the number of documents in token , and  is the content similarity between tokens  and .
+
+
+
+Interaction.
+
+
+The sedimentation visualization also allows users to examine the content of the incoming documents interactively and compare them with older documents.
+
+Document Link.
+
+In many text stream analysis tasks, it is desirable to quickly find related documents covering a long time period.
+
+
+Document link is supported for this requirement of our system.
+
+
+For example, users can initially explore the content in the streaming region and find a document/cluster of interest.
+
+Our system then automatically uses the word vector in the given document and locates the most similar documents in all three regions (i.e., streaming, stack, and archive).
+
+Once the related documents/clusters are located, the connections are displayed for users to explore further.
+
+
+An example of document link is shown in Fig. fig:dochighlight,
+
+in which a user explores relevant documents from an incoming Twitter cluster (Fig. fig:dochighlightA).
+
+
+Relevant documents are found in the river (Fig. fig:dochighlightB), stack (Fig. fig:dochighlightC), and archive (Fig. fig:dochighlightD) regions.
+
+The archive region is expanded accordingly to facilitate the examination of the relevant documents.
+
+
+Users can also click on a token while it is still in the suspension step.
+
+Related documents are then displayed for further examination.
+
+
