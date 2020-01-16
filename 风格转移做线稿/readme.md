@@ -4,6 +4,7 @@
 
 * 主要改编https://github.com/GlebBrykin/SANET实现
 * 每张子图都是渣渣，但是取平均之后噪声抵消，向完美的线稿收敛（比如小吉高那张图）
+* 下一步可以扔到procreate里，假装是自己画的线稿，然后继续涂鸦
   
 ![zj20200110](readme.assets/zj20200110.jpg)![zj](readme.assets/zj.jpg)
 
