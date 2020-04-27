@@ -1,0 +1,78 @@
+# 32. Longest Valid Parentheses
+
+Given a string containing just the characters `'('` and `')'`, find the length of the longest valid (well-formed) parentheses substring.
+
+**Example 1:**
+
+```
+Input: "(()"
+Output: 2
+Explanation: The longest valid parentheses substring is "()"
+```
+
+**Example 2:**
+
+```
+Input: ")()())"
+Output: 4
+Explanation: The longest valid parentheses substring is "()()"
+```
+
+
+
+## Brute force
+
+```python
+class Solution:
+    def longestValidParentheses(self, s: str) -> int:
+        def check(i,j):
+            stack = []
+            for k in range(i,j+1):
+                if s[k] == '(':
+                    stack.append(s[k])
+                else:
+                    if not stack:
+                        return False
+                    else:
+                        stack.pop()
+            return True if not stack else False
+        
+
+        res = 0
+        for i in range(len(s)):
+            for j in range(i+1,len(s)):
+                res = max(res, j-i+1) if check(i,j) else res
+        return res
+            
+            
+```
+
+## 2 DP
+
+```python
+class Solution:
+    def longestValidParentheses(self, s: str) -> int:
+        DP = [0] * len(s)
+        for i in range(1,len(s)):
+            if s[i] == '(':
+                DP[i] = 0
+            else:
+                if s[i-1] == '(':
+                    DP[i] = DP[i-2] + 2 if i-2>=0 else 2
+                else:
+                    if i - 1 - DP[i-1] > -1 and s[i - 1 - DP[i-1]] == '(':
+                        DP[i] = DP[i-1] + 2 + DP[i - 2 - DP[i-1]]
+                    else:
+                        DP[i] = 0
+        return max(DP) if s else 0
+```
+
+
+
+* DP[i] is the length of the longest substring ending with s[i]
+* if s[i] is (, then DP[i] = 0
+* if s[i] is ')', then it might be:
+  * xxx(): we check if s[i-1] is (
+  * xxx((xxx)): we if check s[i - 1 - DP[i-1]] is ( 
+    * if yes DP[i] = DP[i-1] + 2 + DP[i - 2 - DP[i-1]]
+
