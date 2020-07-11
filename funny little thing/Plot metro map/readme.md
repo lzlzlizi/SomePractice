@@ -102,14 +102,3 @@ cat graph.json | transit-map > output.svg -t t/
 
 ![final_nanjing](result/final_nanjing.jpg)
 
-## 注
-
-* 需要将相关环境全部配置才可以运行，Ubuntu18.04下可以顺利运行
-* 代码见 ‘main.py’
-* 数据保存在data中，structureed_data.json为输入Metro-Map的标准文件，output.svg为输出，t文件夹为MIP的标准问题描述，结果，求解log
-* 结果图在result文件夹中
-* transit-map文件夹是transit-map源代码，直接从原仓库clone下来的
-* 画图由于中文编码问题需要安装对应字体，但是安装完成之后vscode中运行会出现无法找到字体的问题， jupyter lab 和 linux shell 中运行都正常
-
-
-
